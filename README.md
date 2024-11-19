@@ -1,5 +1,5 @@
-# Community-Science-Museum
-This is my Semester Project for 2024.
+# Community Science Museum
+This is my Semester Project for November to Desember 2024.
 
 # The Brief
 An interactive science museum called the Community Science Museum is opening in your town/city. Its core target audience is primary and middle school children (ages 7-15) and families with young children.
