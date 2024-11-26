@@ -59,14 +59,10 @@
 }
 
 
-.hamburger-menu-button{
-    
-}
-
 .bi-list{
-    color:#fff;
-    width: 40rem;
-    height: 100%;
+    color: #fff;
+    font-size: 5rem;
     float: right;
+    margin-right: 10px;
 }
 
