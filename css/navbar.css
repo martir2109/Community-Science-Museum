@@ -4,15 +4,12 @@
 /* Import of Bootstrap icons libary */
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
-* {
-    font-family: "Roboto";
-}
-
 .navbar{
     width: 100%;
     height: 87px;
     background-color: #1A4723;
     display: flex;
+    overflow: hidden;
 }
 
 .navbar-logo-containter{
