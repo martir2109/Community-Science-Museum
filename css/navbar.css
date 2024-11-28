@@ -64,6 +64,8 @@
     cursor: pointer;
 }
 
+
+
 .drop-down{
     display: none;
     position: absolute;
@@ -71,12 +73,12 @@
     right: 0;
     width: 390px;
     height: auto;
-    background-color: #5a2a2a;
-    color: #000;
+    background-color: #1A4723;
+    color: #fff;
     font-size: 1.625rem;
-    border-bottom: #000 solid 1px;
-    border-left: #000 solid 1px;
-    display: block;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
 }
 
 
@@ -87,15 +89,9 @@
     /* display: none; */
 }
 
-.drop-down li:hover{
-    background-color: #1A4723;
-    color: #fff;
-    font-weight: bold;
-    
-}
 
 
-.check-button {
+.checkbox {
     cursor: pointer;
     /* display: none; */
   }
@@ -103,5 +99,7 @@
   #check {
     display: none;
   }
+
+
 
 
