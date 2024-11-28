@@ -76,18 +76,15 @@
     font-size: 1.625rem;
     border-bottom: #000 solid 1px;
     border-left: #000 solid 1px;
-
-}
-
-.drop-down.open{
     display: block;
+
 }
+
 
 .drop-down li{
     padding: 10px;
     /* transform: all 0.2s; */
     list-style-type: none;
-    display: block;
     /* display: none; */
 }
 
@@ -97,3 +94,15 @@
     font-weight: bold;
     
 }
+
+
+.check-button {
+    cursor: pointer;
+    /* display: none; */
+  }
+
+  #check {
+    display: none;
+  }
+
+
