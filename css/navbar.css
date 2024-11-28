@@ -55,6 +55,13 @@
     border: #1A4723 solid 1px;
 }
 
+.text-shown-navbar{
+    width: 80%;
+    height: auto;
+    background-color: red;
+    margin-left: 250px;
+}
+
 
 .bi-list{
     color: #fff;
@@ -65,11 +72,9 @@
 }
 
 
-
 .drop-down{
-    display: none;
     position: absolute;
-    top: 60px;
+    top: 65px;
     right: 0;
     width: 390px;
     height: auto;
@@ -79,27 +84,25 @@
     flex-direction: column;
     justify-content: center;
     display: flex;
+    z-index: 10;
 }
 
 
 .drop-down li{
     padding: 10px;
-    /* transform: all 0.2s; */
+    transform: all 0.2s; 
     list-style-type: none;
-    /* display: none; */
 }
 
 
-
 .checkbox {
+    display: none; 
     cursor: pointer;
-    /* display: none; */
   }
 
-  #check {
+
+#check:not(:checked) ~ .drop-down {
     display: none;
-  }
-
-
+}
 
 
