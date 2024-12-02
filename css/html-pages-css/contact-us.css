@@ -93,7 +93,7 @@ body {
     border-radius: 10px;
 }
 
-.submitt-button{
+.submit-button{
     width: 60%;
     height: 58px;
     font-size: 1.875rem;
@@ -103,10 +103,19 @@ body {
     border: none;
 }
 
-.submitt-button:hover{
+.submit-button:hover{
     background-color: #fff;
     color: #1A4723;
     border: #1A4723 solid 2px;
+}
+
+.information{
+    width: 100%;
+    height: 270px;
+    padding: 10px;
+    background-color: #EFEDED;
+    text-align: center;
+    font-size: 1.5rem;
 }
 }
 
