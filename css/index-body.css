@@ -58,7 +58,7 @@ body {
     margin-top: 5%;
 }
 
-.image-index-1{
+.image-index{
     width: 40%;
     height: auto;
     float: left;
@@ -66,13 +66,18 @@ body {
 
 }
 
-.paragraph-1{
+.paragraph{
     font-size: 1.375rem;
     float: right;
     width: 40%;
     text-align: left;
     margin-left: 6.25rem;
     margin-top: 6.25rem;
+}
+
+.second-containter{
+    display: flex;
+    margin-top: 5%;
 }
 }
 
@@ -127,7 +132,7 @@ body {
     margin-top: 5%;
 }
 
-.image-index-1{
+.image-index{
     width: 40%;
     height: auto;
     float: left;
@@ -135,13 +140,18 @@ body {
 
 }
 
-.paragraph-1{
+.paragraph{
     font-size: 1.375rem;
     float: right;
     width: 40%;
     text-align: left;
     margin-left: 6.25rem;
     margin-top: 6.25rem;
+}
+
+.second-containter{
+    display: flex;
+    margin-top: 5%;
 }
 }
 
@@ -198,7 +208,7 @@ body {
     margin-top: 5%;
 }
 
-.image-index-1{
+.image-index{
     width: 40%;
     height: auto;
     float: left;
@@ -206,13 +216,18 @@ body {
 
 }
 
-.paragraph-1{
+.paragraph{
     font-size: 1.375rem;
     float: right;
     width: 40%;
     text-align: left;
     margin-left: 6.25rem;
     margin-top: 6.25rem;
+}
+
+.second-containter{
+    display: flex;
+    margin-top: 5%;
 }
 }
     
@@ -266,7 +281,7 @@ body {
     margin-top: 5%;
 }
 
-.image-index-1{
+.image-index{
     width: 40%;
     height: auto;
     float: left;
@@ -274,13 +289,18 @@ body {
 
 }
 
-.paragraph-1{
+.paragraph{
     font-size: 1.375rem;
     float: right;
     width: 40%;
     text-align: left;
     margin-left: 6.25rem;
     margin-top: 6.25rem;
+}
+
+.second-containter{
+    display: flex;
+    margin-top: 5%;
 }
 }
     
@@ -329,13 +349,12 @@ body {
 }
 
 
-        
 .first-containter{
     display: flex;
     margin-top: 5%;
 }
 
-.image-index-1{
+.image-index{
     width: 40%;
     height: auto;
     float: left;
@@ -343,13 +362,18 @@ body {
 
 }
 
-.paragraph-1{
+.paragraph{
     font-size: 1.375rem;
     float: right;
     width: 40%;
     text-align: left;
     margin-left: 6.25rem;
     margin-top: 6.25rem;
+}
+
+.second-containter{
+    display: flex;
+    margin-top: 5%;
 }
 }
     
@@ -404,7 +428,7 @@ body {
     margin-top: 5%;
 }
 
-.image-index-1{
+.image-index{
     width: 40%;
     height: auto;
     float: left;
@@ -412,12 +436,17 @@ body {
 
 }
 
-.paragraph-1{
+.paragraph{
     font-size: 1.375rem;
     float: right;
     width: 40%;
     text-align: left;
     margin-left: 6.25rem;
     margin-top: 6.25rem;
+}
+
+.second-containter{
+    display: flex;
+    margin-top: 5%;
 }
 }
