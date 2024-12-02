@@ -27,22 +27,22 @@ body {
 
 .header3{
     font-size: 1.5rem;
-    font-weight:normal;
+    font-weight: normal;
 }
 
 .left-margin{
     width: 5%;
     height: auto;
     float: left;
-     background-color: red; 
+    /* background-color: red;  */
 }
 
 .middle-section{
     width: 90%;
     height: auto;
-    background-color: aqua; 
+    /* background-color: aqua;  */
     text-align: center;
-    margin-top: 5%;
+    margin-top: 2%;
 
 }
 
@@ -50,7 +50,7 @@ body {
     width: 5%;
     height: auto;
     float: right;
-     background-color: red; 
+    /* background-color: red;  */
 }
 
 .contact-form{
@@ -58,6 +58,55 @@ body {
     height: 600px;
     border: solid 1px #000;
     border-radius: 10px;
+    margin-left: 10%;
+    padding: 20px;
+   
+}
+.email-container{
+    height: 107px;
+
+}
+
+.topic-container{
+    height: 107px;
+}
+
+.text-field-container{
+    height: 205px;
+}
+
+.email{
+    width: 80%;
+    height: 71px;
+    border-radius: 10px;
+}
+
+.topic{
+    width: 80%;
+    height: 71px;
+    border-radius: 10px;
+}
+
+.text-field{
+    width: 80%;
+    height: 169px;
+    border-radius: 10px;
+}
+
+.submitt-button{
+    width: 60%;
+    height: 58px;
+    font-size: 1.875rem;
+    border-radius: 10px;
+    background-color: #1A4723;
+    color: #fff;
+    border: none;
+}
+
+.submitt-button:hover{
+    background-color: #fff;
+    color: #1A4723;
+    border: #1A4723 solid 2px;
 }
 }
 
