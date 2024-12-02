@@ -22,13 +22,13 @@ body {
     width: 5%;
     height: auto;
     float: left;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .middle-section{
     width: 90%;
     height: auto;
-    background-color: aqua;
+    /* background-color: aqua; */
     text-align: center;
 
 }
@@ -37,7 +37,7 @@ body {
     width: 5%;
     height: auto;
     float: right;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .header1{
@@ -124,11 +124,11 @@ body {
 
 .header3{
     font-size: 1.5rem;
-    font-weight:normal;
+    font-weight: normal;
 }
 
 .first-containter{
-    display: flex;
+    display: block;
     margin-top: 5%;
 }
 
@@ -150,7 +150,7 @@ body {
 }
 
 .second-containter{
-    display: flex;
+    display: block;
     margin-top: 5%;
 }
 }
@@ -204,7 +204,7 @@ body {
 
     
 .first-containter{
-    display: flex;
+    display: block;
     margin-top: 5%;
 }
 
@@ -226,7 +226,7 @@ body {
 }
 
 .second-containter{
-    display: flex;
+    display: block;
     margin-top: 5%;
 }
 }
@@ -277,7 +277,7 @@ body {
 
 
 .first-containter{
-    display: flex;
+    display: block;
     margin-top: 5%;
 }
 
@@ -299,7 +299,7 @@ body {
 }
 
 .second-containter{
-    display: flex;
+    display: block;
     margin-top: 5%;
 }
 }
@@ -350,7 +350,7 @@ body {
 
 
 .first-containter{
-    display: flex;
+    display: block;
     margin-top: 5%;
 }
 
@@ -372,7 +372,7 @@ body {
 }
 
 .second-containter{
-    display: flex;
+    display: block;
     margin-top: 5%;
 }
 }
@@ -424,7 +424,7 @@ body {
 
 
 .first-containter{
-    display: flex;
+    display: block;
     margin-top: 5%;
 }
 
@@ -446,7 +446,7 @@ body {
 }
 
 .second-containter{
-    display: flex;
+    display: block;
     margin-top: 5%;
 }
 }
