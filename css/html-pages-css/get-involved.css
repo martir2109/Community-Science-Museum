@@ -12,10 +12,23 @@ body {
 
 /* Desktop */
 @media (min-width: 1281px){
-    .get-involved-body{
-        display: flex;
-        margin-bottom: 5%;
-    }
+.get-involved-body{
+    display: flex;
+    margin-bottom: 5%;
+ }
+
+ .header1{
+    font-size: 2.2rem;
+}
+
+.header2{
+    font-size: 2rem;
+}
+
+.header3{
+    font-size: 1.5rem;
+    font-weight:normal;
+}
 
 .left-margin{
     width: 5%;
@@ -46,6 +59,19 @@ body {
     .get-involved-body{
         display: flex;
         margin-bottom: 5%;
+    }
+
+    .header1{
+        font-size: 2.2rem;
+    }
+    
+    .header2{
+        font-size: 2rem;
+    }
+    
+    .header3{
+        font-size: 1.5rem;
+        font-weight:normal;
     }
 
     .left-margin{
@@ -79,6 +105,19 @@ body {
         display: flex;
         margin-bottom: 5%;
     }
+
+    .header1{
+        font-size: 2.2rem;
+    }
+    
+    .header2{
+        font-size: 2rem;
+    }
+    
+    .header3{
+        font-size: 1.5rem;
+        font-weight:normal;
+    }
     .left-margin{
         width: 5%;
         height: auto;
@@ -110,6 +149,19 @@ body {
         display: flex;
         margin-bottom: 5%;
     }
+
+    .header1{
+        font-size: 2.2rem;
+    }
+    
+    .header2{
+        font-size: 2rem;
+    }
+    
+    .header3{
+        font-size: 1.5rem;
+        font-weight:normal;
+    }
     .left-margin{
         width: 5%;
         height: auto;
@@ -139,6 +191,19 @@ body {
     .get-involved-body{
         display: flex;
         margin-bottom: 5%;
+    }
+
+    .header1{
+        font-size: 2.2rem;
+    }
+    
+    .header2{
+        font-size: 2rem;
+    }
+    
+    .header3{
+        font-size: 1.5rem;
+        font-weight:normal;
     }
     
     .left-margin{
