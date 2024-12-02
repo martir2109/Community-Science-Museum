@@ -9,3 +9,158 @@ body {
     box-sizing: border-box;
     padding: 0;
 }
+
+/* Desktop */
+@media (min-width: 1281px){
+    .get-involved-body{
+        display: flex;
+        margin-bottom: 5%;
+    }
+
+.left-margin{
+    width: 5%;
+    height: auto;
+    float: left;
+    /* background-color: red; */
+}
+
+.middle-section{
+    width: 90%;
+    height: auto;
+    /* background-color: aqua; */
+    text-align: center;
+    margin-top: 5%;
+
+}
+
+.right-margin{
+    width: 5%;
+    height: auto;
+    float: right;
+    /* background-color: red; */
+}
+}
+
+ /* Laptops, desktops */
+ @media (min-width: 1025px) and (max-width: 1280px) {
+    .get-involved-body{
+        display: flex;
+        margin-bottom: 5%;
+    }
+
+    .left-margin{
+        width: 5%;
+        height: auto;
+        float: left;
+        /* background-color: red; */
+    }
+    
+    .middle-section{
+        width: 90%;
+        height: auto;
+        /* background-color: aqua; */
+        text-align: center;
+        margin-top: 5%;
+    
+    }
+    
+    .right-margin{
+        width: 5%;
+        height: auto;
+        float: right;
+        /* background-color: red; */
+ }
+}
+
+
+   /* Tables, Ipads (portrait) */
+   @media (min-width: 768px) and (max-width: 1024px) {
+    .get-involved-body{
+        display: flex;
+        margin-bottom: 5%;
+    }
+    .left-margin{
+        width: 5%;
+        height: auto;
+        float: left;
+        /* background-color: red; */
+    }
+    
+    .middle-section{
+        width: 90%;
+        height: auto;
+        /* background-color: aqua; */
+        text-align: center;
+        margin-top: 5%;
+    
+    }
+    
+    .right-margin{
+        width: 5%;
+        height: auto;
+        float: right;
+        /* background-color: red; */
+   }
+}
+
+
+   /* Mobile */
+@media (min-width: 481px) and (max-width: 767px) {
+    .get-involved-body{
+        display: flex;
+        margin-bottom: 5%;
+    }
+    .left-margin{
+        width: 5%;
+        height: auto;
+        float: left;
+        /* background-color: red; */
+    }
+    
+    .middle-section{
+        width: 90%;
+        height: auto;
+        /* background-color: aqua; */
+        text-align: center;
+        margin-top: 5%;
+    
+    }
+    
+    .right-margin{
+        width: 5%;
+        height: auto;
+        float: right;
+        /* background-color: red; */
+}
+}
+
+/* smartphones */
+@media (min-width: 320px) and (max-width: 480px) {
+    .get-involved-body{
+        display: flex;
+        margin-bottom: 5%;
+    }
+    
+    .left-margin{
+        width: 5%;
+        height: auto;
+        float: left;
+        /* background-color: red; */
+    }
+    
+    .middle-section{
+        width: 90%;
+        height: auto;
+        /* background-color: aqua; */
+        text-align: center;
+        margin-top: 5%;
+    
+    }
+    
+    .right-margin{
+        width: 5%;
+        height: auto;
+        float: right;
+        /* background-color: red; */
+}
+}
