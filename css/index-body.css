@@ -97,13 +97,13 @@ body {
     width: 5%;
     height: auto;
     float: left;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .middle-section{
     width: 90%;
     height: auto;
-    background-color: aqua;
+    /* background-color: aqua; */
     text-align: center;
     margin-top: 5%;
 
@@ -113,50 +113,48 @@ body {
     width: 5%;
     height: auto;
     float: right;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .header1{
-    font-size: 2.2rem;
+    font-size: 1.875rem;
 }
 
 .header2{
-    font-size: 2rem;
+    font-size: 1.625rem;
 }
 
 .header3{
-    font-size: 1.5rem;
+    font-size: 1.375rem;
     font-weight: normal;
 }
-
+    
 .first-containter{
     display: block;
+    float: left;
     margin-top: 5%;
 }
 
 .image-index{
-    width: 40%;
+    width: 45%;
     height: auto;
     float: left;
-    margin-left: 6.25rem;
 
 }
 
 .paragraph{
     font-size: 1.375rem;
     float: right;
-    width: 40%;
+    width: 50%;
     text-align: left;
-    margin-left: 6.25rem;
-    margin-top: 6.25rem;
 }
 
 .second-containter{
     display: block;
     margin-top: 5%;
+    float: left;
 }
 }
-
 
     
     
@@ -172,13 +170,13 @@ body {
     width: 5%;
     height: auto;
     float: left;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .middle-section{
     width: 90%;
     height: auto;
-    background-color: aqua;
+    /* background-color: aqua; */
     text-align: center;
     margin-top: 5%;
 
@@ -188,126 +186,50 @@ body {
     width: 5%;
     height: auto;
     float: right;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .header1{
-    font-size: 2.2rem;
+    font-size: 1.875rem;
 }
 
 .header2{
-    font-size: 2rem;
+    font-size: 1.625rem;
 }
 
 .header3{
-    font-size: 1.5rem;
-    font-weight:normal;
+    font-size: 1.375rem;
+    font-weight: normal;
 }
-
-
     
 .first-containter{
     display: block;
+    float: left;
     margin-top: 5%;
 }
 
 .image-index{
-    width: 40%;
+    width: 45%;
     height: auto;
     float: left;
-    margin-left: 6.25rem;
 
 }
 
 .paragraph{
     font-size: 1.375rem;
     float: right;
-    width: 40%;
+    width: 50%;
     text-align: left;
-    margin-left: 6.25rem;
-    margin-top: 6.25rem;
 }
 
 .second-containter{
     display: block;
     margin-top: 5%;
+    float: left;
 }
 }
     
-    /* Mobile */
-      @media (min-width: 768px) and (max-width: 1024px)  {
-      
-     
-.index-body{
-    display: flex;
-    margin-bottom: 5%;
-}
-
-.left-margin{
-    width: 5%;
-    height: auto;
-    float: left;
-    background-color: red;
-}
-
-.middle-section{
-    width: 90%;
-    height: auto;
-    background-color: aqua;
-    text-align: center;
-    margin-top: 5%;
-
-}
-
-.right-margin{
-    width: 5%;
-    height: auto;
-    float: right;
-    background-color: red;
-}
-
-.header1{
-    font-size: 2.2rem;
-}
-
-.header2{
-    font-size: 2rem;
-}
-
-.header3{
-    font-size: 1.5rem;
-    font-weight:normal;
-}
-
-
-.first-containter{
-    display: block;
-    margin-top: 5%;
-}
-
-.image-index{
-    width: 40%;
-    height: auto;
-    float: left;
-    margin-left: 6.25rem;
-
-}
-
-.paragraph{
-    font-size: 1.375rem;
-    float: right;
-    width: 40%;
-    text-align: left;
-    margin-left: 6.25rem;
-    margin-top: 6.25rem;
-}
-
-.second-containter{
-    display: block;
-    margin-top: 5%;
-}
-}
-    
+   
     
 @media (min-width: 481px) and (max-width: 767px) {
     
@@ -321,13 +243,13 @@ body {
     width: 5%;
     height: auto;
     float: left;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .middle-section{
     width: 90%;
     height: auto;
-    background-color: aqua;
+    /* background-color: aqua; */
     text-align: center;
     margin-top: 5%;
 
@@ -337,19 +259,19 @@ body {
     width: 5%;
     height: auto;
     float: right;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .header1{
-    font-size: 2.2rem;
+    font-size: 1.875rem;
 }
 
 .header2{
-    font-size: 2rem;
+    font-size: 1.625rem;
 }
 
 .header3{
-    font-size: 1.5rem;
+    font-size: 1.375rem;
     font-weight:normal;
 }
 
@@ -360,20 +282,18 @@ body {
 }
 
 .image-index{
-    width: 40%;
+    width: 90%;
     height: auto;
-    float: left;
-    margin-left: 6.25rem;
+    margin-top: 10%;
 
 }
 
 .paragraph{
     font-size: 1.375rem;
-    float: right;
-    width: 40%;
-    text-align: left;
-    margin-left: 6.25rem;
-    margin-top: 6.25rem;
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 10%;
 }
 
 .second-containter{
@@ -396,13 +316,13 @@ body {
     width: 5%;
     height: auto;
     float: left;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .middle-section{
     width: 90%;
     height: auto;
-    background-color: aqua;
+    /* background-color: aqua; */
     text-align: center;
     margin-top: 5%;
 
@@ -412,19 +332,19 @@ body {
     width: 5%;
     height: auto;
     float: right;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .header1{
-    font-size: 2.2rem;
+    font-size: 1.875rem;
 }
 
 .header2{
-    font-size: 2rem;
+    font-size: 1.625rem;
 }
 
 .header3{
-    font-size: 1.5rem;
+    font-size: 1.375rem;
     font-weight:normal;
 }
 
@@ -435,20 +355,18 @@ body {
 }
 
 .image-index{
-    width: 40%;
+    width: 90%;
     height: auto;
-    float: left;
-    margin-left: 6.25rem;
+    margin-top: 10%;
 
 }
 
 .paragraph{
     font-size: 1.375rem;
-    float: right;
-    width: 40%;
-    text-align: left;
-    margin-left: 6.25rem;
-    margin-top: 6.25rem;
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 10%;
 }
 
 .second-containter{
