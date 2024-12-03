@@ -13,6 +13,8 @@
         background-color: #1A4723;
         display: flex;
         overflow: hidden;
+        position: fixed; 
+        
     }
     
     .navbar-logo-containter{
