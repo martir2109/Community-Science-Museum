@@ -14,7 +14,7 @@ body {
 @media (min-width: 1463px){
     .visit-body{
         display: flex;
-        margin-bottom: 5%;
+        margin-bottom: 10%;
     }
     
     .header1{
@@ -42,7 +42,7 @@ body {
         height: auto;
         /* background-color: aqua; */
         text-align: center;
-        margin-top: 5%;
+        margin-top: 2%;
     
     }
     
@@ -52,60 +52,301 @@ body {
         float: right;
         /* background-color: red; */
     }
+
+   
+    .visit-container{
+        gap: 2%;
+        display: grid;
+        width: 100%;
+    }
+
+    .location-containter{
+        width: 60%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 20%;
+        padding: 20px;
+    }
+
+    .text-location{
+        text-align: left;
+        display: block;
+    }
+
+    .location-image{
+        width: 40%;
+        height: auto;
+        margin-left: 35%;
+        border-radius: 10px;
+    }
+
+    .admission-container{
+        width: 60%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 20%;
+        padding: 20px;
+    }
+
+    .text-admission{
+        text-align: left;
+        display: block;
+    }
+
+    .hours-accessibility{
+        display: flex;
+    }
+ 
+    .hours-container{
+        width: 20%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 20%;
+        padding: 20px;
+    }
+
+    .text-hours{
+        text-align: left;
+        display: block;
+    }
     
+    .Accessibility-container{
+        width: 38%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 2%;
+        padding: 20px;
+    }
+
+    .text-Accessibility{
+        text-align: left;
+        display: block;
+    }
+
+    .shop-container{
+        width: 60%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 20%;
+        padding: 20px;
+    }
+
+    .text-shop{
+        text-align: left;
+        display: block;
+    }
+
+    .food-containter{
+        width: 60%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 20%;
+        padding: 20px;
+    }
+
+    .text-food{
+        text-align: left;
+        display: block;
+    }
+    
+    .food-image{
+        width: 40%;
+        height: auto;
+        margin-left: 35%;
+        border-radius: 10px;
+    }
 }
 
 /* Desktop */
 @media (min-width: 1281px) and (max-width:1462px){
-.visit-body{
-    display: flex;
-    margin-bottom: 5%;
-}
+    .visit-body{
+        display: flex;
+        margin-bottom: 10%;
+    }
+    
+    .header1{
+        font-size: 2.2rem;
+    }
+    
+    .header2{
+        font-size: 2rem;
+    }
+    
+    .header3{
+        font-size: 1.5rem;
+        font-weight:normal;
+    }
+    
+    .left-margin{
+        width: 5%;
+        height: auto;
+        float: left;
+        /* background-color: red; */
+    }
+    
+    .middle-section{
+        width: 90%;
+        height: auto;
+        /* background-color: aqua; */
+        text-align: center;
+        margin-top: 2%;
+    
+    }
+    
+    .right-margin{
+        width: 5%;
+        height: auto;
+        float: right;
+        /* background-color: red; */
+    }
 
-.header1{
-    font-size: 2.2rem;
-}
+   
+    .visit-container{
+        gap: 2%;
+        display: grid;
+        width: 100%;
+    }
 
-.header2{
-    font-size: 2rem;
-}
+    .location-containter{
+        width: 70%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 15%;
+        padding: 20px;
+    }
 
-.header3{
-    font-size: 1.5rem;
-    font-weight:normal;
-}
+    .text-location{
+        text-align: left;
+        display: block;
+    }
 
-.left-margin{
-    width: 5%;
-    height: auto;
-    float: left;
-    /* background-color: red; */
-}
+    .location-image{
+        width: 40%;
+        height: auto;
+        margin-left: 35%;
+        border-radius: 10px;
+    }
 
-.middle-section{
-    width: 90%;
-    height: auto;
-    /* background-color: aqua; */
-    text-align: center;
-    margin-top: 5%;
+    .admission-container{
+        width: 70%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 15%;
+        padding: 20px;
+    }
 
-}
+    .text-admission{
+        text-align: left;
+        display: block;
+    }
 
-.right-margin{
-    width: 5%;
-    height: auto;
-    float: right;
-    /* background-color: red; */
-}
+    .hours-accessibility{
+        display: flex;
+    }
+ 
+    .hours-container{
+        width: 20%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 15%;
+        padding: 20px;
+    }
+
+    .text-hours{
+        text-align: left;
+        display: block;
+    }
+    
+    .Accessibility-container{
+        width: 48%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 2%;
+        padding: 20px;
+    }
+
+    .text-Accessibility{
+        text-align: left;
+        display: block;
+    }
+
+    .shop-container{
+        width: 70%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 15%;
+        padding: 20px;
+    }
+
+    .text-shop{
+        text-align: left;
+        display: block;
+    }
+
+    .food-containter{
+        width: 70%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 15%;
+        padding: 20px;
+    }
+
+    .text-food{
+        text-align: left;
+        display: block;
+    }
+    
+    .food-image{
+        width: 40%;
+        height: auto;
+        margin-left: 35%;
+        border-radius: 10px;
+    }
 }
 
  /* Laptops, desktops */
  @media (min-width: 1025px) and (max-width: 1280px) {
     .visit-body{
         display: flex;
-        margin-bottom: 5%;
+        margin-bottom: 10%;
     }
-
+    
     .header1{
         font-size: 2.2rem;
     }
@@ -118,7 +359,7 @@ body {
         font-size: 1.5rem;
         font-weight:normal;
     }
-
+    
     .left-margin{
         width: 5%;
         height: auto;
@@ -131,7 +372,7 @@ body {
         height: auto;
         /* background-color: aqua; */
         text-align: center;
-        margin-top: 5%;
+        margin-top: 2%;
     
     }
     
@@ -140,17 +381,139 @@ body {
         height: auto;
         float: right;
         /* background-color: red; */
- }
+    }
+
+   
+    .visit-container{
+        gap: 2%;
+        display: grid;
+        width: 100%;
+    }
+
+    .location-containter{
+        width: 70%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 15%;
+        padding: 20px;
+    }
+
+    .text-location{
+        text-align: left;
+        display: block;
+    }
+
+    .location-image{
+        width: 40%;
+        height: auto;
+        margin-left: 35%;
+        border-radius: 10px;
+    }
+
+    .admission-container{
+        width: 70%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 15%;
+        padding: 20px;
+    }
+
+    .text-admission{
+        text-align: left;
+        display: block;
+    }
+
+    .hours-accessibility{
+        display: flex;
+    }
+ 
+    .hours-container{
+        width: 20%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 15%;
+        padding: 20px;
+    }
+
+    .text-hours{
+        text-align: left;
+        display: block;
+    }
+    
+    .Accessibility-container{
+        width: 48%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 2%;
+        padding: 20px;
+    }
+
+    .text-Accessibility{
+        text-align: left;
+        display: block;
+    }
+
+    .shop-container{
+        width: 70%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 15%;
+        padding: 20px;
+    }
+
+    .text-shop{
+        text-align: left;
+        display: block;
+    }
+
+    .food-containter{
+        width: 70%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 15%;
+        padding: 20px;
+    }
+
+    .text-food{
+        text-align: left;
+        display: block;
+    }
+    
+    .food-image{
+        width: 40%;
+        height: auto;
+        margin-left: 35%;
+        border-radius: 10px;
+    }
 }
+
 
 
    /* Tables, Ipads (portrait) */
    @media (min-width: 768px) and (max-width: 1024px) {
     .visit-body{
         display: flex;
-        margin-bottom: 5%;
+        margin-bottom: 10%;
     }
-
+    
     .header1{
         font-size: 2.2rem;
     }
@@ -176,7 +539,7 @@ body {
         height: auto;
         /* background-color: aqua; */
         text-align: center;
-        margin-top: 5%;
+        margin-top: 2%;
     
     }
     
@@ -185,7 +548,128 @@ body {
         height: auto;
         float: right;
         /* background-color: red; */
-}
+    }
+
+   
+    .visit-container{
+        gap: 2%;
+        display: grid;
+        width: 100%;
+    }
+
+    .location-containter{
+        width: 70%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 15%;
+        padding: 20px;
+    }
+
+    .text-location{
+        text-align: left;
+        display: block;
+    }
+
+    .location-image{
+        width: 40%;
+        height: auto;
+        margin-left: 35%;
+        border-radius: 10px;
+    }
+
+    .admission-container{
+        width: 70%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 15%;
+        padding: 20px;
+    }
+
+    .text-admission{
+        text-align: left;
+        display: block;
+    }
+
+    .hours-accessibility{
+        display: flex;
+    }
+ 
+    .hours-container{
+        width: 20%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 15%;
+        padding: 20px;
+    }
+
+    .text-hours{
+        text-align: left;
+        display: block;
+    }
+    
+    .Accessibility-container{
+        width: 48%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 2%;
+        padding: 20px;
+    }
+
+    .text-Accessibility{
+        text-align: left;
+        display: block;
+    }
+
+    .shop-container{
+        width: 70%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 15%;
+        padding: 20px;
+    }
+
+    .text-shop{
+        text-align: left;
+        display: block;
+    }
+
+    .food-containter{
+        width: 70%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 15%;
+        padding: 20px;
+    }
+
+    .text-food{
+        text-align: left;
+        display: block;
+    }
+    
+    .food-image{
+        width: 40%;
+        height: auto;
+        margin-left: 35%;
+        border-radius: 10px;
+    }
 }
 
 
@@ -193,9 +677,9 @@ body {
 @media (min-width: 481px) and (max-width: 767px) {
     .visit-body{
         display: flex;
-        margin-bottom: 5%;
+        margin-bottom: 10%;
     }
-
+    
     .header1{
         font-size: 2.2rem;
     }
@@ -208,6 +692,7 @@ body {
         font-size: 1.5rem;
         font-weight:normal;
     }
+    
     .left-margin{
         width: 5%;
         height: auto;
@@ -220,7 +705,7 @@ body {
         height: auto;
         /* background-color: aqua; */
         text-align: center;
-        margin-top: 5%;
+        margin-top: 2%;
     
     }
     
@@ -228,17 +713,139 @@ body {
         width: 5%;
         height: auto;
         float: right;
+        margin-bottom: 20%;
         /* background-color: red; */
-}
+    }
+
+   
+    .visit-container{
+        gap: 2%;
+        display: grid;
+    }
+
+    .location-containter{
+        width: 90%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 5%;
+        padding: 20px;
+    }
+
+    .text-location{
+        text-align: left;
+        display: block;
+    }
+
+    .location-image{
+        width: 50%;
+        height: auto;
+        margin-left: 10%;
+        border-radius: 10px;
+    }
+
+    .admission-container{
+        width: 90%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 5%;
+        padding: 20px;
+    }
+
+    .text-admission{
+        text-align: left;
+        display: block;
+    }
+
+    .hours-accessibility{
+        display: block;
+    }
+ 
+    .hours-container{
+        width: 90%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 5%;
+        padding: 20px;
+    }
+
+    .text-hours{
+        text-align: left;
+        display: block;
+    }
+    
+    .Accessibility-container{
+        width: 90%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 5%;
+        padding: 20px;
+        margin-top: 5%;
+    }
+
+    .text-Accessibility{
+        text-align: left;
+        display: block;
+    }
+
+    .shop-container{
+        width: 90%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 5%;
+        padding: 20px;
+    }
+
+    .text-shop{
+        text-align: left;
+        display: block;
+    }
+
+    .food-containter{
+        width: 90%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 5%;
+        padding: 20px;
+    }
+
+    .text-food{
+        text-align: left;
+        display: block;
+    }
+    
+    .food-image{
+        width: 50%;
+        height: auto;
+        margin-left: 10%;
+        border-radius: 10px;
+    }
 }
 
 /* smartphones */
 @media (min-width: 320px) and (max-width: 480px) {
     .visit-body{
         display: flex;
-        margin-bottom: 5%;
+        margin-bottom: 10%;
     }
-
+    
     .header1{
         font-size: 2.2rem;
     }
@@ -264,7 +871,7 @@ body {
         height: auto;
         /* background-color: aqua; */
         text-align: center;
-        margin-top: 5%;
+        margin-top: 2%;
     
     }
     
@@ -272,6 +879,128 @@ body {
         width: 5%;
         height: auto;
         float: right;
+        margin-bottom: 20%;
         /* background-color: red; */
-}
+    }
+
+   
+    .visit-container{
+        gap: 2%;
+        display: grid;
+    }
+
+    .location-containter{
+        width: 90%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 5%;
+        padding: 20px;
+    }
+
+    .text-location{
+        text-align: left;
+        display: block;
+    }
+
+    .location-image{
+        width: 50%;
+        height: auto;
+        margin-left: 10%;
+        border-radius: 10px;
+    }
+
+    .admission-container{
+        width: 90%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 5%;
+        padding: 20px;
+    }
+
+    .text-admission{
+        text-align: left;
+        display: block;
+    }
+
+    .hours-accessibility{
+        display: block;
+    }
+ 
+    .hours-container{
+        width: 90%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 5%;
+        padding: 20px;
+    }
+
+    .text-hours{
+        text-align: left;
+        display: block;
+    }
+    
+    .Accessibility-container{
+        width: 90%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 5%;
+        padding: 20px;
+        margin-top: 5%;
+    }
+
+    .text-Accessibility{
+        text-align: left;
+        display: block;
+    }
+
+    .shop-container{
+        width: 90%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 5%;
+        padding: 20px;
+    }
+
+    .text-shop{
+        text-align: left;
+        display: block;
+    }
+
+    .food-containter{
+        width: 90%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 5%;
+        padding: 20px;
+    }
+
+    .text-food{
+        text-align: left;
+        display: block;
+    }
+    
+    .food-image{
+        width: 50%;
+        height: auto;
+        margin-left: 10%;
+        border-radius: 10px;
+    }
 }
