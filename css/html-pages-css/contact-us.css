@@ -56,13 +56,20 @@ body {
     
     .contact-form{
         width: 80%;
-        height: 600px;
+        height: 610px;
         border: solid 1px #000;
         border-radius: 10px;
         margin-left: 10%;
         padding: 20px;
-       
+        text-align: left; 
     }
+
+    .form-content{
+        margin-left: 10%;
+        margin-top: 1%;
+    
+    }
+
     .email-container{
         height: 107px;
     
@@ -70,28 +77,38 @@ body {
     
     .topic-container{
         height: 107px;
+        margin-top: 2%;
     }
     
     .text-field-container{
         height: 205px;
+        margin-top: 2%;
     }
     
     .email{
-        width: 80%;
+        width: 90%;
         height: 71px;
         border-radius: 10px;
+        display: block;
+        font-size: 1.5rem;
+
     }
     
     .topic{
-        width: 80%;
+        width: 90%;
         height: 71px;
         border-radius: 10px;
+        display: block;
+        font-size: 1.5rem;
+
     }
     
     .text-field{
-        width: 80%;
+        width: 90%;
         height: 169px;
         border-radius: 10px;
+        display: block;
+        font-size: 1.5rem;
     }
     
     .submit-button{
@@ -102,6 +119,8 @@ body {
         background-color: #1A4723;
         color: #fff;
         border: none;
+        margin-left: 15%;
+        margin-top: 2%;
     }
     
     .submit-button:hover{
@@ -118,151 +137,51 @@ body {
         text-align: center;
         font-size: 1.5rem;
     }
+
+    .label{
+        font-size: 1.5rem;
+    }
+
+    ::placeholder {
+        color: #959595;
+
+      }
     
 }
 
 /* Desktop */
 @media (min-width: 1281px) and (max-width:1462px){
-.contact-us-body{
-    display: flex;
-    margin-bottom: 5%;
-}
-
-.header1{
-    font-size: 2.5rem;
-}
-
-.header2{
-    font-size: 1.875rem;
-}
-
-.header3{
-    font-size: 1.5rem;
-    font-weight: normal;
-}
-
-.left-margin{
-    width: 5%;
-    height: auto;
-    float: left;
-    /* background-color: red;  */
-}
-
-.middle-section{
-    width: 90%;
-    height: auto;
-    /* background-color: aqua;  */
-    text-align: center;
-    margin-top: 2%;
-
-}
-
-.right-margin{
-    width: 5%;
-    height: auto;
-    float: right;
-    /* background-color: red;  */
-}
-
-.contact-form{
-    width: 80%;
-    height: 600px;
-    border: solid 1px #000;
-    border-radius: 10px;
-    margin-left: 10%;
-    padding: 20px;
-   
-}
-.email-container{
-    height: 107px;
-
-}
-
-.topic-container{
-    height: 107px;
-}
-
-.text-field-container{
-    height: 205px;
-}
-
-.email{
-    width: 80%;
-    height: 71px;
-    border-radius: 10px;
-}
-
-.topic{
-    width: 80%;
-    height: 71px;
-    border-radius: 10px;
-}
-
-.text-field{
-    width: 80%;
-    height: 169px;
-    border-radius: 10px;
-}
-
-.submit-button{
-    width: 60%;
-    height: 58px;
-    font-size: 1.875rem;
-    border-radius: 10px;
-    background-color: #1A4723;
-    color: #fff;
-    border: none;
-}
-
-.submit-button:hover{
-    background-color: #fff;
-    color: #1A4723;
-    border: #1A4723 solid 2px;
-}
-
-.information{
-    width: 100%;
-    height: 270px;
-    padding: 10px;
-    background-color: #EFEDED;
-    text-align: center;
-    font-size: 1.5rem;
-}
-}
-
- /* Laptops, desktops */
- @media (min-width: 1025px) and (max-width: 1280px) {
     .contact-us-body{
         display: flex;
         margin-bottom: 5%;
     }
-
+    
     .header1{
-        font-size: 2.2rem;
+        font-size: 2.5rem;
     }
     
     .header2{
-        font-size: 2rem;
+        font-size: 1.875rem;
     }
     
     .header3{
         font-size: 1.5rem;
-        font-weight:normal;
+        font-weight: normal;
     }
-
+    
     .left-margin{
         width: 5%;
         height: auto;
         float: left;
-        /* background-color: red; */
+        /* background-color: red;  */
     }
     
     .middle-section{
         width: 90%;
         height: auto;
-        /* background-color: aqua; */
+        /* background-color: aqua;  */
         text-align: center;
-        margin-top: 5%;
+        margin-top: 2%;
     
     }
     
@@ -270,8 +189,238 @@ body {
         width: 5%;
         height: auto;
         float: right;
-        /* background-color: red; */
- }
+        /* background-color: red;  */
+    }
+    
+    .contact-form{
+        width: 80%;
+        height: 610px;
+        border: solid 1px #000;
+        border-radius: 10px;
+        margin-left: 10%;
+        padding: 20px;
+        text-align: left; 
+    }
+
+    .form-content{
+        margin-left: 10%;
+        margin-top: 1%;
+    
+    }
+
+    .email-container{
+        height: 107px;
+    
+    }
+    
+    .topic-container{
+        height: 107px;
+        margin-top: 2%;
+    }
+    
+    .text-field-container{
+        height: 205px;
+        margin-top: 2%;
+    }
+    
+    .email{
+        width: 90%;
+        height: 71px;
+        border-radius: 10px;
+        display: block;
+        font-size: 1.5rem;
+
+    }
+    
+    .topic{
+        width: 90%;
+        height: 71px;
+        border-radius: 10px;
+        display: block;
+        font-size: 1.5rem;
+
+    }
+    
+    .text-field{
+        width: 90%;
+        height: 169px;
+        border-radius: 10px;
+        display: block;
+        font-size: 1.5rem;
+    }
+    
+    .submit-button{
+        width: 60%;
+        height: 58px;
+        font-size: 1.875rem;
+        border-radius: 10px;
+        background-color: #1A4723;
+        color: #fff;
+        border: none;
+        margin-left: 15%;
+        margin-top: 2%;
+    }
+    
+    .submit-button:hover{
+        background-color: #fff;
+        color: #1A4723;
+        border: #1A4723 solid 2px;
+    }
+    
+    .information{
+        width: 100%;
+        height: 270px;
+        padding: 10px;
+        background-color: #EFEDED;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .label{
+        font-size: 1.5rem;
+    }
+
+    ::placeholder {
+        color: #959595;
+
+      }
+    }
+
+ /* Laptops, desktops */
+ @media (min-width: 1025px) and (max-width: 1280px) {
+    .contact-us-body{
+        display: flex;
+        margin-bottom: 5%;
+    }
+    
+    .header1{
+        font-size: 2.5rem;
+    }
+    
+    .header2{
+        font-size: 1.875rem;
+    }
+    
+    .header3{
+        font-size: 1.5rem;
+        font-weight: normal;
+    }
+    
+    .left-margin{
+        width: 5%;
+        height: auto;
+        float: left;
+        /* background-color: red;  */
+    }
+    
+    .middle-section{
+        width: 90%;
+        height: auto;
+        /* background-color: aqua;  */
+        text-align: center;
+        margin-top: 2%;
+    
+    }
+    
+    .right-margin{
+        width: 5%;
+        height: auto;
+        float: right;
+        /* background-color: red;  */
+    }
+    
+    .contact-form{
+        width: 80%;
+        height: 610px;
+        border: solid 1px #000;
+        border-radius: 10px;
+        margin-left: 10%;
+        padding: 20px;
+        text-align: left; 
+    }
+
+    .form-content{
+        margin-left: 10%;
+        margin-top: 1%;
+    
+    }
+
+    .email-container{
+        height: 107px;
+    
+    }
+    
+    .topic-container{
+        height: 107px;
+        margin-top: 2%;
+    }
+    
+    .text-field-container{
+        height: 205px;
+        margin-top: 2%;
+    }
+    
+    .email{
+        width: 90%;
+        height: 71px;
+        border-radius: 10px;
+        display: block;
+        font-size: 1.5rem;
+
+    }
+    
+    .topic{
+        width: 90%;
+        height: 71px;
+        border-radius: 10px;
+        display: block;
+        font-size: 1.5rem;
+
+    }
+    
+    .text-field{
+        width: 90%;
+        height: 169px;
+        border-radius: 10px;
+        display: block;
+        font-size: 1.5rem;
+    }
+    
+    .submit-button{
+        width: 60%;
+        height: 58px;
+        font-size: 1.875rem;
+        border-radius: 10px;
+        background-color: #1A4723;
+        color: #fff;
+        border: none;
+        margin-left: 15%;
+        margin-top: 2%;
+    }
+    
+    .submit-button:hover{
+        background-color: #fff;
+        color: #1A4723;
+        border: #1A4723 solid 2px;
+    }
+    
+    .information{
+        width: 100%;
+        height: 270px;
+        padding: 10px;
+        background-color: #EFEDED;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .label{
+        font-size: 1.5rem;
+    }
+
+    ::placeholder {
+        color: #959595;
+
+      }
 }
 
 
@@ -281,33 +430,33 @@ body {
         display: flex;
         margin-bottom: 5%;
     }
-
+    
     .header1{
-        font-size: 2.2rem;
+        font-size: 2.5rem;
     }
     
     .header2{
-        font-size: 2rem;
+        font-size: 1.875rem;
     }
     
     .header3{
         font-size: 1.5rem;
-        font-weight:normal;
+        font-weight: normal;
     }
-
+    
     .left-margin{
         width: 5%;
         height: auto;
         float: left;
-        /* background-color: red; */
+        /* background-color: red;  */
     }
     
     .middle-section{
         width: 90%;
         height: auto;
-        /* background-color: aqua; */
+        /* background-color: aqua;  */
         text-align: center;
-        margin-top: 5%;
+        margin-top: 2%;
     
     }
     
@@ -315,8 +464,101 @@ body {
         width: 5%;
         height: auto;
         float: right;
-        /* background-color: red; */
- }
+        /* background-color: red;  */
+    }
+    
+    .contact-form{
+        width: 80%;
+        height: 610px;
+        border: solid 1px #000;
+        border-radius: 10px;
+        margin-left: 10%;
+        padding: 20px;
+        text-align: left; 
+    }
+
+    .form-content{
+        margin-left: 10%;
+        margin-top: 1%;
+    
+    }
+
+    .email-container{
+        height: 107px;
+    
+    }
+    
+    .topic-container{
+        height: 107px;
+        margin-top: 2%;
+    }
+    
+    .text-field-container{
+        height: 205px;
+        margin-top: 2%;
+    }
+    
+    .email{
+        width: 90%;
+        height: 71px;
+        border-radius: 10px;
+        display: block;
+        font-size: 1.5rem;
+
+    }
+    
+    .topic{
+        width: 90%;
+        height: 71px;
+        border-radius: 10px;
+        display: block;
+        font-size: 1.5rem;
+
+    }
+    
+    .text-field{
+        width: 90%;
+        height: 169px;
+        border-radius: 10px;
+        display: block;
+        font-size: 1.5rem;
+    }
+    
+    .submit-button{
+        width: 60%;
+        height: 58px;
+        font-size: 1.875rem;
+        border-radius: 10px;
+        background-color: #1A4723;
+        color: #fff;
+        border: none;
+        margin-left: 15%;
+        margin-top: 2%;
+    }
+    
+    .submit-button:hover{
+        background-color: #fff;
+        color: #1A4723;
+        border: #1A4723 solid 2px;
+    }
+    
+    .information{
+        width: 100%;
+        height: 270px;
+        padding: 10px;
+        background-color: #EFEDED;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .label{
+        font-size: 1.5rem;
+    }
+
+    ::placeholder {
+        color: #959595;
+
+      }
 }
 
 
@@ -326,33 +568,33 @@ body {
         display: flex;
         margin-bottom: 5%;
     }
-
+    
     .header1{
-        font-size: 2.2rem;
+        font-size: 2.5rem;
     }
     
     .header2{
-        font-size: 2rem;
+        font-size: 1.875rem;
     }
     
     .header3{
         font-size: 1.5rem;
-        font-weight:normal;
+        font-weight: normal;
     }
-
+    
     .left-margin{
         width: 5%;
         height: auto;
         float: left;
-        /* background-color: red; */
+        /* background-color: red;  */
     }
     
     .middle-section{
         width: 90%;
         height: auto;
-        /* background-color: aqua; */
+        /* background-color: aqua;  */
         text-align: center;
-        margin-top: 5%;
+        margin-top: 2%;
     
     }
     
@@ -360,8 +602,101 @@ body {
         width: 5%;
         height: auto;
         float: right;
-        /* background-color: red; */
- }
+        /* background-color: red;  */
+    }
+    
+    .contact-form{
+        width: 80%;
+        height: 610px;
+        border: solid 1px #000;
+        border-radius: 10px;
+        margin-left: 10%;
+        padding: 20px;
+        text-align: left; 
+    }
+
+    .form-content{
+        margin-left: 10%;
+        margin-top: 1%;
+    
+    }
+
+    .email-container{
+        height: 107px;
+    
+    }
+    
+    .topic-container{
+        height: 107px;
+        margin-top: 2%;
+    }
+    
+    .text-field-container{
+        height: 205px;
+        margin-top: 2%;
+    }
+    
+    .email{
+        width: 90%;
+        height: 71px;
+        border-radius: 10px;
+        display: block;
+        font-size: 1.5rem;
+
+    }
+    
+    .topic{
+        width: 90%;
+        height: 71px;
+        border-radius: 10px;
+        display: block;
+        font-size: 1.5rem;
+
+    }
+    
+    .text-field{
+        width: 90%;
+        height: 169px;
+        border-radius: 10px;
+        display: block;
+        font-size: 1.5rem;
+    }
+    
+    .submit-button{
+        width: 60%;
+        height: 58px;
+        font-size: 1.875rem;
+        border-radius: 10px;
+        background-color: #1A4723;
+        color: #fff;
+        border: none;
+        margin-left: 15%;
+        margin-top: 10%;
+    }
+    
+    .submit-button:hover{
+        background-color: #fff;
+        color: #1A4723;
+        border: #1A4723 solid 2px;
+    }
+    
+    .information{
+        width: 100%;
+        height: 270px;
+        padding: 10px;
+        background-color: #EFEDED;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .label{
+        font-size: 1.5rem;
+    }
+
+    ::placeholder {
+        color: #959595;
+
+      }
 }
 
 /* smartphones */
@@ -370,33 +705,33 @@ body {
         display: flex;
         margin-bottom: 5%;
     }
-
+    
     .header1{
-        font-size: 2.2rem;
+        font-size: 2.5rem;
     }
     
     .header2{
-        font-size: 2rem;
+        font-size: 1.875rem;
     }
     
     .header3{
         font-size: 1.5rem;
-        font-weight:normal;
+        font-weight: normal;
     }
-
+    
     .left-margin{
         width: 5%;
         height: auto;
         float: left;
-        /* background-color: red; */
+        /* background-color: red;  */
     }
     
     .middle-section{
         width: 90%;
         height: auto;
-        /* background-color: aqua; */
+        /* background-color: aqua;  */
         text-align: center;
-        margin-top: 5%;
+        margin-top: 2%;
     
     }
     
@@ -404,6 +739,99 @@ body {
         width: 5%;
         height: auto;
         float: right;
-        /* background-color: red; */
- }
+        /* background-color: red;  */
+    }
+    
+    .contact-form{
+        width: 80%;
+        height: 610px;
+        border: solid 1px #000;
+        border-radius: 10px;
+        margin-left: 10%;
+        padding: 20px;
+        text-align: left; 
+    }
+
+    .form-content{
+        margin-left: 10%;
+        margin-top: 1%;
+    
+    }
+
+    .email-container{
+        height: 107px;
+    
+    }
+    
+    .topic-container{
+        height: 107px;
+        margin-top: 2%;
+    }
+    
+    .text-field-container{
+        height: 205px;
+        margin-top: 2%;
+    }
+    
+    .email{
+        width: 90%;
+        height: 71px;
+        border-radius: 10px;
+        display: block;
+        font-size: 1.5rem;
+
+    }
+    
+    .topic{
+        width: 90%;
+        height: 71px;
+        border-radius: 10px;
+        display: block;
+        font-size: 1.5rem;
+
+    }
+    
+    .text-field{
+        width: 90%;
+        height: 169px;
+        border-radius: 10px;
+        display: block;
+        font-size: 1.5rem;
+    }
+    
+    .submit-button{
+        width: 60%;
+        height: 58px;
+        font-size: 1.875rem;
+        border-radius: 10px;
+        background-color: #1A4723;
+        color: #fff;
+        border: none;
+        margin-left: 15%;
+        margin-top: 2%;
+    }
+    
+    .submit-button:hover{
+        background-color: #fff;
+        color: #1A4723;
+        border: #1A4723 solid 2px;
+    }
+    
+    .information{
+        width: 100%;
+        height: 270px;
+        padding: 10px;
+        background-color: #EFEDED;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .label{
+        font-size: 1.5rem;
+    }
+
+    ::placeholder {
+        color: #959595;
+
+      }
 }
