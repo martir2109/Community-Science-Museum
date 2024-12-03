@@ -10,114 +10,218 @@ body {
     padding: 0;
 }
 
+.text{
+    font-size: 1.375rem;
+    text-align: left;
+ }
+
 
 /* larger screens */
 @media (min-width: 1462px){
     .explore-body{
         display: flex;
         margin-bottom: 5%;
-    }
-
-    .header1{
+        overflow: hidden;
+     }
+    
+     .header1{
         font-size: 2.2rem;
     }
     
     .header2{
         font-size: 2rem;
+        text-align: left;
     }
     
     .header3{
         font-size: 1.5rem;
         font-weight:normal;
     }
+    
+    .left-margin{
+        width: 5%;
+        height: auto;
+        float: left;
+        /* background-color: red; */
+    }
+    
+    .middle-section{
+        width: 90%;
+        height: auto;
+        /* background-color: aqua; */
+        text-align: center;
+        margin-top: 3%;
+        margin-bottom: 10%;
+    
+    }
+    
+    .right-margin{
+        width: 5%;
+        height: auto;
+        float: right;
+        /* background-color: red; */
+    }
 
-.left-margin{
-    width: 5%;
-    height: auto;
-    float: left;
-    /* background-color: red; */
-}
 
-.middle-section{
-    width: 90%;
-    height: auto;
-    /* background-color: aqua; */
-    text-align: center;
-    margin-top: 5%;
+    .explore-container{
+        width: 80%;
+        height: auto;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
 
-}
+      .three-image-container{
+        display: flex;
+        width: 40%;
+        height: auto;
+        margin-bottom: 10%;
+        margin-left: 30%;
+    }
 
-.right-margin{
-    width: 5%;
-    height: auto;
-    float: right;
-    /* background-color: red; */
-}
-}
+    .teacher-science-image{
+        width: 90%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+       
+    }
+
+    .science-image{
+        width: 90%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+    }
+    .images-container{
+        display: grid;  
+        gap: 3%;
+       
+    }
+ 
+
+    .child-image{
+        width: 57%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        
+    }
+    }
 
 /* Desktop */
 @media (min-width: 1281px) and (max-width: 1462px){
     .explore-body{
         display: flex;
         margin-bottom: 5%;
-    }
-
-    .header1{
+        overflow: hidden;
+     }
+    
+     .header1{
         font-size: 2.2rem;
     }
     
     .header2{
         font-size: 2rem;
+        text-align: left;
     }
     
     .header3{
         font-size: 1.5rem;
         font-weight:normal;
     }
+    
+    .left-margin{
+        width: 5%;
+        height: auto;
+        float: left;
+        /* background-color: red; */
+    }
+    
+    .middle-section{
+        width: 90%;
+        height: auto;
+        /* background-color: aqua; */
+        text-align: center;
+        margin-top: 3%;
+        margin-bottom: 10%;
+    
+    }
+    
+    .right-margin{
+        width: 5%;
+        height: auto;
+        float: right;
+        /* background-color: red; */
+    }
 
-.left-margin{
-    width: 5%;
-    height: auto;
-    float: left;
-    /* background-color: red; */
-}
 
-.middle-section{
-    width: 90%;
-    height: auto;
-    /* background-color: aqua; */
-    text-align: center;
-    margin-top: 5%;
+    .explore-container{
+        width: 80%;
+        height: auto;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
 
-}
+      .three-image-container{
+        display: flex;
+        width: 40%;
+        height: auto;
+        margin-bottom: 10%;
+        margin-left: 30%;
+    }
 
-.right-margin{
-    width: 5%;
-    height: auto;
-    float: right;
-    /* background-color: red; */
-}
-}
+    .teacher-science-image{
+        width: 90%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+       
+    }
+
+    .science-image{
+        width: 90%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+    }
+    .images-container{
+        display: grid;  
+        gap: 3%;
+       
+    }
+ 
+
+    .child-image{
+        width: 57%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        
+    }
+    }
 
  /* Laptops, desktops */
  @media (min-width: 1025px) and (max-width: 1280px) {
     .explore-body{
         display: flex;
         margin-bottom: 5%;
-    }
-
-    .header1{
+        overflow: hidden;
+     }
+    
+     .header1{
         font-size: 2.2rem;
     }
     
     .header2{
         font-size: 2rem;
+        text-align: left;
     }
     
     .header3{
         font-size: 1.5rem;
         font-weight:normal;
     }
+    
     .left-margin{
         width: 5%;
         height: auto;
@@ -130,7 +234,8 @@ body {
         height: auto;
         /* background-color: aqua; */
         text-align: center;
-        margin-top: 5%;
+        margin-top: 3%;
+        margin-bottom: 10%;
     
     }
     
@@ -139,29 +244,76 @@ body {
         height: auto;
         float: right;
         /* background-color: red; */
- }
-}
+    }
 
+
+    .explore-container{
+        width: 80%;
+        height: auto;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+
+      .three-image-container{
+        display: flex;
+        width: 60%;
+        height: auto;
+        margin-bottom: 10%;
+        margin-left: 20%;
+    }
+
+    .teacher-science-image{
+        width: 90%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+       
+    }
+
+    .science-image{
+        width: 90%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+    }
+    .images-container{
+        display: grid;  
+        gap: 3%;
+       
+    }
+ 
+
+    .child-image{
+        width: 57%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        
+    }
+    }
 
    /* Tables, Ipads (portrait) */
    @media (min-width: 768px) and (max-width: 1024px) {
-    .explore-body{
+     .explore-body{
         display: flex;
         margin-bottom: 5%;
-    }
-
-    .header1{
+        overflow: hidden;
+     }
+    
+     .header1{
         font-size: 2.2rem;
     }
     
     .header2{
         font-size: 2rem;
+        text-align: left;
     }
     
     .header3{
         font-size: 1.5rem;
         font-weight:normal;
     }
+    
     .left-margin{
         width: 5%;
         height: auto;
@@ -174,7 +326,8 @@ body {
         height: auto;
         /* background-color: aqua; */
         text-align: center;
-        margin-top: 5%;
+        margin-top: 3%;
+        margin-bottom: 10%;
     
     }
     
@@ -183,28 +336,76 @@ body {
         height: auto;
         float: right;
         /* background-color: red; */
-   }
-}
+    }
 
+
+    .explore-container{
+        width: 80%;
+        height: auto;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+
+      .three-image-container{
+        display: flex;
+        width: 60%;
+        height: auto;
+        margin-bottom: 10%;
+        margin-left: 20%;
+    }
+
+    .teacher-science-image{
+        width: 90%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+       
+    }
+
+    .science-image{
+        width: 90%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+    }
+    .images-container{
+        display: grid;  
+        gap: 3%;
+       
+    }
+ 
+
+    .child-image{
+        width: 57%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        
+    }
+    }
 
    /* Mobile */
 @media (min-width: 481px) and (max-width: 767px) {
-    .explore-body{
+     .explore-body{
         display: flex;
         margin-bottom: 5%;
-    }
-    .header1{
+        overflow: hidden;
+     }
+    
+     .header1{
         font-size: 2.2rem;
     }
     
     .header2{
         font-size: 2rem;
+        text-align: left;
     }
     
     .header3{
         font-size: 1.5rem;
         font-weight:normal;
     }
+    
     .left-margin{
         width: 5%;
         height: auto;
@@ -217,7 +418,8 @@ body {
         height: auto;
         /* background-color: aqua; */
         text-align: center;
-        margin-top: 5%;
+        margin-top: 3%;
+        margin-bottom: 10%;
     
     }
     
@@ -226,21 +428,69 @@ body {
         height: auto;
         float: right;
         /* background-color: red; */
-}
-}
+    }
+
+
+    .explore-container{
+        width: 80%;
+        height: auto;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+
+      .three-image-container{
+        display: flex;
+        width: 60%;
+        height: auto;
+        margin-bottom: 10%;
+        margin-left: 20%;
+    }
+
+    .teacher-science-image{
+        width: 90%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+       
+    }
+
+    .science-image{
+        width: 90%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+    }
+    .images-container{
+        display: grid;  
+        gap: 3%;
+       
+    }
+ 
+
+    .child-image{
+        width: 57%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        
+    }
+    }
 
 /* smartphones */
 @media (min-width: 320px) and (max-width: 480px) {
-    .explore-body{
+     .explore-body{
         display: flex;
         margin-bottom: 5%;
-    }
-    .header1{
+        overflow: hidden;
+     }
+    
+     .header1{
         font-size: 2.2rem;
     }
     
     .header2{
         font-size: 2rem;
+        text-align: left;
     }
     
     .header3{
@@ -260,7 +510,8 @@ body {
         height: auto;
         /* background-color: aqua; */
         text-align: center;
-        margin-top: 5%;
+        margin-top: 3%;
+        margin-bottom: 10%;
     
     }
     
@@ -269,5 +520,50 @@ body {
         height: auto;
         float: right;
         /* background-color: red; */
-}
-}
+    }
+
+
+    .explore-container{
+        width: 80%;
+        height: auto;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+
+      .three-image-container{
+        display: flex;
+        width: 60%;
+        height: auto;
+        margin-bottom: 10%;
+        margin-left: 20%;
+    }
+
+    .teacher-science-image{
+        width: 90%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+       
+    }
+
+    .science-image{
+        width: 90%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+    }
+    .images-container{
+        display: grid;  
+        gap: 3%;
+       
+    }
+ 
+
+    .child-image{
+        width: 57%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        
+    }
+    }
