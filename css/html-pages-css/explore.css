@@ -10,8 +10,53 @@ body {
     padding: 0;
 }
 
+
+/* larger screens */
+@media (min-width: 1462px){
+    .explore-body{
+        display: flex;
+        margin-bottom: 5%;
+    }
+
+    .header1{
+        font-size: 2.2rem;
+    }
+    
+    .header2{
+        font-size: 2rem;
+    }
+    
+    .header3{
+        font-size: 1.5rem;
+        font-weight:normal;
+    }
+
+.left-margin{
+    width: 5%;
+    height: auto;
+    float: left;
+    /* background-color: red; */
+}
+
+.middle-section{
+    width: 90%;
+    height: auto;
+    /* background-color: aqua; */
+    text-align: center;
+    margin-top: 5%;
+
+}
+
+.right-margin{
+    width: 5%;
+    height: auto;
+    float: right;
+    /* background-color: red; */
+}
+}
+
 /* Desktop */
-@media (min-width: 1281px){
+@media (min-width: 1281px) and (max-width: 1462px){
     .explore-body{
         display: flex;
         margin-bottom: 5%;
