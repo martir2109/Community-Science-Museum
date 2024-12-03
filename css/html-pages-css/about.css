@@ -51,6 +51,22 @@ body {
     float: right;
     /* background-color: red; */
 }
+
+.about-section{
+    text-align: center;
+    font-size: 1.375rem;
+    margin-left: 10%;
+    margin-bottom: 50%;
+}
+
+.image-about{
+    width: 80%;
+    height: auto;
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+
+}
 }
 
 /* Desktop */
@@ -86,6 +102,7 @@ body {
     text-align: center;
     margin-top: 5%;
 
+
 }
 
 .right-margin{
@@ -93,6 +110,22 @@ body {
     height: auto;
     float: right;
     /* background-color: red; */
+}
+
+.about-section{
+    text-align: center;
+    font-size: 1.375rem;
+    margin-left: 10%;
+    margin-bottom: 60%;
+}
+
+.image-about{
+    width: 80%;
+    height: auto;
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+
 }
 }
 
@@ -102,7 +135,6 @@ body {
         display: flex;
         margin-bottom: 5%;
     }
-
     .header1{
         font-size: 2.2rem;
     }
@@ -115,28 +147,46 @@ body {
         font-size: 1.5rem;
         font-weight:normal;
     }
-    .left-margin{
-        width: 5%;
-        height: auto;
-        float: left;
-        /* background-color: red; */
-    }
+
+.left-margin{
+    width: 5%;
+    height: auto;
+    float: left;
+    /* background-color: red; */
+}
+
+.middle-section{
+    width: 90%;
+    height: auto;
+    /* background-color: aqua; */
+    text-align: center;
+    margin-top: 5%;
     
-    .middle-section{
-        width: 90%;
-        height: auto;
-        /* background-color: aqua; */
-        text-align: center;
-        margin-top: 5%;
-    
-    }
-    
-    .right-margin{
-        width: 5%;
-        height: auto;
-        float: right;
-        /* background-color: red; */
- }
+
+}
+
+.right-margin{
+    width: 5%;
+    height: auto;
+    float: right;
+    /* background-color: red; */
+}
+
+.about-section{
+    text-align: center;
+    font-size: 1.375rem;
+    margin-left: 10%;
+    margin-bottom: 70%;
+}
+
+.image-about{
+    width: 80%;
+    height: auto;
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+
+}
 }
 
 
@@ -146,7 +196,6 @@ body {
         display: flex;
         margin-bottom: 5%;
     }
-
     .header1{
         font-size: 2.2rem;
     }
@@ -159,28 +208,46 @@ body {
         font-size: 1.5rem;
         font-weight:normal;
     }
-    .left-margin{
-        width: 5%;
-        height: auto;
-        float: left;
-        /* background-color: red; */
-    }
-    
-    .middle-section{
-        width: 90%;
-        height: auto;
-        /* background-color: aqua; */
-        text-align: center;
-        margin-top: 5%;
-    
-    }
-    
-    .right-margin{
-        width: 5%;
-        height: auto;
-        float: right;
-        /* background-color: red; */
-   }
+
+.left-margin{
+    width: 5%;
+    height: auto;
+    float: left;
+    /* background-color: red; */
+}
+
+.middle-section{
+    width: 90%;
+    height: auto;
+    /* background-color: aqua; */
+    text-align: center;
+    margin-top: 10%;
+   
+
+}
+
+.right-margin{
+    width: 5%;
+    height: auto;
+    float: right;
+    /* background-color: red; */
+}
+
+.about-section{
+    text-align: center;
+    font-size: 1.375rem;
+    margin-left: 10%;
+    margin-bottom: 80%;
+}
+
+.image-about{
+    width: 80%;
+    height: auto;
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+
+}
 }
 
 
@@ -190,7 +257,6 @@ body {
         display: flex;
         margin-bottom: 5%;
     }
-
     .header1{
         font-size: 2.2rem;
     }
@@ -203,27 +269,45 @@ body {
         font-size: 1.5rem;
         font-weight:normal;
     }
-    .left-margin{
-        width: 5%;
-        height: auto;
-        float: left;
-        /* background-color: red; */
-    }
-    
-    .middle-section{
-        width: 90%;
-        height: auto;
-        /* background-color: aqua; */
-        text-align: center;
-        margin-top: 5%;
-    
-    }
-    
-    .right-margin{
-        width: 5%;
-        height: auto;
-        float: right;
-        /* background-color: red; */
+
+.left-margin{
+    width: 5%;
+    height: auto;
+    float: left;
+    /* background-color: red; */
+}
+
+.middle-section{
+    width: 90%;
+    height: auto;
+    /* background-color: aqua; */
+    text-align: center;
+    margin-top: 5%;
+   
+
+}
+
+.right-margin{
+    width: 5%;
+    height: auto;
+    float: right;
+    /* background-color: red; */
+}
+
+.about-section{
+    text-align: center;
+    font-size: 1.375rem;
+    margin-left: 10%;
+    margin-bottom: 90%;
+}
+
+.image-about{
+    width: 80%;
+    height: auto;
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+
 }
 }
 
@@ -245,27 +329,43 @@ body {
         font-size: 1.5rem;
         font-weight:normal;
     }
-    
-    .left-margin{
-        width: 5%;
-        height: auto;
-        float: left;
-        /* background-color: red; */
-    }
-    
-    .middle-section{
-        width: 90%;
-        height: auto;
-        /* background-color: aqua; */
-        text-align: center;
-        margin-top: 5%;
-    
-    }
-    
-    .right-margin{
-        width: 5%;
-        height: auto;
-        float: right;
-        /* background-color: red; */
+
+.left-margin{
+    width: 5%;
+    height: auto;
+    float: left;
+    /* background-color: red; */
+}
+
+.middle-section{
+    width: 90%;
+    height: auto;
+    /* background-color: aqua; */
+    text-align: center;
+    margin-top: 5%;
+  
+
+}
+
+.right-margin{
+    width: 5%;
+    height: auto;
+    float: right;
+    /* background-color: red; */
+}
+
+.about-section{
+    text-align: center;
+    font-size: 1.375rem;
+    margin-left: 10%;
+    margin-bottom: 110%;
+}
+
+.image-about{
+    width: 80%;
+    height: auto;
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
 }
 }
