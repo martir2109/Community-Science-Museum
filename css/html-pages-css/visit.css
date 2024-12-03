@@ -10,6 +10,10 @@ body {
     padding: 0;
 }
 
+.text{
+   font-size: 1.375rem;
+}
+
 /* larger screens */
 @media (min-width: 1463px){
     .visit-body{
@@ -43,6 +47,7 @@ body {
         /* background-color: aqua; */
         text-align: center;
         margin-top: 2%;
+        margin-bottom: 10%;
     
     }
     
@@ -61,13 +66,13 @@ body {
     }
 
     .location-containter{
-        width: 60%;
+        width: 70%;
         height: auto;
         border: #000 solid 1px;
         border-radius: 10px;
         text-align: left;
         display: flex;
-        margin-left: 20%;
+        margin-left: 15%;
         padding: 20px;
     }
 
@@ -79,18 +84,18 @@ body {
     .location-image{
         width: 40%;
         height: auto;
-        margin-left: 35%;
+        margin-left: 40%;
         border-radius: 10px;
     }
 
     .admission-container{
-        width: 60%;
+        width: 70%;
         height: auto;
         border: #000 solid 1px;
         border-radius: 10px;
         text-align: left;
         display: flex;
-        margin-left: 20%;
+        margin-left: 15%;
         padding: 20px;
     }
 
@@ -110,7 +115,7 @@ body {
         border-radius: 10px;
         text-align: left;
         display: flex;
-        margin-left: 20%;
+        margin-left: 15%;
         padding: 20px;
     }
 
@@ -120,7 +125,7 @@ body {
     }
     
     .Accessibility-container{
-        width: 38%;
+        width: 48%;
         height: auto;
         border: #000 solid 1px;
         border-radius: 10px;
@@ -136,13 +141,13 @@ body {
     }
 
     .shop-container{
-        width: 60%;
+        width: 70%;
         height: auto;
         border: #000 solid 1px;
         border-radius: 10px;
         text-align: left;
         display: flex;
-        margin-left: 20%;
+        margin-left: 15%;
         padding: 20px;
     }
 
@@ -152,13 +157,13 @@ body {
     }
 
     .food-containter{
-        width: 60%;
+        width: 70%;
         height: auto;
         border: #000 solid 1px;
         border-radius: 10px;
         text-align: left;
         display: flex;
-        margin-left: 20%;
+        margin-left: 15%;
         padding: 20px;
     }
 
@@ -170,7 +175,7 @@ body {
     .food-image{
         width: 40%;
         height: auto;
-        margin-left: 35%;
+        margin-left: 40%;
         border-radius: 10px;
     }
 }
@@ -208,6 +213,7 @@ body {
         /* background-color: aqua; */
         text-align: center;
         margin-top: 2%;
+        margin-bottom: 10%;
     
     }
     
@@ -368,11 +374,12 @@ body {
     }
     
     .middle-section{
-        width: 90%;
+        width: 100%;
         height: auto;
         /* background-color: aqua; */
         text-align: center;
         margin-top: 2%;
+        margin-bottom: 10%;
     
     }
     
@@ -391,13 +398,13 @@ body {
     }
 
     .location-containter{
-        width: 70%;
+        width: 90%;
         height: auto;
         border: #000 solid 1px;
         border-radius: 10px;
         text-align: left;
         display: flex;
-        margin-left: 15%;
+        margin-left: 3%;
         padding: 20px;
     }
 
@@ -414,13 +421,13 @@ body {
     }
 
     .admission-container{
-        width: 70%;
+        width: 90%;
         height: auto;
         border: #000 solid 1px;
         border-radius: 10px;
         text-align: left;
         display: flex;
-        margin-left: 15%;
+        margin-left: 3%;
         padding: 20px;
     }
 
@@ -434,13 +441,13 @@ body {
     }
  
     .hours-container{
-        width: 20%;
+        width: 30%;
         height: auto;
         border: #000 solid 1px;
         border-radius: 10px;
         text-align: left;
         display: flex;
-        margin-left: 15%;
+        margin-left: 3%;
         padding: 20px;
     }
 
@@ -450,7 +457,7 @@ body {
     }
     
     .Accessibility-container{
-        width: 48%;
+        width: 58%;
         height: auto;
         border: #000 solid 1px;
         border-radius: 10px;
@@ -466,13 +473,13 @@ body {
     }
 
     .shop-container{
-        width: 70%;
+        width: 90%;
         height: auto;
         border: #000 solid 1px;
         border-radius: 10px;
         text-align: left;
         display: flex;
-        margin-left: 15%;
+        margin-left: 3%;
         padding: 20px;
     }
 
@@ -482,13 +489,13 @@ body {
     }
 
     .food-containter{
-        width: 70%;
+        width: 90%;
         height: auto;
         border: #000 solid 1px;
         border-radius: 10px;
         text-align: left;
         display: flex;
-        margin-left: 15%;
+        margin-left: 3%;
         padding: 20px;
     }
 
@@ -547,6 +554,7 @@ body {
         width: 5%;
         height: auto;
         float: right;
+        margin-bottom: 30%;
         /* background-color: red; */
     }
 
@@ -554,17 +562,16 @@ body {
     .visit-container{
         gap: 2%;
         display: grid;
-        width: 100%;
     }
 
     .location-containter{
-        width: 70%;
+        width: 90%;
         height: auto;
         border: #000 solid 1px;
         border-radius: 10px;
         text-align: left;
         display: flex;
-        margin-left: 15%;
+        margin-left: 5%;
         padding: 20px;
     }
 
@@ -576,18 +583,18 @@ body {
     .location-image{
         width: 40%;
         height: auto;
-        margin-left: 35%;
+        margin-left: 25%;
         border-radius: 10px;
     }
 
     .admission-container{
-        width: 70%;
+        width: 90%;
         height: auto;
         border: #000 solid 1px;
         border-radius: 10px;
         text-align: left;
         display: flex;
-        margin-left: 15%;
+        margin-left: 5%;
         padding: 20px;
     }
 
@@ -597,17 +604,17 @@ body {
     }
 
     .hours-accessibility{
-        display: flex;
+        display: block;
     }
  
     .hours-container{
-        width: 20%;
+        width: 90%;
         height: auto;
         border: #000 solid 1px;
         border-radius: 10px;
         text-align: left;
         display: flex;
-        margin-left: 15%;
+        margin-left: 5%;
         padding: 20px;
     }
 
@@ -617,14 +624,15 @@ body {
     }
     
     .Accessibility-container{
-        width: 48%;
+        width: 90%;
         height: auto;
         border: #000 solid 1px;
         border-radius: 10px;
         text-align: left;
         display: flex;
-        margin-left: 2%;
+        margin-left: 5%;
         padding: 20px;
+        margin-top: 5%;
     }
 
     .text-Accessibility{
@@ -633,13 +641,13 @@ body {
     }
 
     .shop-container{
-        width: 70%;
+        width: 90%;
         height: auto;
         border: #000 solid 1px;
         border-radius: 10px;
         text-align: left;
         display: flex;
-        margin-left: 15%;
+        margin-left: 5%;
         padding: 20px;
     }
 
@@ -649,13 +657,13 @@ body {
     }
 
     .food-containter{
-        width: 70%;
+        width: 90%;
         height: auto;
         border: #000 solid 1px;
         border-radius: 10px;
         text-align: left;
         display: flex;
-        margin-left: 15%;
+        margin-left: 5%;
         padding: 20px;
     }
 
@@ -667,7 +675,7 @@ body {
     .food-image{
         width: 40%;
         height: auto;
-        margin-left: 35%;
+        margin-left: 5%;
         border-radius: 10px;
     }
 }
@@ -713,7 +721,7 @@ body {
         width: 5%;
         height: auto;
         float: right;
-        margin-bottom: 20%;
+        margin-bottom: 30%;
         /* background-color: red; */
     }
 
@@ -729,7 +737,7 @@ body {
         border: #000 solid 1px;
         border-radius: 10px;
         text-align: left;
-        display: flex;
+        display: grid;
         margin-left: 5%;
         padding: 20px;
     }
@@ -740,9 +748,8 @@ body {
     }
 
     .location-image{
-        width: 50%;
+        width: 100%;
         height: auto;
-        margin-left: 10%;
         border-radius: 10px;
     }
 
@@ -821,7 +828,7 @@ body {
         border: #000 solid 1px;
         border-radius: 10px;
         text-align: left;
-        display: flex;
+        display: grid;
         margin-left: 5%;
         padding: 20px;
     }
@@ -832,9 +839,8 @@ body {
     }
     
     .food-image{
-        width: 50%;
+        width: 100%;
         height: auto;
-        margin-left: 10%;
         border-radius: 10px;
     }
 }
@@ -879,7 +885,7 @@ body {
         width: 5%;
         height: auto;
         float: right;
-        margin-bottom: 20%;
+        margin-bottom: 40%;
         /* background-color: red; */
     }
 
@@ -895,7 +901,7 @@ body {
         border: #000 solid 1px;
         border-radius: 10px;
         text-align: left;
-        display: flex;
+        display: grid;
         margin-left: 5%;
         padding: 20px;
     }
@@ -906,9 +912,8 @@ body {
     }
 
     .location-image{
-        width: 50%;
+        width: 100%;
         height: auto;
-        margin-left: 10%;
         border-radius: 10px;
     }
 
@@ -987,7 +992,7 @@ body {
         border: #000 solid 1px;
         border-radius: 10px;
         text-align: left;
-        display: flex;
+        display: grid;
         margin-left: 5%;
         padding: 20px;
     }
@@ -998,9 +1003,8 @@ body {
     }
     
     .food-image{
-        width: 50%;
+        width: 100%;
         height: auto;
-        margin-left: 10%;
         border-radius: 10px;
     }
 }
