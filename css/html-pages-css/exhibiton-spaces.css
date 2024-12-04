@@ -62,9 +62,8 @@ body {
     width: 90%;
     height: auto;
     text-align: left;
-    display: flex;
     margin-left: 5%;
-    /* background-color: aquamarine; */
+    /* background-color: aquamarine;  */
     padding: 10px;
 }
 
@@ -72,15 +71,30 @@ body {
     display: grid;
 }
 
-.image{
-    width: 60%;
+.image-and-text{
+    width: 100%;
     height: auto;
-    margin-top: 5%;
+    /* background-color: blueviolet; */
+    display: flex;
+    gap: 5%;
+}
+
+.image{
+    width: 30%;
+    height: auto;
+   
 }
 
 .text-container{
-    margin-top: 8%;
+    margin-top: 2%;
     width: 100%;
+     /* background-color: brown;  */
+}
+
+.text-container-evolution{
+    margin-top: 2%;
+    width: 100%;
+    /* background-color: brown;   */
 }
 
 .evolution-images{
@@ -89,23 +103,17 @@ body {
 }
 
 .image-vr{
-    width: 20%;
+    width: 45%;
     height: auto;
 }
 
 .image-person-sitting{
-    width: 20%;
+    width: 45%;
     height: auto;
 }
 
 .evolution-images{
-    width: 100%;
-}
-
-.text-container-evolution{
-    margin-top: 8%;
-    background-color: red;
-    
+    width: 45%;
 }
 }
 
@@ -152,69 +160,63 @@ body {
     /* background-color: red; */
 }
 
-.exhibition-spaces-body{
-    display: flex;
-    margin-bottom: 5%;
-}
-
-.header1{
-    font-size: 2.2rem;
-}
-
-.header2{
-    font-size: 2rem;
-}
-
-.header3{
-    font-size: 1.5rem;
-    font-weight:normal;
-}
-
-.left-margin{
-width: 5%;
-height: auto;
-float: left;
-/* background-color: red; */
-}
-
-.middle-section{
-width: 90%;
-height: auto;
-/* background-color: aqua; */
-text-align: center;
-margin-top: 3%;
-
-}
-
-.right-margin{
-width: 5%;
-height: auto;
-float: right;
-/* background-color: red; */
-}
-
 .content-container{
-width: 90%;
-height: auto;
-text-align: left;
-display: flex;
-margin-left: 5%;
+    width: 90%;
+    height: auto;
+    text-align: left;
+    margin-left: 5%;
+    /* background-color: aquamarine;  */
+    padding: 10px;
 }
 
 .title-image{
-display: grid;
+    display: grid;
+}
+
+.image-and-text{
+    width: 100%;
+    height: auto;
+    /* background-color: blueviolet; */
+    display: flex;
+    gap: 5%;
 }
 
 .image{
-width: 60%;
-height: auto;
-margin-top: 5%;
+    width: 30%;
+    height: auto;
+   
 }
 
 .text-container{
-margin-top: 8%;
+    margin-top: 2%;
+    width: 100%;
+     /* background-color: brown;  */
 }
 
+.text-container-evolution{
+    margin-top: 2%;
+    width: 100%;
+    /* background-color: brown;   */
+}
+
+.evolution-images{
+    display: flex;
+    gap: 5%;
+}
+
+.image-vr{
+    width: 45%;
+    height: auto;
+}
+
+.image-person-sitting{
+    width: 45%;
+    height: auto;
+}
+
+.evolution-images{
+    width: 45%;
+}
 }
 
  /* Laptops, desktops */
@@ -264,22 +266,57 @@ margin-top: 8%;
     width: 90%;
     height: auto;
     text-align: left;
-    display: flex;
     margin-left: 5%;
+    /* background-color: aquamarine;  */
+    padding: 10px;
 }
 
 .title-image{
     display: grid;
 }
 
-.image{
-    width: 60%;
+.image-and-text{
+    width: 100%;
     height: auto;
-    margin-top: 5%;
+    /* background-color: blueviolet; */
+    display: flex;
+    gap: 5%;
+}
+
+.image{
+    width: 30%;
+    height: auto;
 }
 
 .text-container{
-    margin-top: 8%;
+    margin-top: 2%;
+    width: 100%;
+     /* background-color: brown;  */
+}
+
+.text-container-evolution{
+    margin-top: 2%;
+    width: 100%;
+    /* background-color: brown;   */
+}
+
+.evolution-images{
+    display: flex;
+    gap: 5%;
+}
+
+.image-vr{
+    width: 45%;
+    height: auto;
+}
+
+.image-person-sitting{
+    width: 45%;
+    height: auto;
+}
+
+.evolution-images{
+    width: 45%;
 }
 }
 
@@ -330,25 +367,60 @@ margin-top: 8%;
     width: 90%;
     height: auto;
     text-align: left;
-    display: flex;
     margin-left: 5%;
+    /* background-color: aquamarine;  */
+    padding: 10px;
 }
 
 .title-image{
     display: grid;
 }
 
-.image{
-    width: 60%;
+.image-and-text{
+    width: 100%;
     height: auto;
-    margin-top: 5%;
+    /* background-color: blueviolet; */
+    display: flex;
+    gap: 5%;
+}
+
+.image{
+    width: 30%;
+    height: auto;
+   
 }
 
 .text-container{
-    margin-top: 8%;
-}
+    margin-top: 2%;
+    width: 100%;
+     /* background-color: brown;  */
 }
 
+.text-container-evolution{
+    margin-top: 2%;
+    width: 100%;
+    /* background-color: brown;   */
+}
+
+.evolution-images{
+    display: flex;
+    gap: 5%;
+}
+
+.image-vr{
+    width: 45%;
+    height: auto;
+}
+
+.image-person-sitting{
+    width: 45%;
+    height: auto;
+}
+
+.evolution-images{
+    width: 45%;
+}
+}
 
    /* Mobile */
 @media (min-width: 481px) and (max-width: 767px) {
@@ -397,25 +469,59 @@ margin-top: 8%;
     width: 90%;
     height: auto;
     text-align: left;
-    display: flex;
     margin-left: 5%;
+    /* background-color: aquamarine;  */
+    padding: 10px;
 }
 
 .title-image{
     display: grid;
 }
 
-.image{
-    width: 60%;
+.image-and-text{
+    width: 100%;
     height: auto;
-    margin-top: 5%;
+    /* background-color: blueviolet; */
+    display: flex;
+    gap: 5%;
+}
+
+.image{
+    width: 30%;
+    height: auto;
 }
 
 .text-container{
-    margin-top: 8%;
-}
+    margin-top: 2%;
+    width: 100%;
+     /* background-color: brown;  */
 }
 
+.text-container-evolution{
+    margin-top: 2%;
+    width: 100%;
+    /* background-color: brown;   */
+}
+
+.evolution-images{
+    display: flex;
+    gap: 5%;
+}
+
+.image-vr{
+    width: 45%;
+    height: auto;
+}
+
+.image-person-sitting{
+    width: 45%;
+    height: auto;
+}
+
+.evolution-images{
+    width: 45%;
+}
+}
 /* smartphones */
 @media (min-width: 320px) and (max-width: 480px) {
     .exhibition-spaces-body{
@@ -463,21 +569,57 @@ margin-top: 8%;
     width: 90%;
     height: auto;
     text-align: left;
-    display: flex;
     margin-left: 5%;
+    /* background-color: aquamarine;  */
+    padding: 10px;
 }
 
 .title-image{
     display: grid;
 }
 
-.image{
-    width: 60%;
+.image-and-text{
+    width: 100%;
     height: auto;
-    margin-top: 5%;
+    /* background-color: blueviolet; */
+    display: flex;
+    gap: 5%;
+}
+
+.image{
+    width: 30%;
+    height: auto;
+   
 }
 
 .text-container{
-    margin-top: 8%;
+    margin-top: 2%;
+    width: 100%;
+     /* background-color: brown;  */
+}
+
+.text-container-evolution{
+    margin-top: 2%;
+    width: 100%;
+    /* background-color: brown;   */
+}
+
+.evolution-images{
+    display: flex;
+    gap: 5%;
+}
+
+.image-vr{
+    width: 45%;
+    height: auto;
+}
+
+.image-person-sitting{
+    width: 45%;
+    height: auto;
+}
+
+.evolution-images{
+    width: 45%;
 }
 }
