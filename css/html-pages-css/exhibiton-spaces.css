@@ -81,12 +81,13 @@ body {
 
 .image{
     width: 30%;
-    height: auto;
+    height: 30%;
+    margin-top: 5%;
    
 }
 
 .text-container{
-    margin-top: 2%;
+    margin-top: 5%;
     width: 100%;
      /* background-color: brown;  */
 }
@@ -114,6 +115,7 @@ body {
 
 .evolution-images{
     width: 45%;
+    height: 45%;
 }
 }
 
@@ -183,12 +185,13 @@ body {
 
 .image{
     width: 30%;
-    height: auto;
+    height: 30%;
+    margin-top: 5%;
    
 }
 
 .text-container{
-    margin-top: 2%;
+    margin-top: 5%;
     width: 100%;
      /* background-color: brown;  */
 }
@@ -216,6 +219,7 @@ body {
 
 .evolution-images{
     width: 45%;
+    height: 45%;
 }
 }
 
@@ -285,11 +289,13 @@ body {
 
 .image{
     width: 30%;
-    height: auto;
+    height: 30%;
+    margin-top: 5%;
+   
 }
 
 .text-container{
-    margin-top: 2%;
+    margin-top: 5%;
     width: 100%;
      /* background-color: brown;  */
 }
@@ -317,6 +323,7 @@ body {
 
 .evolution-images{
     width: 45%;
+    height: 45%;
 }
 }
 
@@ -380,13 +387,14 @@ body {
     width: 100%;
     height: auto;
     /* background-color: blueviolet; */
-    display: flex;
+    display: grid;
     gap: 5%;
 }
 
 .image{
-    width: 30%;
+    width: 80%;
     height: auto;
+    margin-left: 10%;
    
 }
 
@@ -408,17 +416,18 @@ body {
 }
 
 .image-vr{
-    width: 45%;
+    width: 80%;
     height: auto;
 }
 
 .image-person-sitting{
-    width: 45%;
+    width: 80%;
     height: auto;
 }
 
 .evolution-images{
     width: 45%;
+    margin-left: 10%;
 }
 }
 
@@ -482,13 +491,15 @@ body {
     width: 100%;
     height: auto;
     /* background-color: blueviolet; */
-    display: flex;
+    display: grid;
     gap: 5%;
 }
 
 .image{
-    width: 30%;
+    width: 80%;
     height: auto;
+    margin-left: 10%;
+   
 }
 
 .text-container{
@@ -509,19 +520,21 @@ body {
 }
 
 .image-vr{
-    width: 45%;
+    width: 80%;
     height: auto;
 }
 
 .image-person-sitting{
-    width: 45%;
+    width: 80%;
     height: auto;
 }
 
 .evolution-images{
     width: 45%;
+    margin-left: 10%;
 }
 }
+
 /* smartphones */
 @media (min-width: 320px) and (max-width: 480px) {
     .exhibition-spaces-body{
@@ -582,13 +595,14 @@ body {
     width: 100%;
     height: auto;
     /* background-color: blueviolet; */
-    display: flex;
+    display: grid;
     gap: 5%;
 }
 
 .image{
-    width: 30%;
+    width: 80%;
     height: auto;
+    margin-left: 10%;
    
 }
 
@@ -610,16 +624,17 @@ body {
 }
 
 .image-vr{
-    width: 45%;
+    width: 80%;
     height: auto;
 }
 
 .image-person-sitting{
-    width: 45%;
+    width: 80%;
     height: auto;
 }
 
 .evolution-images{
     width: 45%;
+    margin-left: 10%;
 }
 }
