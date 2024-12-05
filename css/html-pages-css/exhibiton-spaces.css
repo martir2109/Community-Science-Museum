@@ -28,6 +28,12 @@ body {
     
     .header2{
         font-size: 2rem;
+        border: 1px solid #000;
+        text-align: center;
+        padding: 10px;
+        color: #fff;
+        background-color: #1A4723;
+        border-radius: 30px;
     }
     
     .header3{
@@ -132,6 +138,12 @@ body {
     
     .header2{
         font-size: 2rem;
+        border: 1px solid #000;
+        text-align: center;
+        padding: 10px;
+        color: #fff;
+        background-color: #1A4723;
+        border-radius: 30px;
     }
     
     .header3{
@@ -232,10 +244,17 @@ body {
 
     .header1{
         font-size: 2.2rem;
+
     }
     
     .header2{
         font-size: 2rem;
+        border: 1px solid #000;
+        text-align: center;
+        padding: 10px;
+        color: #fff;
+        background-color: #1A4723;
+        border-radius: 30px;
     }
     
     .header3{
@@ -340,6 +359,13 @@ body {
     
     .header2{
         font-size: 2rem;
+        border: 1px solid #000;
+        text-align: center;
+        padding: 10px;
+        color: #fff;
+        background-color: #1A4723;
+        border-radius: 30px;
+
     }
     
     .header3{
@@ -444,6 +470,12 @@ body {
     
     .header2{
         font-size: 2rem;
+        border: 1px solid #000;
+        text-align: center;
+        padding: 10px;
+        color: #fff;
+        background-color: #1A4723;
+        border-radius: 30px;
     }
     
     .header3{
@@ -548,6 +580,12 @@ body {
     
     .header2{
         font-size: 2rem;
+        border: 1px solid #000;
+        text-align: center;
+        padding: 10px;
+        color: #fff;
+        background-color: #1A4723;
+        border-radius: 30px;
     }
     
     .header3{
