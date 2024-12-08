@@ -10,11 +10,16 @@ body {
     padding: 0;
 }
 
+.index-body{
+    margin-top: 100px;
+}
+
 /* larger screens */
 @media (min-width: 1463px){
     .index-body{
         display: flex;
         margin-bottom: 5%;
+       
     }
     
     .left-margin{
@@ -380,7 +385,7 @@ body {
     
 .index-body{
     display: flex;
-    margin-bottom: 5%;
+    margin-bottom: 5%;    
 }
 
 .left-margin{

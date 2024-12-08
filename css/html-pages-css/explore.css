@@ -19,6 +19,9 @@ body {
     
  }
 
+ .explore-body{
+    margin-top: 100px;
+}
 
 /* larger screens */
 @media (min-width: 1462px){
