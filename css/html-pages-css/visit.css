@@ -567,6 +567,7 @@ body {
     .visit-container{
         gap: 2%;
         display: grid;
+        margin-bottom: 100px;
     }
 
     .location-containter{
@@ -734,6 +735,7 @@ body {
     .visit-container{
         gap: 2%;
         display: grid;
+        margin-bottom: 200px;
     }
 
     .location-containter{
@@ -898,6 +900,7 @@ body {
     .visit-container{
         gap: 2%;
         display: grid;
+        margin-bottom: 250px;
     }
 
     .location-containter{
