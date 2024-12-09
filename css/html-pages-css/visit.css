@@ -803,7 +803,7 @@ body {
         display: flex;
         margin-left: 5%;
         padding: 20px;
-        margin-top: 5%;
+        margin-top: 50px;
     }
 
     .text-Accessibility{
@@ -940,6 +940,7 @@ body {
 
     .hours-accessibility{
         display: block;
+        gap: 8%
     }
  
     .hours-container{
@@ -967,7 +968,7 @@ body {
         display: flex;
         margin-left: 5%;
         padding: 20px;
-        margin-top: 5%;
+        margin-top: 50px;
     }
 
     .text-Accessibility{
