@@ -63,9 +63,6 @@ body {
     /* background-color: red; */
 }
 
-/* larger screens */
-@media (min-width: 1463px){
-
 .content-container{
     width: 90%;
     height: auto;
@@ -124,152 +121,10 @@ body {
 .evolution-images{
     width: 45%;
     height: 45%;
-}
-}
-
-/* Desktop */
-@media (min-width: 1281px) and (max-width: 1462px){
-
-.content-container{
-    width: 90%;
-    height: auto;
-    text-align: left;
-    margin-left: 5%;
-    /* background-color: aquamarine;  */
-    padding: 10px;
-}
-
-.title-image{
-    display: grid;
-}
-
-.image-and-text{
-    width: 100%;
-    height: auto;
-    /* background-color: blueviolet; */
-    display: flex;
-    gap: 5%;
-}
-
-.image{
-    width: 30%;
-    height: 30%;
-    margin-top: 5%;
-   
-}
-
-.text-container{
-    margin-top: 5%;
-    width: 100%;
-     /* background-color: brown;  */
-}
-
-.text-container-evolution{
-    margin-top: 2%;
-    width: 100%;
-    /* background-color: brown;   */
-}
-
-.evolution-images{
-    display: flex;
-    gap: 5%;
-}
-
-.image-vr{
-    width: 45%;
-    height: auto;
-}
-
-.image-person-sitting{
-    width: 45%;
-    height: auto;
-}
-
-.evolution-images{
-    width: 45%;
-    height: 45%;
-}
-}
-
- /* Laptops, desktops */
- @media (min-width: 1025px) and (max-width: 1280px) {
-
-.content-container{
-    width: 90%;
-    height: auto;
-    text-align: left;
-    margin-left: 5%;
-    /* background-color: aquamarine;  */
-    padding: 10px;
-}
-
-.title-image{
-    display: grid;
-}
-
-.image-and-text{
-    width: 100%;
-    height: auto;
-    /* background-color: blueviolet; */
-    display: flex;
-    gap: 5%;
-}
-
-.image{
-    width: 30%;
-    height: 30%;
-    margin-top: 5%;
-   
-}
-
-.text-container{
-    margin-top: 5%;
-    width: 100%;
-     /* background-color: brown;  */
-}
-
-.text-container-evolution{
-    margin-top: 2%;
-    width: 100%;
-    /* background-color: brown;   */
-}
-
-.evolution-images{
-    display: flex;
-    gap: 5%;
-}
-
-.image-vr{
-    width: 45%;
-    height: auto;
-}
-
-.image-person-sitting{
-    width: 45%;
-    height: auto;
-}
-
-.evolution-images{
-    width: 45%;
-    height: 45%;
-}
 }
 
    /* Tables, Ipads (portrait) */
    @media (min-width: 768px) and (max-width: 1024px) {
-
-.content-container{
-    width: 90%;
-    height: auto;
-    text-align: left;
-    margin-left: 5%;
-    /* background-color: aquamarine;  */
-    padding: 10px;
-}
-
-.title-image{
-    display: grid;
-}
 
 .image-and-text{
     width: 100%;
@@ -290,17 +145,6 @@ body {
     margin-top: 2%;
     width: 100%;
      /* background-color: brown;  */
-}
-
-.text-container-evolution{
-    margin-top: 2%;
-    width: 100%;
-    /* background-color: brown;   */
-}
-
-.evolution-images{
-    display: flex;
-    gap: 5%;
 }
 
 .image-vr{
@@ -322,19 +166,6 @@ body {
    /* Mobile */
 @media (min-width: 481px) and (max-width: 767px) {
 
-.content-container{
-    width: 90%;
-    height: auto;
-    text-align: left;
-    margin-left: 5%;
-    /* background-color: aquamarine;  */
-    padding: 10px;
-}
-
-.title-image{
-    display: grid;
-}
-
 .image-and-text{
     width: 100%;
     height: auto;
@@ -354,17 +185,6 @@ body {
     margin-top: 2%;
     width: 100%;
      /* background-color: brown;  */
-}
-
-.text-container-evolution{
-    margin-top: 2%;
-    width: 100%;
-    /* background-color: brown;   */
-}
-
-.evolution-images{
-    display: flex;
-    gap: 5%;
 }
 
 .image-vr{
@@ -386,42 +206,6 @@ body {
 /* smartphones */
 @media (min-width: 320px) and (max-width: 480px) {
 
-.left-margin{
-    width: 5%;
-    height: auto;
-    float: left;
-    /* background-color: red; */
-}
-
-.middle-section{
-    width: 90%;
-    height: auto;
-    /* background-color: aqua; */
-    text-align: center;
-    margin-top: 3%;
-
-}
-
-.right-margin{
-    width: 5%;
-    height: auto;
-    float: right;
-    /* background-color: red; */
-}
-
-.content-container{
-    width: 90%;
-    height: auto;
-    text-align: left;
-    margin-left: 5%;
-    /* background-color: aquamarine;  */
-    padding: 10px;
-}
-
-.title-image{
-    display: grid;
-}
-
 .image-and-text{
     width: 100%;
     height: auto;
@@ -433,25 +217,13 @@ body {
 .image{
     width: 80%;
     height: auto;
-    margin-left: 10%;
-   
+    margin-left: 10%;  
 }
 
 .text-container{
     margin-top: 2%;
     width: 100%;
      /* background-color: brown;  */
-}
-
-.text-container-evolution{
-    margin-top: 2%;
-    width: 100%;
-    /* background-color: brown;   */
-}
-
-.evolution-images{
-    display: flex;
-    gap: 5%;
 }
 
 .image-vr{
@@ -469,3 +241,42 @@ body {
     margin-left: 10%;
 }
 }
+
+
+@media (max-width: 319px) {
+    
+    .image-and-text{
+        width: 100%;
+        height: auto;
+        /* background-color: blueviolet; */
+        display: grid;
+        gap: 5%;
+    }
+    
+    .image{
+        width: 80%;
+        height: auto;
+        margin-left: 10%;
+    }
+    
+    .text-container{
+        margin-top: 2%;
+        width: 100%;
+         /* background-color: brown;  */
+    }
+   
+    .image-vr{
+        width: 80%;
+        height: auto;
+    }
+    
+    .image-person-sitting{
+        width: 80%;
+        height: auto;
+    }
+    
+    .evolution-images{
+        width: 45%;
+        margin-left: 10%;
+    }
+    }
