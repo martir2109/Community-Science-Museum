@@ -1,5 +1,4 @@
 *{
-
     font-family: "Roboto";
     box-sizing: inherit;
 }
@@ -12,27 +11,28 @@ body {
 
 .events-body{
     margin-top: 100px;
+    display: flex;
+    margin-bottom: 10%;
+    overflow: hidden;
 }
+
+.header1{
+    font-size: 2.2rem;
+    }
+    
+.header2{
+    font-size: 2rem;
+    }
+    
+.header3{
+    font-size: 1.5rem;
+    font-weight:normal;
+    }
 
 /*larger screens */
 @media (min-width: 1463px){
-    .events-body{
-        display: flex;
-        margin-bottom: 5%;
-    }
 
-    .header1{
-        font-size: 2.2rem;
-    }
-    
-    .header2{
-        font-size: 2rem;
-    }
-    
-    .header3{
-        font-size: 1.5rem;
-        font-weight:normal;
-    }
+
 .left-margin{
     width: 5%;
     height: auto;
@@ -85,23 +85,8 @@ body {
 
 /* Desktop */
 @media (min-width: 1281px) and (max-width: 1462px){
-    .events-body{
-        display: flex;
-        margin-bottom: 10%;
-    }
 
-    .header1{
-        font-size: 2.2rem;
-    }
-    
-    .header2{
-        font-size: 2rem;
-    }
-    
-    .header3{
-        font-size: 1.5rem;
-        font-weight:normal;
-    }
+
 .left-margin{
     width: 5%;
     height: auto;
@@ -153,23 +138,9 @@ body {
 
  /* Laptops, desktops */
  @media (min-width: 1025px) and (max-width: 1280px) {
-    .events-body{
-        display: flex;
-        margin-bottom: 10%;
-    }
+  
 
-    .header1{
-        font-size: 2.2rem;
-    }
-    
-    .header2{
-        font-size: 2rem;
-    }
-    
-    .header3{
-        font-size: 1.5rem;
-        font-weight:normal;
-    }
+   
 .left-margin{
     width: 5%;
     height: auto;
@@ -221,24 +192,8 @@ body {
 
    /* Tables, Ipads (portrait) */
    @media (min-width: 768px) and (max-width: 1024px) {
-    .events-body{
-        display: flex;
-        margin-bottom: 10%;
-        overflow: hidden;
-    }
 
-    .header1{
-        font-size: 2.2rem;
-    }
-    
-    .header2{
-        font-size: 2rem;
-    }
-    
-    .header3{
-        font-size: 1.5rem;
-        font-weight:normal;
-    }
+   
 .left-margin{
     width: 5%;
     height: auto;
@@ -291,24 +246,8 @@ body {
 
    /* Mobile */
 @media (min-width: 481px) and (max-width: 767px) {
-    .events-body{
-        display: flex;
-        margin-bottom: 10%;
-        overflow: hidden;
-    }
 
-    .header1{
-        font-size: 2.2rem;
-    }
-    
-    .header2{
-        font-size: 2rem;
-    }
-    
-    .header3{
-        font-size: 1.5rem;
-        font-weight:normal;
-    }
+
 .left-margin{
     width: 5%;
     height: auto;
@@ -361,24 +300,8 @@ body {
 
 /* smartphones */
 @media (min-width: 320px) and (max-width: 480px) {
-    .events-body{
-        display: flex;
-        margin-bottom: 10%;
-        overflow: hidden;
-    }
+  
 
-    .header1{
-        font-size: 2.2rem;
-    }
-    
-    .header2{
-        font-size: 2rem;
-    }
-    
-    .header3{
-        font-size: 1.5rem;
-        font-weight:normal;
-    }
 .left-margin{
     width: 5%;
     height: auto;
