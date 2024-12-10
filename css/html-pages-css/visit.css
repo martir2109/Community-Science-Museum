@@ -65,125 +65,118 @@ body {
     width: 100%;
 }
 
+.location-containter{
+    width: 70%;
+    height: auto;
+    border: #000 solid 1px;
+    border-radius: 10px;
+    text-align: left;
+    display: flex;
+    margin-left: 15%;
+    padding: 20px;
+}
 
-/* larger screens */
-@media (min-width: 1463px){
+.text-location{
+    text-align: left;
+    display: block;
+}
 
+.location-image{
+    width: 40%;
+    height: auto;
+    margin-left: 40%;
+    border-radius: 10px;
+}
 
+.admission-container{
+    width: 70%;
+    height: auto;
+    border: #000 solid 1px;
+    border-radius: 10px;
+    text-align: left;
+    display: flex;
+    margin-left: 15%;
+    padding: 20px;
+}
 
-    .location-containter{
-        width: 70%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: flex;
-        margin-left: 15%;
-        padding: 20px;
-    }
+.text-admission{
+    text-align: left;
+    display: block;
+}
 
-    .text-location{
-        text-align: left;
-        display: block;
-    }
+.hours-accessibility{
+    display: flex;
+}
 
-    .location-image{
-        width: 40%;
-        height: auto;
-        margin-left: 40%;
-        border-radius: 10px;
-    }
+.hours-container{
+    width: 20%;
+    height: auto;
+    border: #000 solid 1px;
+    border-radius: 10px;
+    text-align: left;
+    display: flex;
+    margin-left: 15%;
+    padding: 20px;
+}
 
-    .admission-container{
-        width: 70%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: flex;
-        margin-left: 15%;
-        padding: 20px;
-    }
+.text-hours{
+    text-align: left;
+    display: block;
+}
 
-    .text-admission{
-        text-align: left;
-        display: block;
-    }
+.Accessibility-container{
+    width: 48%;
+    height: auto;
+    border: #000 solid 1px;
+    border-radius: 10px;
+    text-align: left;
+    display: flex;
+    margin-left: 2%;
+    padding: 20px;
+}
 
-    .hours-accessibility{
-        display: flex;
-    }
- 
-    .hours-container{
-        width: 20%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: flex;
-        margin-left: 15%;
-        padding: 20px;
-    }
+.text-Accessibility{
+    text-align: left;
+    display: block;
+}
 
-    .text-hours{
-        text-align: left;
-        display: block;
-    }
-    
-    .Accessibility-container{
-        width: 48%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: flex;
-        margin-left: 2%;
-        padding: 20px;
-    }
+.shop-container{
+    width: 70%;
+    height: auto;
+    border: #000 solid 1px;
+    border-radius: 10px;
+    text-align: left;
+    display: flex;
+    margin-left: 15%;
+    padding: 20px;
+}
 
-    .text-Accessibility{
-        text-align: left;
-        display: block;
-    }
+.text-shop{
+    text-align: left;
+    display: block;
+}
 
-    .shop-container{
-        width: 70%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: flex;
-        margin-left: 15%;
-        padding: 20px;
-    }
+.food-containter{
+    width: 70%;
+    height: auto;
+    border: #000 solid 1px;
+    border-radius: 10px;
+    text-align: left;
+    display: flex;
+    margin-left: 15%;
+    padding: 20px;
+}
 
-    .text-shop{
-        text-align: left;
-        display: block;
-    }
+.text-food{
+    text-align: left;
+    display: block;
+}
 
-    .food-containter{
-        width: 70%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: flex;
-        margin-left: 15%;
-        padding: 20px;
-    }
-
-    .text-food{
-        text-align: left;
-        display: block;
-    }
-    
-    .food-image{
-        width: 40%;
-        height: auto;
-        margin-left: 40%;
-        border-radius: 10px;
-    }
+.food-image{
+    width: 40%;
+    height: auto;
+    margin-left: 40%;
+    border-radius: 10px;
 }
 
 /* Desktop */
