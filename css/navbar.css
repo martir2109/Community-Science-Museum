@@ -24,7 +24,7 @@ html{
     margin-left: 5px;
     width: 10%;
     height: 100%;
-    /* background-color: rebeccapurple;  */
+    /* background-color: rebeccapurple;   */
 }
 
 .navbar-logo{
@@ -33,17 +33,19 @@ html{
 }
 
 .navbar-middle{
-    width: 40%;
+    width: 60%;
     height: 100%;
-    /* background-color: aqua;  */
+    /* background-color: aqua;   */
    
 }
 
 .navbar-menu{
-    width: 50%;
+    width: 35%;
     height: 100%;
     /* background-color: red;  */
     float: right;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .navbar-menu a{
@@ -65,10 +67,9 @@ html{
 }
 
 .text-shown-navbar{
-    width: 80%;
+    width: 100%;
     height: auto;
-    /* background-color: red; */
-    margin-left: 250px;
+    /* margin-left: 250px; */
 }
 
 
@@ -134,12 +135,21 @@ html{
 }
 
 
-
-
 /* larger screens */
-@media (min-width: 1463px){
+@media (min-width: 1764px) {
     
     .navbar-items-responsive-home, .navbar-items-responsive-events, .navbar-items-responsive-visit, .navbar-items-responsive-explore{
+            display: none;
+        }
+    }
+
+/* larger screens */
+@media (min-width: 1463px) and (max-width: 1763px){
+    .explore-navbar-line{
+        display: none;
+        }
+    
+    .navbar-items-responsive-home, .navbar-items-responsive-events, .navbar-items-responsive-visit{
             display: none;
         }
     }
@@ -150,17 +160,23 @@ html{
 /* Desktop */
 @media (min-width: 1281px) and (max-width: 1462px){
 
-    .navbar-items-responsive-home, .navbar-items-responsive-events, .navbar-items-responsive-visit{
+    .navbar-items-responsive-home, .navbar-items-responsive-events{
             display: none;
-    }
-    
-    }
+    }    
+    .explore-navbar-line, .visit-navbar-line{
+        display: none;
+        }
+}
     
 
 
 
 /* Laptops, desktops */
 @media (min-width: 1025px) and (max-width: 1280px) {
+
+    .explore-navbar-line, .visit-navbar-line{
+        display: none;
+    }
 
     .navbar-items-responsive-home, .navbar-items-responsive-events{
         display: none;
@@ -173,7 +189,7 @@ html{
 /* Tables, Ipads (portrait) */
 @media (min-width: 768px) and (max-width: 1024px) {
     
-.events-navbar-line, .explore-navbar-line{
+.visit-navbar-line, .explore-navbar-line, .events-navbar-line{
     display: none;
 }
 
@@ -188,17 +204,64 @@ html{
   /* Mobile */
 @media (min-width: 481px) and (max-width: 767px) {
 
+
+    .bi-list{
+        color: #fff;
+        font-size: 5rem;
+        float: right;
+        cursor: pointer;
+    }
+
+    .drop-down{
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 390px;
+        height: auto;
+        background-color: #fff;
+        font-size: 1.625rem;
+        flex-direction: column;
+        justify-content: center;
+        display: flex;
+        z-index: 10;
+        border: #000 solid 1px;
+        text-align: left;
+    }
+
     .home-navbar-line, .events-navbar-line, .visit-navbar-line, .explore-navbar-line{
-    display: none;
-}
+        display: none;
+    }
     
   }
  
     /* smartphones */
     @media (min-width: 320px) and (max-width: 480px) {
      
-    .home-navbar-line, .events-navbar-line, .visit-navbar-line, .explore-navbar-line{
-    display: none;
+        .bi-list{
+            color: #fff;
+            font-size: 5rem;
+            float: right;
+            cursor: pointer;
+        }
+    
+        .drop-down{
+            position: absolute;
+            top: 60px;
+            right: 0;
+            width: 100%;
+            height: auto;
+            background-color: #fff;
+            font-size: 1.625rem;
+            flex-direction: column;
+            justify-content: center;
+            display: flex;
+            z-index: 10;
+            border: #000 solid 1px;
+            text-align: left;
+        }
+    
+        .home-navbar-line, .events-navbar-line, .visit-navbar-line, .explore-navbar-line{
+            display: none;
         }
     }
     
@@ -209,7 +272,6 @@ html{
         color: #fff;
         font-size: 5rem;
         float: right;
-        margin-right: 60%;
         cursor: pointer;
     }
 
