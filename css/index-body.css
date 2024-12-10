@@ -16,44 +16,44 @@ body {
     margin-bottom: 5%;
 }
 
+.left-margin{
+    width: 5%;
+    height: auto;
+    float: left;
+    /* background-color: red; */
+}
+
+.middle-section{
+    width: 90%;
+    height: auto;
+    /* background-color: aqua; */
+    text-align: center;
+    margin-top: 2%;
+}
+
+.right-margin{
+    width: 5%;
+    height: auto;
+    float: right;
+    /* background-color: red; */
+}
+
+.header1{
+    font-size: 2.2rem;
+}
+
+.header2{
+    font-size: 2rem;
+}
+
+.header3{
+    font-size: 1.5rem;
+    font-weight:normal;
+}
+
 /* larger screens */
 @media (min-width: 1463px){
  
-    .left-margin{
-        width: 5%;
-        height: auto;
-        float: left;
-        /* background-color: red; */
-    }
-    
-    .middle-section{
-        width: 90%;
-        height: auto;
-        /* background-color: aqua; */
-        text-align: center;
-        margin-top: 2%;
-    
-    }
-    
-    .right-margin{
-        width: 5%;
-        height: auto;
-        float: right;
-        /* background-color: red; */
-    }
-    
-    .header1{
-        font-size: 2.2rem;
-    }
-    
-    .header2{
-        font-size: 2rem;
-    }
-    
-    .header3{
-        font-size: 1.5rem;
-        font-weight:normal;
-    }
     .first-containter{
         display: block;
         float: left;
@@ -84,42 +84,6 @@ body {
 
 /* Desktop */
 @media (min-width: 1281px) and (max-width:1462px){
-
-.left-margin{
-    width: 5%;
-    height: auto;
-    float: left;
-    /* background-color: red; */
-}
-
-.middle-section{
-    width: 90%;
-    height: auto;
-    /* background-color: aqua; */
-    text-align: center;
-    margin-top: 2%;
-
-}
-
-.right-margin{
-    width: 5%;
-    height: auto;
-    float: right;
-    /* background-color: red; */
-}
-
-.header1{
-    font-size: 2.2rem;
-}
-
-.header2{
-    font-size: 2rem;
-}
-
-.header3{
-    font-size: 1.5rem;
-    font-weight:normal;
-}
 
 .first-containter{
     display: block;
@@ -152,31 +116,8 @@ body {
 
     
     
-    /* Laptops, desktops */
-    @media (min-width: 1025px) and (max-width: 1280px) {
-       
-
-.left-margin{
-    width: 5%;
-    height: auto;
-    float: left;
-    /* background-color: red; */
-}
-
-.middle-section{
-    width: 90%;
-    height: auto;
-    /* background-color: aqua; */
-    text-align: center;
-    margin-top: 2%;
-}
-
-.right-margin{
-    width: 5%;
-    height: auto;
-    float: right;
-    /* background-color: red; */
-}
+/* Laptops, desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
 
 .header1{
     font-size: 1.875rem;
@@ -220,32 +161,8 @@ body {
 
     
     
-    /* Tables, Ipads (portrait) */
-    @media (min-width: 768px) and (max-width: 1024px) {
-    
-
-.left-margin{
-    width: 5%;
-    height: auto;
-    float: left;
-    /* background-color: red; */
-}
-
-.middle-section{
-    width: 90%;
-    height: auto;
-    /* background-color: aqua; */
-    text-align: center;
-    margin-top: 2%;
-
-}
-
-.right-margin{
-    width: 5%;
-    height: auto;
-    float: right;
-    /* background-color: red; */
-}
+/* Tables, Ipads (portrait) */
+@media (min-width: 768px) and (max-width: 1024px) {
 
 .header1{
     font-size: 1.875rem;
@@ -291,30 +208,6 @@ body {
 /* Mobile */
 @media (min-width: 481px) and (max-width: 767px) {
 
-
-.left-margin{
-    width: 5%;
-    height: auto;
-    float: left;
-    /* background-color: red; */
-}
-
-.middle-section{
-    width: 90%;
-    height: auto;
-    /* background-color: aqua; */
-    text-align: center;
-    margin-top: 2%;
-
-}
-
-.right-margin{
-    width: 5%;
-    height: auto;
-    float: right;
-    /* background-color: red; */
-}
-
 .header1{
     font-size: 1.875rem;
 }
@@ -358,28 +251,6 @@ body {
     
 /* smartphones */
 @media (min-width: 320px) and (max-width: 480px) {
-      
-.left-margin{
-    width: 5%;
-    height: auto;
-    float: left;
-    /* background-color: red; */
-}
-
-.middle-section{
-    width: 90%;
-    height: auto;
-    /* background-color: aqua; */
-    text-align: center;
-    margin-top: 2%;
-
-}
-.right-margin{
-    width: 5%;
-    height: auto;
-    float: right;
-    /* background-color: red; */
-}
 
 .header1{
     font-size: 1.875rem;
@@ -423,28 +294,6 @@ body {
 
 
 @media (max-width: 319px){
-  
-       .left-margin{
-    width: 5%;
-    height: auto;
-    float: left;
-    /* background-color: red; */
-}
-
-.middle-section{
-    width: 90%;
-    height: auto;
-    /* background-color: aqua; */
-    text-align: center;
-    margin-top: 2%;
-
-}
-.right-margin{
-    width: 5%;
-    height: auto;
-    float: right;
-    /* background-color: red; */
-}
 
 .header1{
     font-size: 1.875rem;
