@@ -21,29 +21,28 @@ body {
 
  .get-involved-body{
     margin-top: 150px;
+    display: flex;
+    margin-bottom: 5%;
 }
+
+.header1{
+    font-size: 2.2rem;
+}
+
+.header2{
+    font-size: 2rem;
+    text-align: left;
+}
+
+.header3{
+    font-size: 1.5rem;
+    font-weight:normal;
+}
+
 
 /* larger screens */
 @media (min-width: 1463px){
-    .get-involved-body{
-        display: flex;
-        margin-bottom: 5%;
-     }
-    
-     .header1{
-        font-size: 2.2rem;
-    }
-    
-    .header2{
-        font-size: 2rem;
-        text-align: left;
-    }
-    
-    .header3{
-        font-size: 1.5rem;
-        font-weight:normal;
-    }
-    
+
     .left-margin{
         width: 5%;
         height: auto;
@@ -77,24 +76,6 @@ body {
 
 /* Desktop */
 @media (min-width: 1281px) and (max-width: 1462px){
-    .get-involved-body{
-        display: flex;
-        margin-bottom: 5%;
-     }
-    
-     .header1{
-        font-size: 2.2rem;
-    }
-    
-    .header2{
-        font-size: 2rem;
-        text-align: left;
-    }
-    
-    .header3{
-        font-size: 1.5rem;
-        font-weight:normal;
-    }
     
     .left-margin{
         width: 5%;
@@ -129,26 +110,7 @@ body {
 
  /* Laptops, desktops */
  @media (min-width: 1025px) and (max-width: 1280px) {
-    .get-involved-body{
-        display: flex;
-        margin-bottom: 5%;
-     }
-    
-     .header1{
-        font-size: 2.2rem;
-       
-    }
-    
-    .header2{
-        font-size: 2rem;
-        text-align: left;
-    }
-    
-    .header3{
-        font-size: 1.5rem;
-        font-weight:normal;
-    }
-    
+  
     .left-margin{
         width: 5%;
         height: auto;
@@ -183,25 +145,7 @@ body {
 
    /* Tables, Ipads (portrait) */
    @media (min-width: 768px) and (max-width: 1024px) {
-    .get-involved-body{
-        display: flex;
-        margin-bottom: 5%;
-     }
-    
-     .header1{
-        font-size: 2.2rem;
-    }
-    
-    .header2{
-        font-size: 2rem;
-        text-align: left;
-    }
-    
-    .header3{
-        font-size: 1.5rem;
-        font-weight:normal;
-    }
-    
+  
     .left-margin{
         width: 5%;
         height: auto;
@@ -236,25 +180,7 @@ body {
 
    /* Mobile */
 @media (min-width: 481px) and (max-width: 767px) {
-    .get-involved-body{
-        display: flex;
-        margin-bottom: 5%;
-     }
-    
-     .header1{
-        font-size: 2.2rem;
-    }
-    
-    .header2{
-        font-size: 2rem;
-        text-align: left;
-    }
-    
-    .header3{
-        font-size: 1.5rem;
-        font-weight:normal;
-    }
-    
+  
     .left-margin{
         width: 5%;
         height: auto;
@@ -288,25 +214,7 @@ body {
 
 /* smartphones */
 @media (min-width: 320px) and (max-width: 480px) {
-    .get-involved-body{
-        display: flex;
-        margin-bottom: 5%;
-     }
-    
-     .header1{
-        font-size: 2.2rem;
-    }
-    
-    .header2{
-        font-size: 2rem;
-        text-align: left;
-    }
-    
-    .header3{
-        font-size: 1.5rem;
-        font-weight:normal;
-    }
-    
+  
     .left-margin{
         width: 5%;
         height: auto;
