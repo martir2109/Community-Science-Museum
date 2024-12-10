@@ -201,7 +201,32 @@
     
 
     @media (max-width: 319px){
-        .home-navbar-line, .events-navbar-line, .visit-navbar-line, .explore-navbar-line{
-            display: none;
-                }
-            }
+
+    .bi-list{
+        color: #fff;
+        font-size: 5rem;
+        float: right;
+        margin-right: 60%;
+        cursor: pointer;
+    }
+
+    .drop-down{
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        height: auto;
+        background-color: #fff;
+        font-size: 1.625rem;
+        flex-direction: column;
+        justify-content: center;
+        display: flex;
+        z-index: 10;
+        border: #000 solid 1px;
+        text-align: left;
+    }
+
+    .home-navbar-line, .events-navbar-line, .visit-navbar-line, .explore-navbar-line{
+        display: none;
+    }
+}

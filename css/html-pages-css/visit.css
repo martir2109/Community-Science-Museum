@@ -42,31 +42,34 @@ body {
     /* background-color: red; */
 }
 
+.header1{
+    font-size: 2.2rem;
+}
+
+.header2{
+    font-size: 2rem;
+}
+
+.header3{
+    font-size: 1.5rem;
+    font-weight:normal;
+}
+
 .text{
    font-size: 1.375rem;
 }
 
+.visit-container{
+    gap: 2%;
+    display: grid;
+    width: 100%;
+}
+
+
 /* larger screens */
 @media (min-width: 1463px){
 
-    .header1{
-        font-size: 2.2rem;
-    }
-    
-    .header2{
-        font-size: 2rem;
-    }
-    
-    .header3{
-        font-size: 1.5rem;
-        font-weight:normal;
-    }
-  
-    .visit-container{
-        gap: 2%;
-        display: grid;
-        width: 100%;
-    }
+
 
     .location-containter{
         width: 70%;
@@ -185,25 +188,6 @@ body {
 
 /* Desktop */
 @media (min-width: 1281px) and (max-width:1462px){
-  
-    .header1{
-        font-size: 2.2rem;
-    }
-    
-    .header2{
-        font-size: 2rem;
-    }
-    
-    .header3{
-        font-size: 1.5rem;
-        font-weight:normal;
-    }
- 
-    .visit-container{
-        gap: 2%;
-        display: grid;
-        width: 100%;
-    }
 
     .location-containter{
         width: 70%;
@@ -322,27 +306,7 @@ body {
 
  /* Laptops, desktops */
  @media (min-width: 1025px) and (max-width: 1280px) {
-    
-    
-    .header1{
-        font-size: 2.2rem;
-    }
-    
-    .header2{
-        font-size: 2rem;
-    }
-    
-    .header3{
-        font-size: 1.5rem;
-        font-weight:normal;
-    }
    
-    .visit-container{
-        gap: 2%;
-        display: grid;
-        width: 100%;
-    }
-
     .location-containter{
         width: 90%;
         height: auto;
@@ -460,22 +424,7 @@ body {
 
    /* Tables, Ipads (portrait) */
    @media (min-width: 768px) and (max-width: 1024px) {
-   
-    
-    .header1{
-        font-size: 2.2rem;
-    }
-    
-    .header2{
-        font-size: 2rem;
-    }
-    
-    .header3{
-        font-size: 1.5rem;
-        font-weight:normal;
-    }
 
-   
     .visit-container{
         gap: 2%;
         display: grid;
@@ -601,20 +550,6 @@ body {
 
    /* Mobile */
 @media (min-width: 481px) and (max-width: 767px) {
-  
-    
-    .header1{
-        font-size: 2.2rem;
-    }
-    
-    .header2{
-        font-size: 2rem;
-    }
-    
-    .header3{
-        font-size: 1.5rem;
-        font-weight:normal;
-    }
 
     .visit-container{
         gap: 2%;
@@ -737,20 +672,130 @@ body {
 }
 
 /* smartphones */
+@media (max-width: 319px) {
+   
+    .visit-container{
+        gap: 2%;
+        display: grid;
+        margin-bottom: 250px;
+    }
+
+    .location-containter{
+        width: 90%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: grid;
+        margin-left: 5%;
+        padding: 20px;
+    }
+
+    .text-location{
+        text-align: left;
+        display: block;
+    }
+
+    .location-image{
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .admission-container{
+        width: 90%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 5%;
+        padding: 20px;
+    }
+
+    .text-admission{
+        text-align: left;
+        display: block;
+    }
+
+    .hours-accessibility{
+        display: block;
+        gap: 8%
+    }
+ 
+    .hours-container{
+        width: 90%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 5%;
+        padding: 20px;
+    }
+
+    .text-hours{
+        text-align: left;
+        display: block;
+    }
+    
+    .Accessibility-container{
+        width: 90%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 5%;
+        padding: 20px;
+        margin-top: 50px;
+    }
+
+    .text-Accessibility{
+        text-align: left;
+        display: block;
+    }
+
+    .shop-container{
+        width: 90%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 5%;
+        padding: 20px;
+    }
+
+    .text-shop{
+        text-align: left;
+        display: block;
+    }
+
+    .food-containter{
+        width: 90%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: grid;
+        margin-left: 5%;
+        padding: 20px;
+    }
+
+    .text-food{
+        text-align: left;
+        display: block;
+    }
+    
+    .food-image{
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
-  
-    .header1{
-        font-size: 2.2rem;
-    }
-    
-    .header2{
-        font-size: 2rem;
-    }
-    
-    .header3{
-        font-size: 1.5rem;
-        font-weight:normal;
-    }
    
     .visit-container{
         gap: 2%;
