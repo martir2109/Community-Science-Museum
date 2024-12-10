@@ -1,5 +1,8 @@
-*{
+html{
+    scroll-behavior: smooth;
+}
 
+*{
     font-family: "Roboto";
     box-sizing: inherit;
 }
@@ -148,6 +151,29 @@ body {
 
   }
 
+  .back-to-the-top-button{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+}
+
+.bi-arrow-up-circle-fill{
+    color: #1A4723;
+    font-size: 4rem;
+    display: inline-flex;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    transition: transform 0.3s ease;
+}
+
+.bi-arrow-up-circle-fill:hover{
+    color: #fff;
+    background-color: #1A4723;
+    border: 2px solid #1A4723;
+}
+
   /* Desktop */
 @media (min-width:1463px){
     .submit-button{
@@ -217,7 +243,6 @@ body {
     .form-content{
         margin-left: 1%;
         margin-top: 1%;
-
     }
     
     .submit-button{
@@ -232,6 +257,12 @@ body {
         margin-top: 5%;
     }
 
+    .back-to-the-top-button{
+        position: fixed;
+        bottom: 70px;
+        right: 30px;
+        cursor: pointer;
+    }
 }
 
 /* smartphones */
@@ -267,6 +298,12 @@ body {
         margin-top: 10%;
     }
 
+    .back-to-the-top-button{
+        position: fixed;
+        bottom: 70px;
+        right: 30px;
+        cursor: pointer;
+    }
 }
 
 
@@ -300,5 +337,10 @@ body {
         margin-left: 20%;
         margin-top: 10%;
     }
-
+    .back-to-the-top-button{
+        position: fixed;
+        bottom: 70px;
+        right: 30px;
+        cursor: pointer;
+    }
 }

@@ -1,5 +1,8 @@
-*{
+html{
+    scroll-behavior: smooth;
+}
 
+*{
     font-family: "Roboto";
     box-sizing: inherit;
 }
@@ -105,6 +108,29 @@ body {
     border-radius: 10px; 
 }
 
+.back-to-the-top-button{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+}
+
+.bi-arrow-up-circle-fill{
+    color: #1A4723;
+    font-size: 4rem;
+    display: inline-flex;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    transition: transform 0.3s ease;
+}
+
+.bi-arrow-up-circle-fill:hover{
+    color: #fff;
+    background-color: #1A4723;
+    border: 2px solid #1A4723;
+}
+
 
  /* Laptops, desktops */
  @media (min-width: 1025px) and (max-width: 1280px) {
@@ -155,6 +181,12 @@ body {
         margin-bottom: 10%;
         margin-left: 20%;
     }
+    .back-to-the-top-button{
+        position: fixed;
+        bottom: 70px;
+        right: 30px;
+        cursor: pointer;
+    }
 }
 
 /* smartphones */
@@ -174,6 +206,12 @@ body {
         margin-bottom: 10%;
         margin-left: 20%;
     }
+    .back-to-the-top-button{
+        position: fixed;
+        bottom: 70px;
+        right: 30px;
+        cursor: pointer;
+    }
 }
 
     /* smartphones */
@@ -192,5 +230,11 @@ body {
         height: auto;
         margin-bottom: 10%;
         margin-left: 20%;
+    }
+    .back-to-the-top-button{
+        position: fixed;
+        bottom: 70px;
+        right: 30px;
+        cursor: pointer;
     }
 }

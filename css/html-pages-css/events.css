@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     font-family: "Roboto";
     box-sizing: inherit;
@@ -75,6 +79,29 @@ body {
     font-size: 5rem;;
 }
 
+.back-to-the-top-button{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+}
+
+.bi-arrow-up-circle-fill{
+    color: #1A4723;
+    font-size: 4rem;
+    display: inline-flex;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    transition: transform 0.3s ease;
+}
+
+.bi-arrow-up-circle-fill:hover{
+    color: #fff;
+    background-color: #1A4723;
+    border: 2px solid #1A4723;
+}
+
    /* Tables, Ipads (portrait) */
    @media (min-width: 768px) and (max-width: 1024px) {
 
@@ -115,6 +142,13 @@ body {
     border-radius: 10px;
     padding: 20px;
     }
+    
+    .back-to-the-top-button{
+        position: fixed;
+        bottom: 70px;
+        right: 30px;
+        cursor: pointer;
+    }
 }
 
 /* smartphones */
@@ -135,6 +169,13 @@ body {
     border-radius: 10px;
     padding: 20px;
     }
+
+    .back-to-the-top-button{
+        position: fixed;
+        bottom: 70px;
+        right: 30px;
+        cursor: pointer;
+    }
 }
 
 @media (max-width: 319px){
@@ -153,5 +194,12 @@ body {
         border: #000 solid 1px;
         border-radius: 10px;
         padding: 20px;
+        }
+
+        .back-to-the-top-button{
+            position: fixed;
+            bottom: 70px;
+            right: 30px;
+            cursor: pointer;
         }
     }

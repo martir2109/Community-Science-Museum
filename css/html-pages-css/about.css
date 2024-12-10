@@ -1,5 +1,8 @@
-*{
+html{
+    scroll-behavior: smooth;
+}
 
+*{
     font-family: "Roboto";
     box-sizing: inherit;
 }
@@ -61,4 +64,59 @@ body {
     margin-left: 10%;
     margin-top: 10%;
 
+}
+
+.back-to-the-top-button{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+}
+
+.bi-arrow-up-circle-fill{
+    color: #1A4723;
+    font-size: 4rem;
+    display: inline-flex;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    transition: transform 0.3s ease;
+}
+
+.bi-arrow-up-circle-fill:hover{
+    color: #fff;
+    background-color: #1A4723;
+    border: 2px solid #1A4723;
+}
+
+   /* Mobile */
+   @media (min-width: 481px) and (max-width: 767px) {
+    
+    .back-to-the-top-button{
+        position: fixed;
+        bottom: 70px;
+        right: 30px;
+        cursor: pointer;
+    }
+}
+
+/* smartphones */
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .back-to-the-top-button{
+        position: fixed;
+        bottom: 70px;
+        right: 30px;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 319px) {
+
+    .back-to-the-top-button{
+        position: fixed;
+        bottom: 70px;
+        right: 30px;
+        cursor: pointer;
+    }
 }
