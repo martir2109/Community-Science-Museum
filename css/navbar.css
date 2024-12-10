@@ -42,7 +42,7 @@ html{
 .navbar-menu{
     width: 35%;
     height: 100%;
-    /* background-color: red;  */
+    /* background-color: red;   */
     float: right;
     display: flex;
     justify-content: flex-end;
@@ -69,9 +69,7 @@ html{
 .text-shown-navbar{
     width: 100%;
     height: auto;
-    /* margin-left: 250px; */
 }
-
 
 .bi-list{
     color: #fff;
