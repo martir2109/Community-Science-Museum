@@ -160,13 +160,14 @@ body {
     height: auto;
     margin-top: 10%;
     border-radius: 10px;
+    margin-left: 5%;
 }
 
 .paragraph{
     font-size: 1.375rem;
     width: 90%;
     text-align: center;
-    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 10%;
     }
 }
