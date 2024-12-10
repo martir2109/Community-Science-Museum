@@ -12,15 +12,13 @@ body {
 
 .contact-us-body{
     margin-top: 100px;
+    display: flex;
+    margin-bottom: 5%;
 }
 
 
 /* larger screens */
 @media (min-width: 1463px){
-    .contact-us-body{
-        display: flex;
-        margin-bottom: 5%;
-    }
     
     .header1{
         font-size: 2.5rem;
@@ -158,11 +156,7 @@ body {
 
 /* Desktop */
 @media (min-width: 1281px) and (max-width:1462px){
-    .contact-us-body{
-        display: flex;
-        margin-bottom: 5%;
-    }
-    
+  
     .header1{
         font-size: 2.5rem;
     }
@@ -299,10 +293,7 @@ body {
 
  /* Laptops, desktops */
  @media (min-width: 1025px) and (max-width: 1280px) {
-    .contact-us-body{
-        display: flex;
-        margin-bottom: 5%;
-    }
+  
     
     .header1{
         font-size: 2.5rem;
@@ -441,10 +432,7 @@ body {
 
    /* Tables, Ipads (portrait) */
    @media (min-width: 768px) and (max-width: 1024px) {
-    .contact-us-body{
-        display: flex;
-        margin-bottom: 5%;
-    }
+  
     
     .header1{
         font-size: 2.5rem;
@@ -582,10 +570,7 @@ body {
 
    /* Mobile */
 @media (min-width: 481px) and (max-width: 767px) {
-    .contact-us-body{
-        display: flex;
-        margin-bottom: 5%;
-    }
+  
     
     .header1{
         font-size: 2.5rem;
@@ -722,11 +707,7 @@ body {
 
 /* smartphones */
 @media (min-width: 320px) and (max-width: 480px) {
-    .contact-us-body{
-        display: flex;
-        margin-bottom: 5%;
-    }
-    
+   
     .header1{
         font-size: 2.5rem;
     }
