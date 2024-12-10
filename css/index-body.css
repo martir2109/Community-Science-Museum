@@ -64,7 +64,7 @@ body {
         width: 45%;
         height: auto;
         float: left;
-    
+        border-radius: 10px;
     }
     
     .paragraph{
@@ -131,7 +131,7 @@ body {
     width: 45%;
     height: auto;
     float: left;
-
+    border-radius: 10px;
 }
 
 .paragraph{
@@ -169,7 +169,6 @@ body {
     /* background-color: aqua; */
     text-align: center;
     margin-top: 2%;
-
 }
 
 .right-margin{
@@ -202,7 +201,7 @@ body {
     width: 45%;
     height: auto;
     float: left;
-
+    border-radius: 10px;
 }
 
 .paragraph{
@@ -271,7 +270,7 @@ body {
     width: 45%;
     height: auto;
     float: left;
-
+    border-radius: 10px;
 }
 
 .paragraph{
@@ -339,7 +338,7 @@ body {
     width: 90%;
     height: auto;
     margin-top: 10%;
-
+    border-radius: 10px;
 }
 
 .paragraph{
@@ -405,7 +404,7 @@ body {
     width: 90%;
     height: auto;
     margin-top: 10%;
-
+    border-radius: 10px;
 }
 
 .paragraph{
@@ -425,64 +424,64 @@ body {
 
 @media (max-width: 319px){
   
-    .left-margin{
-        width: 5%;
-        height: auto;
-        float: left;
-        /* background-color: red; */
-    }
-    
-    .middle-section{
-        width: 90%;
-        height: auto;
-        /* background-color: aqua; */
-        text-align: center;
-        margin-top: 2%;
-    
-    }
-    .right-margin{
-        width: 5%;
-        height: auto;
-        float: right;
-        /* background-color: red; */
-    }
-    
-    .header1{
-        font-size: 1.875rem;
-    }
-    
-    .header2{
-        font-size: 1.625rem;
-    }
-    
-    .header3{
-        font-size: 1.375rem;
-        font-weight:normal;
-    }
-    
-    
-    .first-containter{
-        display: block;
-        margin-top: 5%;
-    }
-    
-    .image-index{
-        width: 90%;
-        height: auto;
-        margin-top: 10%;
-    
-    }
-    
-    .paragraph{
-        font-size: 1.375rem;
-        width: 90%;
-        text-align: center;
-        margin-left: 5%;
-        margin-top: 10%;
-    }
-    
-    .second-containter{
-        display: block;
-        margin-top: 5%;
-    }
-    }
+       .left-margin{
+    width: 5%;
+    height: auto;
+    float: left;
+    /* background-color: red; */
+}
+
+.middle-section{
+    width: 90%;
+    height: auto;
+    /* background-color: aqua; */
+    text-align: center;
+    margin-top: 2%;
+
+}
+.right-margin{
+    width: 5%;
+    height: auto;
+    float: right;
+    /* background-color: red; */
+}
+
+.header1{
+    font-size: 1.875rem;
+}
+
+.header2{
+    font-size: 1.625rem;
+}
+
+.header3{
+    font-size: 1.375rem;
+    font-weight:normal;
+}
+
+
+.first-containter{
+    display: block;
+    margin-top: 5%;
+}
+
+.image-index{
+    width: 90%;
+    height: auto;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+
+.paragraph{
+    font-size: 1.375rem;
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.second-containter{
+    display: block;
+    margin-top: 5%;
+}
+}
