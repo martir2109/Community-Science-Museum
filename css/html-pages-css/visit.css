@@ -1,5 +1,4 @@
 *{
-
     font-family: "Roboto";
     box-sizing: inherit;
 }
@@ -312,11 +311,6 @@ body {
         margin-left: 5%;
         padding: 20px;
     }
-
-    .text-hours{
-        text-align: left;
-        display: block;
-    }
     
     .Accessibility-container{
         width: 90%;
@@ -330,11 +324,6 @@ body {
         margin-top: 5%;
     }
 
-    .text-Accessibility{
-        text-align: left;
-        display: block;
-    }
-
     .shop-container{
         width: 90%;
         height: auto;
@@ -344,11 +333,6 @@ body {
         display: flex;
         margin-left: 5%;
         padding: 20px;
-    }
-
-    .text-shop{
-        text-align: left;
-        display: block;
     }
 
     .food-containter{
@@ -361,13 +345,7 @@ body {
         margin-left: 5%;
         padding: 20px;
     }
-
-    .text-food{
-        text-align: left;
-        display: block;
-    }
 }
-
 
    /* Mobile */
 @media (min-width: 481px) and (max-width: 767px) {
@@ -389,11 +367,6 @@ body {
         padding: 20px;
     }
 
-    .text-location{
-        text-align: left;
-        display: block;
-    }
-
     .image{
         width: 100%;
         height: auto;
@@ -412,11 +385,6 @@ body {
         padding: 20px;
     }
 
-    .text-admission{
-        text-align: left;
-        display: block;
-    }
-
     .hours-accessibility{
         display: block;
     }
@@ -431,11 +399,6 @@ body {
         margin-left: 5%;
         padding: 20px;
     }
-
-    .text-hours{
-        text-align: left;
-        display: block;
-    }
     
     .Accessibility-container{
         width: 90%;
@@ -449,11 +412,6 @@ body {
         margin-top: 50px;
     }
 
-    .text-Accessibility{
-        text-align: left;
-        display: block;
-    }
-
     .shop-container{
         width: 90%;
         height: auto;
@@ -465,11 +423,6 @@ body {
         padding: 20px;
     }
 
-    .text-shop{
-        text-align: left;
-        display: block;
-    }
-
     .food-containter{
         width: 90%;
         height: auto;
@@ -479,130 +432,6 @@ body {
         display: grid;
         margin-left: 5%;
         padding: 20px;
-    }
-
-    .text-food{
-        text-align: left;
-        display: block;
-    }
-}
-
-/* smartphones */
-@media (max-width: 319px) {
-   
-    .visit-container{
-        gap: 2%;
-        display: grid;
-        margin-bottom: 250px;
-    }
-
-    .location-containter{
-        width: 90%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: grid;
-        margin-left: 5%;
-        padding: 20px;
-    }
-
-    .text-location{
-        text-align: left;
-        display: block;
-    }
-
-    .image{
-        width: 100%;
-        height: auto;
-        border-radius: 10px;
-        transform: translateX(-40%);
-    }
-
-    .admission-container{
-        width: 90%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: flex;
-        margin-left: 5%;
-        padding: 20px;
-    }
-
-    .text-admission{
-        text-align: left;
-        display: block;
-    }
-
-    .hours-accessibility{
-        display: block;
-        gap: 8%
-    }
- 
-    .hours-container{
-        width: 90%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: flex;
-        margin-left: 5%;
-        padding: 20px;
-    }
-
-    .text-hours{
-        text-align: left;
-        display: block;
-    }
-    
-    .Accessibility-container{
-        width: 90%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: flex;
-        margin-left: 5%;
-        padding: 20px;
-        margin-top: 50px;
-    }
-
-    .text-Accessibility{
-        text-align: left;
-        display: block;
-    }
-
-    .shop-container{
-        width: 90%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: flex;
-        margin-left: 5%;
-        padding: 20px;
-    }
-
-    .text-shop{
-        text-align: left;
-        display: block;
-    }
-
-    .food-containter{
-        width: 90%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: grid;
-        margin-left: 5%;
-        padding: 20px;
-    }
-
-    .text-food{
-        text-align: left;
-        display: block;
     }
 }
 
@@ -625,9 +454,92 @@ body {
         padding: 20px;
     }
 
-    .text-location{
+    .image{
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        transform: translateX(-40%);
+    }
+
+    .admission-container{
+        width: 90%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
         text-align: left;
+        display: flex;
+        margin-left: 5%;
+        padding: 20px;
+    }
+
+    .hours-accessibility{
         display: block;
+        gap: 8%
+    }
+ 
+    .hours-container{
+        width: 90%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 5%;
+        padding: 20px;
+    }
+    
+    .Accessibility-container{
+        width: 90%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 5%;
+        padding: 20px;
+        margin-top: 50px;
+    }
+
+    .shop-container{
+        width: 90%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: flex;
+        margin-left: 5%;
+        padding: 20px;
+    }
+
+    .food-containter{
+        width: 90%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: grid;
+        margin-left: 5%;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 319px) {
+   
+    .visit-container{
+        gap: 2%;
+        display: grid;
+        margin-bottom: 250px;
+    }
+
+    .location-containter{
+        width: 90%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        text-align: left;
+        display: grid;
+        margin-left: 5%;
+        padding: 20px;
     }
 
     .image{
@@ -648,11 +560,6 @@ body {
         padding: 20px;
     }
 
-    .text-admission{
-        text-align: left;
-        display: block;
-    }
-
     .hours-accessibility{
         display: block;
         gap: 8%
@@ -669,11 +576,6 @@ body {
         padding: 20px;
     }
 
-    .text-hours{
-        text-align: left;
-        display: block;
-    }
-    
     .Accessibility-container{
         width: 90%;
         height: auto;
@@ -684,11 +586,6 @@ body {
         margin-left: 5%;
         padding: 20px;
         margin-top: 50px;
-    }
-
-    .text-Accessibility{
-        text-align: left;
-        display: block;
     }
 
     .shop-container{
@@ -702,11 +599,6 @@ body {
         padding: 20px;
     }
 
-    .text-shop{
-        text-align: left;
-        display: block;
-    }
-
     .food-containter{
         width: 90%;
         height: auto;
@@ -716,10 +608,5 @@ body {
         display: grid;
         margin-left: 5%;
         padding: 20px;
-    }
-
-    .text-food{
-        text-align: left;
-        display: block;
     }
 }
