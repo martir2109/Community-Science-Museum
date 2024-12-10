@@ -182,111 +182,11 @@ body {
 /* Desktop */
 @media (min-width: 1281px) and (max-width:1462px){
 
-    .location-containter{
-        width: 70%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: flex;
-        margin-left: 15%;
-        padding: 20px;
-    }
-
-    .text-location{
-        text-align: left;
-        display: block;
-    }
-
     .location-image{
         width: 40%;
         height: auto;
         margin-left: 35%;
         border-radius: 10px;
-    }
-
-    .admission-container{
-        width: 70%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: flex;
-        margin-left: 15%;
-        padding: 20px;
-    }
-
-    .text-admission{
-        text-align: left;
-        display: block;
-    }
-
-    .hours-accessibility{
-        display: flex;
-    }
- 
-    .hours-container{
-        width: 20%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: flex;
-        margin-left: 15%;
-        padding: 20px;
-    }
-
-    .text-hours{
-        text-align: left;
-        display: block;
-    }
-    
-    .Accessibility-container{
-        width: 48%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: flex;
-        margin-left: 2%;
-        padding: 20px;
-    }
-
-    .text-Accessibility{
-        text-align: left;
-        display: block;
-    }
-
-    .shop-container{
-        width: 70%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: flex;
-        margin-left: 15%;
-        padding: 20px;
-    }
-
-    .text-shop{
-        text-align: left;
-        display: block;
-    }
-
-    .food-containter{
-        width: 70%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: flex;
-        margin-left: 15%;
-        padding: 20px;
-    }
-
-    .text-food{
-        text-align: left;
-        display: block;
     }
     
     .food-image{
@@ -311,11 +211,6 @@ body {
         padding: 20px;
     }
 
-    .text-location{
-        text-align: left;
-        display: block;
-    }
-
     .location-image{
         width: 40%;
         height: auto;
@@ -333,15 +228,6 @@ body {
         margin-left: 3%;
         padding: 20px;
     }
-
-    .text-admission{
-        text-align: left;
-        display: block;
-    }
-
-    .hours-accessibility{
-        display: flex;
-    }
  
     .hours-container{
         width: 30%;
@@ -352,11 +238,6 @@ body {
         display: flex;
         margin-left: 3%;
         padding: 20px;
-    }
-
-    .text-hours{
-        text-align: left;
-        display: block;
     }
     
     .Accessibility-container{
@@ -370,11 +251,6 @@ body {
         padding: 20px;
     }
 
-    .text-Accessibility{
-        text-align: left;
-        display: block;
-    }
-
     .shop-container{
         width: 90%;
         height: auto;
@@ -386,11 +262,6 @@ body {
         padding: 20px;
     }
 
-    .text-shop{
-        text-align: left;
-        display: block;
-    }
-
     .food-containter{
         width: 90%;
         height: auto;
@@ -400,11 +271,6 @@ body {
         display: flex;
         margin-left: 3%;
         padding: 20px;
-    }
-
-    .text-food{
-        text-align: left;
-        display: block;
     }
     
     .food-image{
@@ -435,11 +301,6 @@ body {
         padding: 20px;
     }
 
-    .text-location{
-        text-align: left;
-        display: block;
-    }
-
     .location-image{
         width: 40%;
         height: auto;
@@ -456,11 +317,6 @@ body {
         display: flex;
         margin-left: 5%;
         padding: 20px;
-    }
-
-    .text-admission{
-        text-align: left;
-        display: block;
     }
 
     .hours-accessibility{
@@ -570,6 +426,7 @@ body {
         width: 100%;
         height: auto;
         border-radius: 10px;
+        transform: translateX(-40%);
     }
 
     .admission-container{
@@ -661,6 +518,7 @@ body {
         width: 100%;
         height: auto;
         border-radius: 10px;
+        transform: translateX(-40%);
     }
 }
 
@@ -693,6 +551,7 @@ body {
         width: 100%;
         height: auto;
         border-radius: 10px;
+        transform: translateX(-40%);
     }
 
     .admission-container{
@@ -785,6 +644,7 @@ body {
         width: 100%;
         height: auto;
         border-radius: 10px;
+        transform: translateX(-40%);
     }
 }
 
@@ -816,6 +676,7 @@ body {
         width: 100%;
         height: auto;
         border-radius: 10px;
+        transform: translateX(-40%);
     }
 
     .admission-container{
@@ -908,5 +769,6 @@ body {
         width: 100%;
         height: auto;
         border-radius: 10px;
+        transform: translateX(-40%);
     }
 }
