@@ -16,321 +16,164 @@ body {
     margin-bottom: 5%;
 }
 
-
-/* larger screens */
-@media (min-width: 1463px){
-    
-    .header1{
-        font-size: 2.5rem;
-    }
-    
-    .header2{
-        font-size: 1.875rem;
-    }
-    
-    .header3{
-        font-size: 1.5rem;
-        font-weight: normal;
-    }
-    
-    .left-margin{
-        width: 5%;
-        height: auto;
-        float: left;
-        /* background-color: red;  */
-    }
-    
-    .middle-section{
-        width: 90%;
-        height: auto;
-        /* background-color: aqua;  */
-        text-align: center;
-        margin-top: 2%;
-    
-    }
-    
-    .right-margin{
-        width: 5%;
-        height: auto;
-        float: right;
-        /* background-color: red;  */
-    }
-    
-    .contact-form{
-        width: 80%;
-        height: 600px;
-        border: solid 1px #000;
-        border-radius: 10px;
-        margin-left: 6%;
-        padding: 20px;
-        text-align: left; 
-        margin-top: 1%;
-        margin-bottom: 1%;
-        margin-left: 10%;
-    }
-
-    .form-content{
-        margin-top: 1%;
-
-    }
-
-    .email-container{
-        height: 107px;
-    
-    }
-    
-    .topic-container{
-        height: 107px;
-        margin-top: 2%;
-    }
-    
-    .text-field-container{
-        height: 205px;
-        margin-top: 2%;
-    }
-    
-    .email{
-        width: 100%;
-        height: 71px;
-        border-radius: 10px;
-        display: block;
-        font-size: 1.5rem;
-        padding: 10px;
-    }
-    
-    .topic{
-        width: 100%;
-        height: 71px;
-        border-radius: 10px;
-        display: block;
-        font-size: 1.5rem;
-        padding: 10px;
-    }
-    
-    .text-field{
-        width: 100%;
-        height: 169px;
-        border-radius: 10px;
-        display: block;
-        font-size: 1.5rem;
-        padding: 10px;
-    }
-    
-    .submit-button{
-        width: 60%;
-        height: 58px;
-        font-size: 1.875rem;
-        border-radius: 10px;
-        background-color: #1A4723;
-        color: #fff;
-        border: none;
-        margin-left: 20%;
-        margin-top: 1%;
-    }
-    
-    .submit-button:hover{
-        background-color: #fff;
-        color: #1A4723;
-        border: #1A4723 solid 2px;
-    }
-    
-    .information{
-        width: 100%;
-        height: 270px;
-        padding: 10px;
-        background-color: #EFEDED;
-        text-align: center;
-        font-size: 1.5rem;
-    }
-
-    .label{
-        font-size: 1.5rem;
-    }
-
-    ::placeholder {
-        color: #959595;
-
-      }
-    
+.header1{
+    font-size: 2.2rem;
 }
+
+.header2{
+    font-size: 2rem;
+}
+
+.header3{
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.left-margin{
+    width: 5%;
+    height: auto;
+    float: left;
+    /* background-color: red;  */
+}
+
+.middle-section{
+    width: 90%;
+    height: auto;
+    /* background-color: aqua;  */
+    text-align: center;
+    margin-top: 2%;
+
+}
+
+.right-margin{
+    width: 5%;
+    height: auto;
+    float: right;
+    /* background-color: red;  */
+}
+
+.contact-form{
+    width: 60%;
+    height: 600px;
+    border: solid 1px #000;
+    border-radius: 10px;
+    margin-left: 6%;
+    padding: 20px;
+    text-align: left; 
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 20%;
+}
+
+.form-content{
+    margin-top: 1%;
+
+}
+
+.email-container{
+    height: 107px;
+
+}
+
+.topic-container{
+    height: 107px;
+    margin-top: 2%;
+}
+
+.text-field-container{
+    height: 205px;
+    margin-top: 2%;
+}
+
+.email{
+    width: 100%;
+    height: 71px;
+    border-radius: 10px;
+    display: block;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.topic{
+    width: 100%;
+    height: 71px;
+    border-radius: 10px;
+    display: block;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.text-field{
+    width: 100%;
+    height: 169px;
+    border-radius: 10px;
+    display: block;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.submit-button{
+    width: 60%;
+    height: 58px;
+    font-size: 1.875rem;
+    border-radius: 10px;
+    background-color: #1A4723;
+    color: #fff;
+    border: none;
+    margin-left: 20%;
+    margin-top: 1%;
+}
+
+.submit-button:hover{
+    background-color: #fff;
+    color: #1A4723;
+    border: #1A4723 solid 2px;
+}
+
+.information{
+    width: 100%;
+    height: 270px;
+    padding: 10px;
+    background-color: #EFEDED;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.label{
+    font-size: 1.5rem;
+}
+
+::placeholder {
+    color: #959595;
+
+  }
+
+  /* Desktop */
+@media (min-width:1463px){
+    .submit-button{
+        margin-top: 3%;
+    }
+}
+
 
 /* Desktop */
 @media (min-width: 1281px) and (max-width:1462px){
   
-    .header1{
-        font-size: 2.5rem;
-    }
-    
-    .header2{
-        font-size: 1.875rem;
-    }
-    
-    .header3{
-        font-size: 1.5rem;
-        font-weight: normal;
-    }
-    
-    .left-margin{
-        width: 5%;
-        height: auto;
-        float: left;
-        /* background-color: red;  */
-    }
-    
-    .middle-section{
-        width: 90%;
-        height: auto;
-        /* background-color: aqua;  */
-        text-align: center;
-        margin-top: 2%;
-    
-    }
-    
-    .right-margin{
-        width: 5%;
-        height: auto;
-        float: right;
-        /* background-color: red;  */
-    }
-    
-    .contact-form{
-        width: 80%;
-        height: 600px;
-        border: solid 1px #000;
-        border-radius: 10px;
-        margin-left: 6%;
-        padding: 20px;
-        text-align: left; 
-        margin-top: 1%;
-        margin-bottom: 1%;
-        margin-left: 10%;
-    }
-
-    .form-content{
-        margin-top: 1%;
-
-    }
-
-    .email-container{
-        height: 107px;
-    
-    }
-    
-    .topic-container{
-        height: 107px;
-        margin-top: 2%;
-    }
-    
-    .text-field-container{
-        height: 205px;
-        margin-top: 2%;
-    }
-    
-    .email{
-        width: 100%;
-        height: 71px;
-        border-radius: 10px;
-        display: block;
-        font-size: 1.5rem;
-        padding: 10px;
-    }
-    
-    .topic{
-        width: 100%;
-        height: 71px;
-        border-radius: 10px;
-        display: block;
-        font-size: 1.5rem;
-        padding: 10px;
-    }
-    
-    .text-field{
-        width: 100%;
-        height: 169px;
-        border-radius: 10px;
-        display: block;
-        font-size: 1.5rem;
-        padding: 10px;
-    }
-    
     .submit-button{
-        width: 60%;
-        height: 58px;
-        font-size: 1.875rem;
-        border-radius: 10px;
-        background-color: #1A4723;
-        color: #fff;
-        border: none;
-        margin-left: 20%;
         margin-top: 3%;
     }
-    
-    .submit-button:hover{
-        background-color: #fff;
-        color: #1A4723;
-        border: #1A4723 solid 2px;
-    }
-    
-    .information{
-        width: 100%;
-        height: 270px;
-        padding: 10px;
-        background-color: #EFEDED;
-        text-align: center;
-        font-size: 1.5rem;
-    }
-
-    .label{
-        font-size: 1.5rem;
-    }
-
-    ::placeholder {
-        color: #959595;
-
-      }
-    
 }
 
  /* Laptops, desktops */
  @media (min-width: 1025px) and (max-width: 1280px) {
-  
-    
-    .header1{
-        font-size: 2.5rem;
+
+    .submit-button{
+        margin-top: 3%;
     }
-    
-    .header2{
-        font-size: 1.875rem;
-    }
-    
-    .header3{
-        font-size: 1.5rem;
-        font-weight: normal;
-    }
-    
-    .left-margin{
-        width: 5%;
-        height: auto;
-        float: left;
-        /* background-color: red;  */
-    }
-    
-    .middle-section{
-        width: 90%;
-        height: auto;
-        /* background-color: aqua;  */
-        text-align: center;
-        margin-top: 2%;
-    
-    }
-    
-    .right-margin{
-        width: 5%;
-        height: auto;
-        float: right;
-        /* background-color: red;  */
-    }
-    
+}
+
+   /* Tables, Ipads (portrait) */
+   @media (min-width: 768px) and (max-width: 1024px) {
     .contact-form{
         width: 80%;
         height: 600px;
@@ -342,271 +185,22 @@ body {
         margin-top: 1%;
         margin-bottom: 1%;
         margin-left: 10%;
-    }
-
-    .form-content{
-        margin-top: 1%;
-
-    }
-
-    .email-container{
-        height: 107px;
-    
-    }
-    
-    .topic-container{
-        height: 107px;
-        margin-top: 2%;
-    }
-    
-    .text-field-container{
-        height: 205px;
-        margin-top: 2%;
-    }
-    
-    .email{
-        width: 100%;
-        height: 71px;
-        border-radius: 10px;
-        display: block;
-        font-size: 1.5rem;
-        padding: 10px;
-    }
-    
-    .topic{
-        width: 100%;
-        height: 71px;
-        border-radius: 10px;
-        display: block;
-        font-size: 1.5rem;
-        padding: 10px;
-    }
-    
-    .text-field{
-        width: 100%;
-        height: 169px;
-        border-radius: 10px;
-        display: block;
-        font-size: 1.5rem;
-        padding: 10px;
-    }
-    
-    .submit-button{
-        width: 60%;
-        height: 58px;
-        font-size: 1.875rem;
-        border-radius: 10px;
-        background-color: #1A4723;
-        color: #fff;
-        border: none;
-        margin-left: 20%;
-        margin-top: 3%;
-    }
-    
-    .submit-button:hover{
-        background-color: #fff;
-        color: #1A4723;
-        border: #1A4723 solid 2px;
-    }
-    
-    .information{
-        width: 100%;
-        height: 270px;
-        padding: 10px;
-        background-color: #EFEDED;
-        text-align: center;
-        font-size: 1.5rem;
-    }
-
-    .label{
-        font-size: 1.5rem;
-    }
-
-    ::placeholder {
-        color: #959595;
-
-      }
-    
-}
-
-
-   /* Tables, Ipads (portrait) */
-   @media (min-width: 768px) and (max-width: 1024px) {
-  
-    
-    .header1{
-        font-size: 2.5rem;
-    }
-    
-    .header2{
-        font-size: 1.875rem;
-    }
-    
-    .header3{
-        font-size: 1.5rem;
-        font-weight: normal;
-    }
-    
-    .left-margin{
-        width: 5%;
-        height: auto;
-        float: left;
-        /* background-color: red;  */
-    }
-    
-    .middle-section{
-        width: 90%;
-        height: auto;
-        /* background-color: aqua;  */
-        text-align: center;
-        margin-top: 2%;
-    
-    }
-    
-    .right-margin{
-        width: 5%;
-        height: auto;
-        float: right;
-        /* background-color: red;  */
-    }
-    
-    .contact-form{
-        width: 90%;
-        height: 590px;
-        border: solid 1px #000;
-        border-radius: 10px;
-        margin-left: 6%;
-        padding: 20px;
-        text-align: left; 
-        margin-top: 1%;
-        margin-bottom: 1%;
     }
 
     .form-content{
         margin-left: 1%;
         margin-top: 1%;
-
-    }
-
-    .email-container{
-        height: 107px;
-    
-    }
-    
-    .topic-container{
-        height: 107px;
-        margin-top: 2%;
-    }
-    
-    .text-field-container{
-        height: 205px;
-        margin-top: 2%;
-    }
-    
-    .email{
-        width: 100%;
-        height: 71px;
-        border-radius: 10px;
-        display: block;
-        font-size: 1.5rem;
-        padding: 10px;
-    }
-    
-    .topic{
-        width: 100%;
-        height: 71px;
-        border-radius: 10px;
-        display: block;
-        font-size: 1.5rem;
-        padding: 10px;
-    }
-    
-    .text-field{
-        width: 100%;
-        height: 169px;
-        border-radius: 10px;
-        display: block;
-        font-size: 1.5rem;
-        padding: 10px;
     }
     
     .submit-button{
-        width: 60%;
-        height: 58px;
-        font-size: 1.875rem;
-        border-radius: 10px;
-        background-color: #1A4723;
-        color: #fff;
-        border: none;
-        margin-left: 20%;
         margin-top: 3%;
     }
     
-    .submit-button:hover{
-        background-color: #fff;
-        color: #1A4723;
-        border: #1A4723 solid 2px;
-    }
-    
-    .information{
-        width: 100%;
-        height: 270px;
-        padding: 10px;
-        background-color: #EFEDED;
-        text-align: center;
-        font-size: 1.5rem;
-    }
-
-    .label{
-        font-size: 1.5rem;
-    }
-
-    ::placeholder {
-        color: #959595;
-
-      }
 }
 
 
    /* Mobile */
 @media (min-width: 481px) and (max-width: 767px) {
-  
-    
-    .header1{
-        font-size: 2.5rem;
-    }
-    
-    .header2{
-        font-size: 1.875rem;
-    }
-    
-    .header3{
-        font-size: 1.5rem;
-        font-weight: normal;
-    }
-    
-    .left-margin{
-        width: 5%;
-        height: auto;
-        float: left;
-        /* background-color: red;  */
-    }
-    
-    .middle-section{
-        width: 90%;
-        height: auto;
-        /* background-color: aqua;  */
-        text-align: center;
-        margin-top: 2%;
-    
-    }
-    
-    .right-margin{
-        width: 5%;
-        height: auto;
-        float: right;
-        /* background-color: red;  */
-    }
     
     .contact-form{
         width: 100%;
@@ -624,48 +218,6 @@ body {
         margin-left: 1%;
         margin-top: 1%;
 
-    }
-
-    .email-container{
-        height: 107px;
-    
-    }
-    
-    .topic-container{
-        height: 107px;
-        margin-top: 2%;
-    }
-    
-    .text-field-container{
-        height: 205px;
-        margin-top: 2%;
-    }
-    
-    .email{
-        width: 100%;
-        height: 71px;
-        border-radius: 10px;
-        display: block;
-        font-size: 1.5rem;
-        padding: 10px;
-    }
-    
-    .topic{
-        width: 100%;
-        height: 71px;
-        border-radius: 10px;
-        display: block;
-        font-size: 1.5rem;
-        padding: 10px;
-    }
-    
-    .text-field{
-        width: 100%;
-        height: 169px;
-        border-radius: 10px;
-        display: block;
-        font-size: 1.5rem;
-        padding: 10px;
     }
     
     .submit-button{
@@ -679,71 +231,12 @@ body {
         margin-left: 20%;
         margin-top: 5%;
     }
-    
-    .submit-button:hover{
-        background-color: #fff;
-        color: #1A4723;
-        border: #1A4723 solid 2px;
-    }
-    
-    .information{
-        width: 100%;
-        height: 270px;
-        padding: 10px;
-        background-color: #EFEDED;
-        text-align: center;
-        font-size: 1.5rem;
-    }
 
-    .label{
-        font-size: 1.5rem;
-    }
-
-    ::placeholder {
-        color: #959595;
-
-      }
 }
 
 /* smartphones */
 @media (min-width: 320px) and (max-width: 480px) {
-   
-    .header1{
-        font-size: 2.5rem;
-    }
-    
-    .header2{
-        font-size: 1.875rem;
-    }
-    
-    .header3{
-        font-size: 1.5rem;
-        font-weight: normal;
-    }
-    
-    .left-margin{
-        width: 5%;
-        height: auto;
-        float: left;
-        /* background-color: red;  */
-    }
-    
-    .middle-section{
-        width: 90%;
-        height: auto;
-        /* background-color: aqua;  */
-        text-align: center;
-        margin-top: 2%;
-    
-    }
-    
-    .right-margin{
-        width: 5%;
-        height: auto;
-        float: right;
-        /* background-color: red;  */
-    }
-    
+
     .contact-form{
         width: 100%;
         height: 590px;
@@ -761,48 +254,6 @@ body {
         margin-top: 1%;
 
     }
-
-    .email-container{
-        height: 107px;
-    
-    }
-    
-    .topic-container{
-        height: 107px;
-        margin-top: 2%;
-    }
-    
-    .text-field-container{
-        height: 205px;
-        margin-top: 2%;
-    }
-    
-    .email{
-        width: 100%;
-        height: 71px;
-        border-radius: 10px;
-        display: block;
-        font-size: 1.5rem;
-        padding: 10px;
-    }
-    
-    .topic{
-        width: 100%;
-        height: 71px;
-        border-radius: 10px;
-        display: block;
-        font-size: 1.5rem;
-        padding: 10px;
-    }
-    
-    .text-field{
-        width: 100%;
-        height: 169px;
-        border-radius: 10px;
-        display: block;
-        font-size: 1.5rem;
-        padding: 10px;
-    }
     
     .submit-button{
         width: 60%;
@@ -815,28 +266,5 @@ body {
         margin-left: 20%;
         margin-top: 10%;
     }
-    
-    .submit-button:hover{
-        background-color: #fff;
-        color: #1A4723;
-        border: #1A4723 solid 2px;
-    }
-    
-    .information{
-        width: 100%;
-        height: 270px;
-        padding: 10px;
-        background-color: #EFEDED;
-        text-align: center;
-        font-size: 1.5rem;
-    }
 
-    .label{
-        font-size: 1.5rem;
-    }
-
-    ::placeholder {
-        color: #959595;
-
-      }
 }
