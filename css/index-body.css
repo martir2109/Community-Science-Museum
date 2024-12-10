@@ -50,42 +50,7 @@ body {
     font-size: 1.5rem;
     font-weight:normal;
 }
-
-/* larger screens */
-@media (min-width: 1463px){
- 
-    .first-containter{
-        display: block;
-        float: left;
-        margin-top: 5%;
-    }
-    
-    .image-index{
-        width: 45%;
-        height: auto;
-        float: left;
-        border-radius: 10px;
-    }
-    
-    .paragraph{
-        font-size: 1.5rem;
-        float: right;
-        width: 50%;
-        text-align: left;
-        margin-top: 5%;
-    }
-    
-    .second-containter{
-        display: block;
-        margin-top: 5%;
-        float: left;
-    }
-    }
-
-/* Desktop */
-@media (min-width: 1281px) and (max-width:1462px){
-
-.first-containter{
+.containter{
     display: block;
     float: left;
     margin-top: 5%;
@@ -104,17 +69,7 @@ body {
     width: 50%;
     text-align: left;
     margin-top: 5%;
-}
-
-.second-containter{
-    display: block;
-    margin-top: 5%;
-    float: left;
-}
-}
-
-
-    
+}  
     
 /* Laptops, desktops */
 @media (min-width: 1025px) and (max-width: 1280px) {
@@ -131,12 +86,6 @@ body {
     font-size: 1.375rem;
     font-weight: normal;
 }
-    
-.first-containter{
-    display: block;
-    float: left;
-    margin-top: 5%;
-}
 
 .image-index{
     width: 45%;
@@ -150,17 +99,9 @@ body {
     float: right;
     width: 50%;
     text-align: left;
+    }
 }
 
-.second-containter{
-    display: block;
-    margin-top: 5%;
-    float: left;
-}
-}
-
-    
-    
 /* Tables, Ipads (portrait) */
 @media (min-width: 768px) and (max-width: 1024px) {
 
@@ -176,12 +117,6 @@ body {
     font-size: 1.375rem;
     font-weight: normal;
 }
-    
-.first-containter{
-    display: block;
-    float: left;
-    margin-top: 5%;
-}
 
 .image-index{
     width: 45%;
@@ -195,13 +130,7 @@ body {
     float: right;
     width: 50%;
     text-align: left;
-}
-
-.second-containter{
-    display: block;
-    margin-top: 5%;
-    float: left;
-}
+    }
 }
     
    
@@ -221,8 +150,7 @@ body {
     font-weight:normal;
 }
 
-
-.first-containter{
+.containter{
     display: block;
     margin-top: 5%;
 }
@@ -240,12 +168,7 @@ body {
     text-align: center;
     margin-left: 5%;
     margin-top: 10%;
-}
-
-.second-containter{
-    display: block;
-    margin-top: 5%;
-}
+    }
 }
     
     
@@ -266,7 +189,7 @@ body {
 }
 
 
-.first-containter{
+.containter{
     display: block;
     margin-top: 5%;
 }
@@ -284,12 +207,7 @@ body {
     text-align: center;
     margin-left: 5%;
     margin-top: 10%;
-}
-
-.second-containter{
-    display: block;
-    margin-top: 5%;
-}
+    }
 }
 
 
@@ -309,7 +227,7 @@ body {
 }
 
 
-.first-containter{
+.containter{
     display: block;
     margin-top: 5%;
 }
@@ -327,10 +245,5 @@ body {
     text-align: center;
     margin-left: 5%;
     margin-top: 10%;
-}
-
-.second-containter{
-    display: block;
-    margin-top: 5%;
-}
+    }
 }
