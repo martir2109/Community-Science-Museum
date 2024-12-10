@@ -81,7 +81,7 @@ body {
     display: block;
 }
 
-.location-image{
+.image{
     width: 40%;
     height: auto;
     margin-left: 40%;
@@ -172,24 +172,10 @@ body {
     display: block;
 }
 
-.food-image{
-    width: 40%;
-    height: auto;
-    margin-left: 40%;
-    border-radius: 10px;
-}
-
 /* Desktop */
 @media (min-width: 1281px) and (max-width:1462px){
 
-    .location-image{
-        width: 40%;
-        height: auto;
-        margin-left: 35%;
-        border-radius: 10px;
-    }
-    
-    .food-image{
+    .image{
         width: 40%;
         height: auto;
         margin-left: 35%;
@@ -211,7 +197,7 @@ body {
         padding: 20px;
     }
 
-    .location-image{
+    .image{
         width: 40%;
         height: auto;
         margin-left: 35%;
@@ -272,13 +258,6 @@ body {
         margin-left: 3%;
         padding: 20px;
     }
-    
-    .food-image{
-        width: 40%;
-        height: auto;
-        margin-left: 35%;
-        border-radius: 10px;
-    }
 }
 
    /* Tables, Ipads (portrait) */
@@ -301,7 +280,7 @@ body {
         padding: 20px;
     }
 
-    .location-image{
+    .image{
         width: 40%;
         height: auto;
         margin-left: 25%;
@@ -387,13 +366,6 @@ body {
         text-align: left;
         display: block;
     }
-    
-    .food-image{
-        width: 40%;
-        height: auto;
-        margin-left: 5%;
-        border-radius: 10px;
-    }
 }
 
 
@@ -422,7 +394,7 @@ body {
         display: block;
     }
 
-    .location-image{
+    .image{
         width: 100%;
         height: auto;
         border-radius: 10px;
@@ -512,13 +484,6 @@ body {
     .text-food{
         text-align: left;
         display: block;
-    }
-    
-    .food-image{
-        width: 100%;
-        height: auto;
-        border-radius: 10px;
-        transform: translateX(-40%);
     }
 }
 
@@ -547,7 +512,7 @@ body {
         display: block;
     }
 
-    .location-image{
+    .image{
         width: 100%;
         height: auto;
         border-radius: 10px;
@@ -638,13 +603,6 @@ body {
     .text-food{
         text-align: left;
         display: block;
-    }
-    
-    .food-image{
-        width: 100%;
-        height: auto;
-        border-radius: 10px;
-        transform: translateX(-40%);
     }
 }
 
@@ -672,7 +630,7 @@ body {
         display: block;
     }
 
-    .location-image{
+    .image{
         width: 100%;
         height: auto;
         border-radius: 10px;
@@ -763,12 +721,5 @@ body {
     .text-food{
         text-align: left;
         display: block;
-    }
-    
-    .food-image{
-        width: 100%;
-        height: auto;
-        border-radius: 10px;
-        transform: translateX(-40%);
     }
 }
