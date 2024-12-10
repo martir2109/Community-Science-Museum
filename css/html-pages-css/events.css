@@ -136,3 +136,22 @@ body {
     padding: 20px;
     }
 }
+
+@media (max-width: 319px){
+
+    .all-events-container{
+        width: 100%;
+        display: block;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    
+    .event{
+        width: 90%;
+        margin-bottom: 5%;
+        height: auto;
+        border: #000 solid 1px;
+        border-radius: 10px;
+        padding: 20px;
+        }
+    }

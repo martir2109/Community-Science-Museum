@@ -102,3 +102,13 @@ body {
         margin-top: 5%;
     }
 }
+
+@media (max-width: 319px) {
+
+    .get-involved-container{
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+}
