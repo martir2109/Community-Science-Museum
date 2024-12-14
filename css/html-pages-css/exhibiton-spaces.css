@@ -185,6 +185,7 @@ body {
 
 .evolution-images{
     width: 45%;
+    height: auto;
     margin-left: 10%;
 }
 }
@@ -226,6 +227,8 @@ body {
 .evolution-images{
     width: 45%;
     margin-left: 10%;
+    height: auto;
+
 }
 .back-to-the-top-button{
     position: fixed;
@@ -271,6 +274,8 @@ body {
 .evolution-images{
     width: 45%;
     margin-left: 10%;
+    height: auto;
+
 }
 .back-to-the-top-button{
     position: fixed;
@@ -316,6 +321,8 @@ body {
     .evolution-images{
         width: 45%;
         margin-left: 10%;
+        height: auto;
+
     }
     .back-to-the-top-button{
         position: fixed;
