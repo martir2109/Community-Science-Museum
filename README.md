@@ -1,7 +1,19 @@
 # Community Science Museum
+
 This is my Semester Project for November to Desember 2024.
 
+## Live website
+
+You can view the live project here: [martir2109.github.io/MartineKarlsen_portfolio/](https://martir2109.github.io/Community-Science-Museum/)
+
+## Website Preview
+
+Here is a screenshot of the live website:
+
+![Screenshot of my Community Science Museum website](images/screenshot/CommunityScienceMuseum.png "Community Science Website")
+
 # The Brief
+
 An interactive science museum called the Community Science Museum is opening in your town/city. Its core target audience is primary and middle school children (ages 7-15) and families with young children.
 
 The website should be informative and engaging, encouraging viewers to visit the museum. It should also be responsive and easy to use on various devices. Peer/Teacher review is recommended.
@@ -11,6 +23,7 @@ You have been provided with media assets such as text and images (see link under
 You have the choice to work on this individually or as part of a team of two.
 
 # Requirements
+
 - Plan the project using a project planning board
 - The site must have a design that appeals to the target audience.
 - The site must have at least 4-6 pages.
@@ -24,6 +37,7 @@ You have the choice to work on this individually or as part of a team of two.
 - Using the template provide, write a report discussing what went well, what did not go well in the development process
 
 # User Stories
+
 - As a developer, I want to plane the project using a project planning tool and keep it updated throughout the development process
 - As a visitor, I want the website to appeal to children so they feel encouraged to visit the museum with their families.
 - As a user, I want to browse through the deployed site without any issues.
@@ -35,25 +49,26 @@ You have the choice to work on this individually or as part of a team of two.
 - As a developer, I want the GitHub repository public to allow for collaboration and code review.
 
 # Submission Guidelines
+
 The following must be added in your PDF report (use the template provided) and submit on moodle
 
 - A live version link of the site
 - A link to the site’s prototype
 - A link to the project planning board and GitHub repository.
-Note: Resources and templates are provided under the project resources folder.
+  Note: Resources and templates are provided under the project resources folder.
 
 # Assignment Grading Tool - criteria
 
- - High-definition prototype for mobile and desktop (2 points)
- - UX/UI: Responsiveness and accessibility (2 point)
- - HTML is bug-free and semantic (2 points)
- - CSS follows DRY principles (2 points)
- - Website is responsive (4 points)
- - Each page has unique titles and descriptions (1 point)
- - Each page has a unique H1 (1 point)
- - Images are below 200kb (1 point)
- - Colors are WCAG compliant (1 point)
- - Images have alt text (1 point)
- - Project is well-organized and files are formatted (1 point)
- - Report includes lessons learned and challenges (1 point)
- - Project successfully planned and completed (1 point)
+- High-definition prototype for mobile and desktop (2 points)
+- UX/UI: Responsiveness and accessibility (2 point)
+- HTML is bug-free and semantic (2 points)
+- CSS follows DRY principles (2 points)
+- Website is responsive (4 points)
+- Each page has unique titles and descriptions (1 point)
+- Each page has a unique H1 (1 point)
+- Images are below 200kb (1 point)
+- Colors are WCAG compliant (1 point)
+- Images have alt text (1 point)
+- Project is well-organized and files are formatted (1 point)
+- Report includes lessons learned and challenges (1 point)
+- Project successfully planned and completed (1 point)
