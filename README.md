@@ -4,7 +4,7 @@ This is my Semester Project for November to Desember 2024.
 
 ## Live website
 
-You can view the live project here: [martir2109.github.io/MartineKarlsen_portfolio/](https://martir2109.github.io/Community-Science-Museum/)
+You can view the live project here: [martir2109.github.io/Community-Sciecne-Museum](https://martir2109.github.io/Community-Science-Museum/)
 
 ## Website Preview
 
