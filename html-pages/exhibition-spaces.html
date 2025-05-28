@@ -2,22 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="Exhibition spaces - Community Science Museum" />
+    <meta
+      name="description"
+      content="Exhibition spaces - Community Science Museum"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="keywords" content="exhibition spaces, exhibition, spaces" />
     <meta name="author" content="Martine Reppesgård Karlsen" />
 
-    <!-- Link to Font Awesome free icon kit -->
+    <!-- Link to CSS styleheets -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      type="text/css"
+      href="../css/html-pages-css/exhibiton-spaces.css"
     />
-
-    <!-- Link to CSS styleheets -->
-    <link rel="stylesheet" type="text/css" href="../css/html-pages-css/exhibiton-spaces.css" />
     <link rel="stylesheet" type="text/css" href="../css/footer.css" />
     <link rel="stylesheet" type="text/css" href="../css/navbar.css" />
-
+    <link rel="stylesheet" type="text/css" href="../css/stylesheet.css" />
 
     <!-- Bootstrap icons libary -->
     <link
@@ -26,168 +27,235 @@
     />
 
     <title>Exhibition spaces</title>
-
-    </head>
-    <body>
-        <nav class="navbar">
-            <a href="../index.html">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="topnav" id="myTopnav">
+          <a href="/index.html">
             <div class="navbar-logo-containter">
-                <img src="../images/Logos/logo-with-some-white-background.png" alt="Community Science Museum Logo with white background" class="navbar-logo">
+              <img
+                src="../images/Logos/logo-with-some-white-background.png"
+                alt="Community Science Museum Logo with white background"
+                class="navbar-logo"
+              />
             </div>
-            </a>
-            <div class="navbar-middle"></div>
-            <div class="navbar-menu">
-                <div class="text-shown-navbar">
-                <a href="../index.html" class="home-navbar-line">Home</a>
-                <a href="../html-pages/events.html" class="events-navbar-line">Events</a>
-                <a href="../html-pages/visit.html" class="visit-navbar-line">Visit</a>
-                <a href="../html-pages/explore.html" class="explore-navbar-line">Explore</a>
+          </a>
+          <div class="menu">
+            <a href="/index.html">Home</a>
+            <a href="../html-pages/events.html">Events</a>
+            <a href="../html-pages/visit.html">Visit</a>
+            <a href="../html-pages/explore.html">Explore</a>
+            <a href="../html-pages/exhibition-spaces.html" class="active"
+              >Exhibition Spaces</a
+            >
+          </div>
+          <div class="container" onclick="toggleNavbar(); toggleIcon(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="exhibition-spaces-main">
+      <section>
+        <h1>Exhibition spaces</h1>
+        <div class="content-container">
+          <h2 class="header2">
+            Cosmology <i class="bi bi-rocket-takeoff" role="none"></i>
+          </h2>
+          <div class="image-and-text">
+            <div class="image-container">
+              <img
+                src="../images/william-bout-264826.jpg"
+                alt="Image of a network structure"
+                class="image"
+              />
             </div>
+
+            <div class="text-container">
+              <p class="text">
+                Explore the wonders of our cosmos. Our fantastic exhibition,
+                ‘The Sky Above Us’, explores the night sky and what we can see
+                and know about the universe around us. We’ll locate the various
+                constellations and galaxies that can be seen and learn a bit
+                about the early navigators who used the stars to travel by.
+                <br />
+                <br />
+                Follow the journey of our solar exploration: from early Arab
+                traders, to Galileo’s telescope, to the latest exploration of
+                the planets in our solar system.
+              </p>
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
+
+        <div class="content-container">
+          <h2 class="header2">
+            Evolution <i class="bi bi-person-arms-up" role="none"></i>
+          </h2>
+          <div class="image-and-text">
+            <div class="evolution-images">
+              <img
+                src="../images/samuel-zeller-158996.jpg"
+                alt="Person with VR glasses on"
+                class="image-vr"
+              />
+              <img
+                src="../images/luke-ellis-craven-400722.jpg"
+                alt="Person sitting down in museum"
+                class="image-person-sitting"
+              />
             </div>
 
-               <div class="hamburger-menu-container">
-                <input title="checkbox" type="checkbox" id="check" class="checkbox" >
-                <label for="check" class="check-button">
-                    <i class="bi bi-list" aria-hidden="true" aria-label="button"></i></label>
-                <ul class="drop-down">
-                    <li class="navbar-items-responsive-home"> <a href="../index.html">Home</a></li>
-                    <li class="navbar-items-responsive-events"> <a href="../html-pages/events.html">Events</a></li>
-                    <li class="navbar-items-responsive-visit"> <a href="../html-pages/visit.html">Visit</a></li>
-                    <li class="navbar-items-responsive-explore"> <a href="../html-pages/explore.html">Explore</a></li>  
-               <li> <a href="../html-pages/exhibition-spaces.html">Exhibition Spaces</a></li>
-               <li> <a href="../html-pages/get-involved.html">Get involved</a></li>
-               <li> <a href="../html-pages/contact-us.html">Contact us</a></li>
-               <li> <a href="../html-pages/about.html">About</a></li>  
-                </ul>
+            <div class="text-container-evolution">
+              <p class="text">
+                For centuries, philosophers and scientists have wrestled with
+                the question of our origins. Where do we come from and how did
+                we get here? Since Darwin proposed his theory of evolution we
+                have had a framework for exploring and understanding our place
+                in this world.
+                <br />
+                <br />
+                Discover the origins of life on this planet and how the species
+                we know today have evolved our time. You can also take some time
+                to meet a few of the creatures who didn’t survive, including our
+                Woolly Mammoth, the Dodos, and a number of dinosaurs too.
+              </p>
             </div>
-        </nav>
-        <main class="exhibition-spaces-body">
-            <div class="left-margin"></div>
+          </div>
+        </div>
+        <br />
+        <br />
 
-            <section class="middle-section">
+        <div class="content-container">
+          <h2 class="header2">
+            Biology and Medicine <i class="bi bi-lungs" role="none"></i>
+          </h2>
+          <div class="image-and-text">
+            <div class="image-container">
+              <img
+                src="../images/heart-2607178_1920.jpg"
+                alt="Image of a heart"
+                class="image"
+              />
+            </div>
 
-                <h1 class="header1">Exhibition spaces</h1>
-                <div class="content-container">
-                    
-                    <h2 class="header2">Cosmology <i class="bi bi-rocket-takeoff" role="none"></i></h2>
-                    <div class="image-and-text">
-                    <img src="../images/william-bout-264826.jpg" alt="Image of a network structure" class="image">
-               
-                <div class="text-container">
-                    <p class="text">
-                        Explore the wonders of our cosmos. Our fantastic exhibition, ‘The Sky Above Us’, explores the night sky and what we can see and know about the universe around us. We’ll locate the various constellations and galaxies that can be seen and learn a bit about the early navigators who used the stars to travel by.
-                        <br>
-                        <br>
-                    Follow the journey of our solar exploration: from early Arab traders, to Galileo’s telescope, to the latest exploration of the planets in our solar system.
-                </p>
-                     </div>
-                 </div>
-                </div>
-                <br>
-                <br>
+            <div class="text-container">
+              <p class="text">
+                From micro-organisms to the human body, major breakthroughs in
+                biology are offering us unique insights into the great wonders
+                of the tiny world.
+                <br />
+                <br />
+                For many people their life expectancy is much longer and their
+                quality of life much improved, thanks to the growth of our
+                understanding of medicine.
+                <br />
+                <br />
+                Over a series of exhibits we explore the history of medicine and
+                take a look at some major breakthroughs including the discovery
+                of penicillin and the first heart transplant.
+                <br />
+                <br />
+                Many of our great medicinal discoveries have come not only from
+                the lab, but also from observing animals in the wild. Often our
+                fellow creatures have beat us to it.
+              </p>
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
 
+        <div class="content-container">
+          <h2 class="header2">
+            Robotics and AI <i class="bi bi-robot" role="none"></i>
+          </h2>
+          <div class="image-and-text">
+            <div class="image-container">
+              <img
+                src="../images/billetto-editorial-334686.jpg"
+                alt="Person with a VR headset on"
+                class="image"
+              />
+            </div>
 
-                <div class="content-container">
-                    
-                    <h2 class="header2">Evolution <i class="bi bi-person-arms-up" role="none"></i></h2>
-                    <div class="image-and-text">
-                        <div class="evolution-images">
-                            <img src="../images/samuel-zeller-158996.jpg" alt="Person with VR glasses on" class="image-vr">
-                            <img src="../images/luke-ellis-craven-400722.jpg" alt="Person sitting down in museum" class="image-person-sitting">
-                        </div>
-               
-                <div class="text-container-evolution">
-                    <p class="text">
-                        For centuries, philosophers and scientists have wrestled with the question of our origins. Where do we come from and how did we get here? Since Darwin proposed his theory of evolution we have had a framework for exploring and understanding our place in this world.
-                        <br>
-                        <br>
-                        Discover the origins of life on this planet and how the species we know today have evolved our time. You can also take some time to meet a few of the creatures who didn’t survive, including our Woolly Mammoth, the Dodos, and a number of dinosaurs too. 
-                    </p>
-                     </div>
-                 </div>
-                </div>
-                <br>
-                <br>
+            <div class="text-container">
+              <p class="text">
+                The information revolution is here and robotics and artificial
+                intelligence are the science of the future.
+                <br />
+                <br />
+                From useful home applications of AI to industrial uses of
+                robotics, the future is here. You can even say hello and shake
+                the hand of Rob the Robot.
+              </p>
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
 
+        <div class="content-container">
+          <h2 class="header2">
+            Ecology <i class="bi bi-globe-americas" role="none"></i>
+          </h2>
+          <div class="image-and-text">
+            <div class="image-container">
+              <img
+                src="../images/learn-2405206_1920.jpg"
+                alt="Image of a person and numbers"
+                class="image"
+              />
+            </div>
+            <div class="text-container">
+              <p class="text">
+                As we learn more and more of the impact humans are having on the
+                planet, the more important it becomes that scientists explore
+                how to create a sustainable future not just for humans but for
+                the whole planet.
+                <br />
+                <br />
+                In our ecology section of the museum, we unpack the dangers we
+                currently face including global warming, extinction of species,
+                and pollution. But we also focus on the positive ways we can all
+                contribute to a brighter future.
+              </p>
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
+      </section>
+    </main>
 
+    <footer>
+      <div class="footerLinks">
+        <a href="../html-pages/about.html">About</a>
+        <a href="../html-pages/get-involved.html">Get involded</a>
+        <a href="../html-pages/contact-us.html">Contact Us</a>
+      </div>
+      <img
+        src="../images/Logos/logo-with-some-white-background.png"
+        alt="Community Science Museum Logo with white background"
+        class="footer-logo"
+      />
+      <p class="footer-text">Community Science Museum © 2024</p>
+    </footer>
+    <!-- This button will allow the user to get back to the top by just clicking this button instead of having to scroll back to the top -->
+    <a
+      href="#"
+      class="back-to-the-top-button"
+      title="button"
+      aria-label="back-to-the-top-button"
+    >
+      <i class="bi bi-arrow-up-circle-fill"></i
+    ></a>
 
-                <div class="content-container">
-                    
-                    <h2 class="header2">Biology and Medicine <i class="bi bi-lungs" role="none"></i></h2>
-                    <div class="image-and-text">
-                        <img src="../images/heart-2607178_1920.jpg" alt="Image of a heart" class="image">
-               
-                <div class="text-container">
-                    <p class="text">
-                        From micro-organisms to the human body, major breakthroughs in biology are offering us unique insights into the great wonders of the tiny world.
-                        <br>
-                        <br>
-                        For many people their life expectancy is much longer and their quality of life much improved, thanks to the growth of our understanding of medicine. 
-                        <br>
-                        <br>
-                        Over a series of exhibits we explore the history of medicine and take a look at some major breakthroughs including the discovery of penicillin and the first heart transplant.
-                        <br>
-                        <br>
-                        Many of our great medicinal discoveries have come not only from the lab, but also from observing animals in the wild. Often our fellow creatures have beat us to it.
-                        </p>
-                     </div>
-                 </div>
-                </div>
-                <br>
-                <br>
-
-
-                <div class="content-container">
-                    
-                    <h2 class="header2">Robotics and AI <i class="bi bi-robot" role="none"></i></h2>
-                    <div class="image-and-text">
-                        <img src="../images/billetto-editorial-334686.jpg" alt="Person with a VR headset on" class="image">
-               
-                <div class="text-container">
-                    <p class="text">
-                        The information revolution is here and robotics and artificial intelligence are the science of the future. 
-                        <br>
-                        <br>
-                        From useful home applications of AI to industrial uses of robotics, the future is here. You can even say hello and shake the hand of Rob the Robot.
-                        </p>
-                     </div>
-                 </div>
-                </div>
-                <br>
-                <br>
-
-
-               
-                <div class="content-container">
-                    
-                    <h2 class="header2">Ecology <i class="bi bi-globe-americas" role="none"></i></h2>
-                    <div class="image-and-text">
-                        <img src="../images/learn-2405206_1920.jpg" alt="Image of a person and numbers" class="image">
-               
-                <div class="text-container">
-                    <p class="text">
-                        As we learn more and more of the impact humans are having on the planet, the more important it becomes that scientists explore how to create a sustainable future not just for humans but for the whole planet.
-                        <br>
-                        <br>
-                        In our ecology section of the museum, we unpack the dangers we currently face including global warming, extinction of species, and pollution. But we also focus on the positive ways we can all contribute to a brighter future.
-                       </p>
-                     </div>
-                 </div>
-                </div>
-                <br>
-                <br>
-            </section>
-
-                
-            <div class="right-margin"></div>
-        </main>
-       
-        <footer>
-            <img src="../images/Logos/logo-with-some-white-background.png" alt="Community Science Museum Logo with white background" class="footer-logo">
-            <p class="footer-text">Community Science Museum © 2024</p>
-
-        </footer>
-        <!-- This button will allow the user to get back to the top by just clicking this button instead of having to scroll back to the top -->
-        <a href="#" class="back-to-the-top-button" title="button" aria-label="back-to-the-top-button"> <i class="bi bi-arrow-up-circle-fill"></i></a>
-    </body>
-    </html>
+    <script src="../js/navbar.js"></script>
+  </body>
+</html>

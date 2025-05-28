@@ -1,122 +1,20 @@
-html{
-    scroll-behavior: smooth;
+.about-main {
+  display: flex;
+  margin-bottom: 5%;
+  text-align: center;
 }
 
-*{
-    font-family: "Roboto";
-    box-sizing: inherit;
+section {
+  width: 90%;
+  height: auto;
+  text-align: center;
+  margin-top: 50px;
 }
 
-body {
-    margin: 0;
-    box-sizing: border-box;
-    padding: 0;
-}
-
-.about-body{
-    margin-top: 150px;
-    display: flex;
-    margin-bottom: 5%;
-    text-align: center;
-    font-size: 1.375rem;
-}
-
-.header1{
-    font-size: 2.2rem;
-}
-
-.header2{
-    font-size: 2rem;
-}
-
-.header3{
-    font-size: 1.5rem;
-    font-weight:normal;
-}
-
-
-.left-margin{
-    width: 5%;
-    height: auto;
-    float: left;
-    /* background-color: red; */
-}
-
-.middle-section{
-    width: 90%;
-    height: auto;
-    /* background-color: aqua; */
-    text-align: center;
-
-}
-
-.right-margin{
-    width: 5%;
-    height: auto;
-    float: right;
-    /* background-color: red; */
-}
-
-.image-about{
-    width: 80%;
-    height: auto;
-    float: left;
-    margin-left: 10%;
-    margin-top: 10%;
-
-}
-
-.back-to-the-top-button{
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    cursor: pointer;
-}
-
-.bi-arrow-up-circle-fill{
-    color: #1A4723;
-    font-size: 4rem;
-    display: inline-flex;
-    background-color: #fff;
-    border-radius: 50%;
-    border: 2px solid #fff;
-    transition: transform 0.3s ease;
-}
-
-.bi-arrow-up-circle-fill:hover{
-    color: #fff;
-    background-color: #1A4723;
-    border: 2px solid #1A4723;
-}
-
-   /* Mobile */
-   @media (min-width: 481px) and (max-width: 767px) {
-    
-    .back-to-the-top-button{
-        position: fixed;
-        bottom: 70px;
-        right: 30px;
-        cursor: pointer;
-    }
-}
-
-/* smartphones */
-@media (min-width: 320px) and (max-width: 480px) {
-
-    .back-to-the-top-button{
-        position: fixed;
-        bottom: 70px;
-        right: 30px;
-        cursor: pointer;
-    }
-}
-
-@media (max-width: 319px) {
-
-    .back-to-the-top-button{
-        position: fixed;
-        bottom: 70px;
-        right: 30px;
-        cursor: pointer;
-    }
+.image-about {
+  width: 80%;
+  height: auto;
+  float: left;
+  margin-left: 10%;
+  margin-top: 10%;
 }

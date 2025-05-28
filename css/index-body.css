@@ -1,293 +1,46 @@
-html{
-    scroll-behavior: smooth;
+.index-main {
+  margin-top: 100px;
+  display: flex;
+  margin-bottom: 5%;
 }
 
-*{
-    font-family: "Roboto";
-    box-sizing: inherit;
+section {
+  width: 90%;
+  height: auto;
+  text-align: center;
+  margin-top: 50px;
 }
 
-body {
-    margin: 0;
-    box-sizing: border-box;
-    padding: 0;
+.info-containter {
+  display: block;
+  float: left;
+  margin-top: 5%;
 }
 
-.index-body{
-    margin-top: 100px;
-    display: flex;
-    margin-bottom: 5%;
+.image-index {
+  width: 45%;
+  height: auto;
+  float: left;
+  border-radius: 10px;
 }
 
-.left-margin{
-    width: 5%;
-    height: auto;
-    float: left;
-    /* background-color: red;  */
+.paragraph {
+  float: right;
+  width: 50%;
+  text-align: left;
+  margin-top: 5%;
 }
 
-.middle-section{
+@media screen and (max-width: 1024px) {
+  .image-index {
     width: 90%;
-    height: auto;
-    /* background-color: rgb(43, 91, 91);   */
-    text-align: center;
-    margin-top: 2%;
-}
-
-.right-margin{
-    width: 5%;
-    height: auto;
-    float: right;
-    /* background-color: red; */
-}
-
-.header1{
-    font-size: 2.2rem;
-}
-
-.header2{
-    font-size: 2rem;
-}
-
-.header3{
-    font-size: 1.5rem;
-    font-weight:normal;
-}
-.containter{
-    display: block;
-    float: left;
     margin-top: 5%;
-}
-
-.image-index{
-    width: 45%;
-    height: auto;
-    float: left;
-    border-radius: 10px;
-}
-
-.paragraph{
-    font-size: 1.5rem;
-    float: right;
-    width: 50%;
-    text-align: left;
-    margin-top: 5%;
-}  
-
-.back-to-the-top-button{
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    cursor: pointer;
-}
-
-.bi-arrow-up-circle-fill{
-    color: #1A4723;
-    font-size: 4rem;
-    display: inline-flex;
-    background-color: #fff;
-    border-radius: 50%;
-    border: 2px solid #fff;
-    transition: transform 0.3s ease;
-}
-
-.bi-arrow-up-circle-fill:hover{
-    color: #fff;
-    background-color: #1A4723;
-    border: 2px solid #1A4723;
-}
-    
-/* Laptops, desktops */
-@media (min-width: 1025px) and (max-width: 1280px) {
-
-.header1{
-    font-size: 1.875rem;
-}
-
-.header2{
-    font-size: 1.625rem;
-}
-
-.header3{
-    font-size: 1.375rem;
-    font-weight: normal;
-}
-
-.image-index{
-    width: 45%;
-    height: auto;
-    float: left;
-    border-radius: 10px;
-}
-
-.paragraph{
-    font-size: 1.2rem;
-    float: right;
-    width: 50%;
-    text-align: left;
-    }
-}
-
-/* Tables, Ipads (portrait) */
-@media (min-width: 768px) and (max-width: 1024px) {
-
-.header1{
-    font-size: 1.875rem;
-}
-
-.header2{
-    font-size: 1.625rem;
-}
-
-.header3{
-    font-size: 1.375rem;
-    font-weight: normal;
-}
-
-.image-index{
-    width: 45%;
-    height: auto;
-    float: left;
-    border-radius: 10px;
-}
-
-.paragraph{
-    font-size: 1rem;
-    float: right;
-    width: 50%;
-    text-align: left;
-    }
-}
-    
-   
-/* Mobile */
-@media (min-width: 481px) and (max-width: 767px) {
-
-.header1{
-    font-size: 1.875rem;
-}
-
-.header2{
-    font-size: 1.625rem;
-}
-
-.header3{
-    font-size: 1.375rem;
-    font-weight:normal;
-}
-
-.containter{
-    display: block;
-    margin-top: 5%;
-}
-
-.image-index{
-    width: 90%;
-    height: auto;
-    margin-top: 5%;
-    border-radius: 10px;
     margin-left: 5%;
-}
+  }
 
-.paragraph{
-    font-size: 1.375rem;
+  .paragraph {
     width: 90%;
-    text-align: center;
     margin-right: 5%;
     margin-top: 10%;
-    }
-}
-    
-    
-/* smartphones */
-@media (min-width: 320px) and (max-width: 480px) {
-
-.header1{
-    font-size: 1.875rem;
-}
-
-.header2{
-    font-size: 1.625rem;
-}
-
-.header3{
-    font-size: 1.375rem;
-    font-weight:normal;
-}
-
-
-.containter{
-    display: block;
-    margin-top: 5%;
-}
-
-.image-index{
-    width: 90%;
-    height: auto;
-    margin-top: 5%;
-    border-radius: 10px;
-    margin-left: 5%;
-}
-
-.paragraph{
-    font-size: 1.375rem;
-    width: 90%;
-    text-align: center;
-    margin-right: 5%;
-    margin-top: 10%;
-    }
-
-.back-to-the-top-button{
-    position: fixed;
-    bottom: 70px;
-    right: 30px;
-    cursor: pointer;
-}
-    
-}
-
-
-@media (max-width: 319px){
-
-.header1{
-    font-size: 1.875rem;
-}
-
-.header2{
-    font-size: 1.625rem;
-}
-
-.header3{
-    font-size: 1.375rem;
-    font-weight:normal;
-}
-
-
-.containter{
-    display: block;
-    margin-top: 5%;
-}
-
-.image-index{
-    width: 90%;
-    height: auto;
-    margin-top: 5%;
-    border-radius: 10px;
-    margin-left: 5%;
-}
-
-.paragraph{
-    font-size: 1.375rem;
-    width: 90%;
-    text-align: center;
-    margin-right: 5%;
-    margin-top: 10%;
-    }
-
-    .back-to-the-top-button{
-        position: fixed;
-        bottom: 70px;
-        right: 30px;
-        cursor: pointer;
-    }
+  }
 }

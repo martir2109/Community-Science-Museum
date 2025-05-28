@@ -1,333 +1,123 @@
-html{
-    scroll-behavior: smooth;
+.text {
+  font-size: 1.375rem;
+  text-align: left;
 }
 
-*{
-    font-family: "Roboto";
-    box-sizing: inherit;
+.exhibition-spaces-main {
+  display: flex;
+  margin-bottom: 5%;
 }
 
-body {
-    margin: 0;
-    box-sizing: border-box;
-    padding: 0;
+.header2 {
+  border: 1px solid var(--black);
+  text-align: center;
+  padding: 10px;
+  color: var(--white);
+  background-color: var(--primary);
+  border-radius: 30px;
 }
 
-.text{
-    font-size: 1.375rem;
-    text-align: left;
- }
-
- .exhibition-spaces-body{
-    margin-top: 100px;
-    display: flex;
-    margin-bottom: 5%;
+section {
+  width: 90%;
+  height: auto;
+  text-align: center;
+  margin-top: 3%;
 }
 
-.header1{
-    font-size: 2.2rem;
+.content-container {
+  width: 90%;
+  height: auto;
+  text-align: left;
+  margin-left: 5%;
+  padding: 10px;
 }
 
-.header2{
-    font-size: 2rem;
-    border: 1px solid #000;
-    text-align: center;
-    padding: 10px;
-    color: #fff;
-    background-color: #1A4723;
-    border-radius: 30px;
+.title-image {
+  display: grid;
 }
 
-.header3{
-    font-size: 1.5rem;
-    font-weight:normal;
+.image-and-text {
+  width: 100%;
+  height: auto;
+  display: flex;
+  gap: 50px;
 }
 
-.left-margin{
-    width: 5%;
-    height: auto;
-    float: left;
-    /* background-color: red; */
+.image-container {
+  width: 40%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
-.middle-section{
-    width: 90%;
-    height: auto;
-    /* background-color: aqua; */
-    text-align: center;
-    margin-top: 3%;
-
+.image {
+  width: 100%;
+  height: auto;
+  margin-top: 5%;
 }
 
-.right-margin{
-    width: 5%;
-    height: auto;
-    float: right;
-    /* background-color: red; */
+.text-container {
+  width: 100%;
 }
 
-.content-container{
-    width: 90%;
-    height: auto;
-    text-align: left;
-    margin-left: 5%;
-    /* background-color: aquamarine;  */
-    padding: 10px;
+.text-container-evolution {
+  margin-top: 2%;
+  width: 100%;
 }
 
-.title-image{
-    display: grid;
+.evolution-images {
+  display: flex;
+  gap: 5%;
 }
 
-.image-and-text{
+.image-vr {
+  width: 45%;
+  height: auto;
+}
+
+.image-person-sitting {
+  width: 45%;
+  height: auto;
+}
+
+.evolution-images {
+  width: 45%;
+  height: 45%;
+  margin-top: 50px;
+}
+
+/* Tables, Ipads (portrait) */
+@media screen and (max-width: 1024px) {
+  .image-container {
     width: 100%;
     height: auto;
-    /* background-color: blueviolet; */
-    display: flex;
-    gap: 5%;
-}
+  }
 
-.image{
-    width: 30%;
-    height: 30%;
-    margin-top: 5%;
-   
-}
-
-.text-container{
-    margin-top: 5%;
-    width: 100%;
-     /* background-color: brown;  */
-}
-
-.text-container-evolution{
-    margin-top: 2%;
-    width: 100%;
-    /* background-color: brown;   */
-}
-
-.evolution-images{
-    display: flex;
-    gap: 5%;
-}
-
-.image-vr{
-    width: 45%;
-    height: auto;
-}
-
-.image-person-sitting{
-    width: 45%;
-    height: auto;
-}
-
-.evolution-images{
-    width: 45%;
-    height: 45%;
-}
-
-.back-to-the-top-button{
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    cursor: pointer;
-}
-
-.bi-arrow-up-circle-fill{
-    color: #1A4723;
-    font-size: 4rem;
-    display: inline-flex;
-    background-color: #fff;
-    border-radius: 50%;
-    border: 2px solid #fff;
-    transition: transform 0.3s ease;
-}
-
-.bi-arrow-up-circle-fill:hover{
-    color: #fff;
-    background-color: #1A4723;
-    border: 2px solid #1A4723;
-}
-
-   /* Tables, Ipads (portrait) */
-   @media (min-width: 768px) and (max-width: 1024px) {
-
-.image-and-text{
+  .image-and-text {
     width: 100%;
     height: auto;
-    /* background-color: blueviolet; */
     display: grid;
     gap: 5%;
-}
+  }
 
-.image{
-    width: 80%;
-    height: auto;
-    margin-left: 10%;
-   
-}
-
-.text-container{
+  .text-container {
     margin-top: 2%;
-    width: 100%;
-     /* background-color: brown;  */
-}
+  }
 
-.image-vr{
+  .image-vr {
     width: 80%;
     height: auto;
-}
+  }
 
-.image-person-sitting{
+  .image-person-sitting {
     width: 80%;
     height: auto;
-}
+  }
 
-.evolution-images{
+  .evolution-images {
     width: 45%;
     height: auto;
     margin-left: 10%;
+  }
 }
-}
-
-   /* Mobile */
-@media (min-width: 481px) and (max-width: 767px) {
-
-.image-and-text{
-    width: 100%;
-    height: auto;
-    /* background-color: blueviolet; */
-    display: grid;
-    gap: 5%;
-}
-
-.image{
-    width: 80%;
-    height: auto;
-    margin-left: 10%;
-   
-}
-
-.text-container{
-    margin-top: 2%;
-    width: 100%;
-     /* background-color: brown;  */
-}
-
-.image-vr{
-    width: 80%;
-    height: auto;
-}
-
-.image-person-sitting{
-    width: 80%;
-    height: auto;
-}
-
-.evolution-images{
-    width: 45%;
-    margin-left: 10%;
-    height: auto;
-
-}
-.back-to-the-top-button{
-    position: fixed;
-    bottom: 70px;
-    right: 30px;
-    cursor: pointer;
-}
-}
-
-/* smartphones */
-@media (min-width: 320px) and (max-width: 480px) {
-
-.image-and-text{
-    width: 100%;
-    height: auto;
-    /* background-color: blueviolet; */
-    display: grid;
-    gap: 5%;
-}
-
-.image{
-    width: 80%;
-    height: auto;
-    margin-left: 10%;  
-}
-
-.text-container{
-    margin-top: 2%;
-    width: 100%;
-     /* background-color: brown;  */
-}
-
-.image-vr{
-    width: 80%;
-    height: auto;
-}
-
-.image-person-sitting{
-    width: 80%;
-    height: auto;
-}
-
-.evolution-images{
-    width: 45%;
-    margin-left: 10%;
-    height: auto;
-
-}
-.back-to-the-top-button{
-    position: fixed;
-    bottom: 70px;
-    right: 30px;
-    cursor: pointer;
-}
-}
-
-
-@media (max-width: 319px) {
-    
-    .image-and-text{
-        width: 100%;
-        height: auto;
-        /* background-color: blueviolet; */
-        display: grid;
-        gap: 5%;
-    }
-    
-    .image{
-        width: 80%;
-        height: auto;
-        margin-left: 10%;
-    }
-    
-    .text-container{
-        margin-top: 2%;
-        width: 100%;
-         /* background-color: brown;  */
-    }
-   
-    .image-vr{
-        width: 80%;
-        height: auto;
-    }
-    
-    .image-person-sitting{
-        width: 80%;
-        height: auto;
-    }
-    
-    .evolution-images{
-        width: 45%;
-        margin-left: 10%;
-        height: auto;
-
-    }
-    .back-to-the-top-button{
-        position: fixed;
-        bottom: 70px;
-        right: 30px;
-        cursor: pointer;
-    }
-    }

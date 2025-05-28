@@ -4,20 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="description" content="Explore - Community Science Museum" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="keywords" content="explore, for kids, for teacher, for researchers" />
+    <meta
+      name="keywords"
+      content="explore, for kids, for teacher, for researchers"
+    />
     <meta name="author" content="Martine Reppesgård Karlsen" />
 
-    <!-- Link to Font Awesome free icon kit -->
+    <!-- Link to CSS styleheets -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      type="text/css"
+      href="../css/html-pages-css/explore.css"
     />
-
-    <!-- Link to CSS styleheets -->
-    <link rel="stylesheet" type="text/css" href="../css/html-pages-css/explore.css" />
     <link rel="stylesheet" type="text/css" href="../css/footer.css" />
     <link rel="stylesheet" type="text/css" href="../css/navbar.css" />
-
+    <link rel="stylesheet" type="text/css" href="../css/stylesheet.css" />
 
     <!-- Bootstrap icons libary -->
     <link
@@ -26,106 +27,137 @@
     />
 
     <title>Explore</title>
-
-    </head>
-    <body>
-        <nav class="navbar">
-            <a href="../index.html">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="topnav" id="myTopnav">
+          <a href="/index.html">
             <div class="navbar-logo-containter">
-                <img src="../images/Logos/logo-with-some-white-background.png" alt="Community Science Museum Logo with white background" class="navbar-logo">
+              <img
+                src="../images/Logos/logo-with-some-white-background.png"
+                alt="Community Science Museum Logo with white background"
+                class="navbar-logo"
+              />
             </div>
-            </a>
-            <div class="navbar-middle"></div>
-            <div class="navbar-menu">
-                <div class="text-shown-navbar">
-                <a href="../index.html" class="home-navbar-line">Home</a>
-                <a href="../html-pages/events.html" class="events-navbar-line">Events</a>
-                <a href="../html-pages/visit.html" class="visit-navbar-line">Visit</a>
-                <a href="../html-pages/explore.html" class="explore-navbar-line">Explore</a>
+          </a>
+          <div class="menu">
+            <a href="/index.html">Home</a>
+            <a href="../html-pages/events.html">Events</a>
+            <a href="../html-pages/visit.html">Visit</a>
+            <a href="../html-pages/explore.html" class="active">Explore</a>
+            <a href="../html-pages/exhibition-spaces.html">Exhibition Spaces</a>
+          </div>
+          <div class="container" onclick="toggleNavbar(); toggleIcon(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="explore-main">
+      <section>
+        <h1>Explore</h1>
+
+        <div class="explore-container">
+          <div class="three-image-container">
+            <div class="images-container">
+              <img
+                src="../images/teacher-2816112.jpg"
+                alt="Teacher doing science"
+                class="teacher-science-image"
+              />
+              <img
+                src="../images/science-2799817.jpg"
+                alt="Science glass"
+                class="science-image"
+              />
             </div>
-            </div>
+            <!-- <div class="child-image-container"> -->
+            <img
+              src="../images/reading-2762010_1280.jpg"
+              alt="Child reading"
+              class="child-image"
+            />
+            <!-- </div> -->
+          </div>
+        </div>
+        <div class="explore-container">
+          <h2 class="header2">For kids</h2>
+          <p class="text">
+            Are you a young person looking to learn more about science? Come on
+            down to our museum, there’s plenty to see and do.
+            <br />
+            <br />
+            You can learn about Newtonian physics from our bumper swing, or why
+            not travel back in time and meet our resident Woolly Mammoth? Our
+            exhibits are designed to be accessible for interested minds, so make
+            sure you come ready to learn and explore.
+            <br />
+            <br />
+            We also have the Young Stars club which meets once a week on a
+            Saturday between 10:00 and 13:00 where you’ll get to explore and
+            experiment with our team of experts.
+            <br />
+            <br />
+            During the school holidays we run special holiday clubs where you
+            can join other children your age to go on a journey of discovery.
+            Each holiday we pick a new theme to explore. To find out more about
+            the holiday club and how you can join, send us a message.
+          </p>
 
-               <div class="hamburger-menu-container">
-                <input title="checkbox" type="checkbox" id="check" class="checkbox" >
-                <label for="check" class="check-button">
-                    <i class="bi bi-list" aria-hidden="true" aria-label="button"></i></label>
-                <ul class="drop-down">
-                    <li class="navbar-items-responsive-home"> <a href="../index.html">Home</a></li>
-                    <li class="navbar-items-responsive-events"> <a href="../html-pages/events.html">Events</a></li>
-                    <li class="navbar-items-responsive-visit"> <a href="../html-pages/visit.html">Visit</a></li>
-                    <li class="navbar-items-responsive-explore"> <a href="../html-pages/explore.html">Explore</a></li>  
-               <li> <a href="../html-pages/exhibition-spaces.html">Exhibition Spaces</a></li>
-               <li> <a href="../html-pages/get-involved.html">Get involved</a></li>
-               <li> <a href="../html-pages/contact-us.html">Contact us</a></li>
-               <li> <a href="../html-pages/about.html">About</a></li>  
-                </ul>
-            </div>
-        </nav>
-       
-        <main class="explore-body">
-            <div class="left-margin"></div>
+          <h2 class="header2">For teachers</h2>
+          <p class="text">
+            As a community-driven museum, we want to work with schools to create
+            places of learning and exploring. Our team are on hand to give your
+            students guided tours of the museum, teach them in our learning
+            laboratory, and provide great video presentations that will excite
+            and inspire them.
+            <br />
+            <br />
+            Please get in touch with us here to find out more about our
+            facilities and to arrange a time to bring your students through for
+            a visit.
+          </p>
 
-            <section class="middle-section">
+          <h2 class="header2">Researchers</h2>
+          <p class="text">
+            Are you looking to get involved with our team of researchers and
+            academics? Our museum offers various ways for you to use our
+            resources and contribute towards them.
+            <br />
+            <br />
+            We have online records, laboratory space, and a working relationship
+            with a number of universities around the country.
+          </p>
+        </div>
+      </section>
+    </main>
 
-                <h1 class="header1">Explore</h1>
-
-                <div class="explore-container">
-                    <div class="three-image-container">
-                    <div class="images-container">
-
-                        <img src="../images/teacher-2816112.jpg" alt="Teacher doing science" class="teacher-science-image">
-                        <img src="../images/science-2799817.jpg" alt="Science glass" class="science-image">
-                    </div>
-                    <!-- <div class="child-image-container"> -->
-                        <img src="../images/reading-2762010_1280.jpg" alt="Child reading" class="child-image">
-
-                    <!-- </div> -->
-                </div>
-                    <h2 class="header2">For kids</h2>
-                    <p class="text">
-                        Are you a young person looking to learn more about science? Come on down to our museum, there’s plenty to see and do.
-                        <br>
-                        <br>
-                        You can learn about Newtonian physics from our bumper swing, or why not travel back in time and meet our resident Woolly Mammoth? Our exhibits are designed to be accessible for interested minds, so make sure you come ready to learn and explore.
-                        <br>
-                        <br>
-                        We also have the Young Stars club which meets once a week on a Saturday between 10:00 and 13:00 where you’ll get to explore and experiment with our team of experts.
-                        <br>
-                        <br>
-                        During the school holidays we run special holiday clubs where you can join other children your age to go on a journey of discovery. Each holiday we pick a new theme to explore. To find out more about the holiday club and how you can join, send us a message.
-                    </p>
-                </div>
-
-                <div class="explore-container">
-                    <h2 class="header2">For teachers</h2>
-                    <p class="text">
-                        As a community-driven museum, we want to work with schools to create places of learning and exploring. Our team are on hand to give your students guided tours of the museum, teach them in our learning laboratory, and provide great video presentations that will excite and inspire them.
-                        <br>
-                        <br>
-                        Please get in touch with us here to find out more about our facilities and to arrange a time to bring your students through for a visit.
-                    </p>
-                </div>
-
-                <div class="explore-container">
-                    <h2 class="header2">Researchers</h2>
-                    <p class="text">
-                        Are you looking to get involved with our team of researchers and academics? Our museum offers various ways for you to use our resources and contribute towards them. 
-                        <br>
-                        <br>
-                        We have online records, laboratory space, and a working relationship with a number of universities around the country.
-                    </p>
-                </div>
-            </section>
-            <div class="right-margin"></div>
-        </main>
-       
-
-        <footer>
-            <img src="../images/Logos/logo-with-some-white-background.png" alt="Community Science Museum Logo with white background" class="footer-logo">
-            <p class="footer-text">Community Science Museum © 2024</p>
-
-        </footer>
-        <!-- This button will allow the user to get back to the top by just clicking this button instead of having to scroll back to the top -->
-        <a href="#" class="back-to-the-top-button" title="button" aria-label="back-to-the-top-button"> <i class="bi bi-arrow-up-circle-fill"></i></a>
-    </body>
-    </html>
+    <footer>
+      <div class="footerLinks">
+        <a href="../html-pages/about.html">About</a>
+        <a href="../html-pages/get-involved.html">Get involded</a>
+        <a href="../html-pages/contact-us.html">Contact Us</a>
+      </div>
+      <img
+        src="../images/Logos/logo-with-some-white-background.png"
+        alt="Community Science Museum Logo with white background"
+        class="footer-logo"
+      />
+      <p class="footer-text">Community Science Museum © 2024</p>
+    </footer>
+    <!-- This button will allow the user to get back to the top by just clicking this button instead of having to scroll back to the top -->
+    <a
+      href="#"
+      class="back-to-the-top-button"
+      title="button"
+      aria-label="back-to-the-top-button"
+    >
+      <i class="bi bi-arrow-up-circle-fill"></i
+    ></a>
+    <script src="../js/navbar.js"></script>
+  </body>
+</html>

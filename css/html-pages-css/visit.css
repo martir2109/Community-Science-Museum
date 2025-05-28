@@ -1,658 +1,237 @@
-html{
-    scroll-behavior: smooth;
+.visit-main {
+  display: flex;
+  margin-bottom: 20%;
 }
 
-*{
-    font-family: "Roboto";
-    box-sizing: inherit;
+section {
+  width: 90%;
+  height: auto;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 10%;
 }
 
-body {
-    margin: 0;
-    box-sizing: border-box;
-    padding: 0;
+.visit-container {
+  gap: 2%;
+  display: grid;
+  width: 100%;
 }
 
-.visit-body{
-    margin-top: 100px;
-    display: flex;
-    margin-bottom: 10%;
+.location-containter {
+  width: 70%;
+  height: auto;
+  border: solid 1px var(--black);
+  border-radius: 10px;
+  text-align: left;
+  display: flex;
+  margin-left: 15%;
+  padding: 20px;
 }
 
-.left-margin{
-    width: 5%;
-    height: auto;
-    float: left;
-    margin-bottom: 10%;
-    /* background-color: red; */
+.admission-container {
+  width: 70%;
+  height: auto;
+  border: #000 solid 1px;
+  border-radius: 10px;
+  text-align: left;
+  display: flex;
+  margin-left: 15%;
+  padding: 20px;
 }
 
-.middle-section{
+.text-admission {
+  text-align: left;
+  display: block;
+}
+
+.hours-accessibility {
+  display: flex;
+}
+
+.hours-container {
+  width: 28%;
+  height: auto;
+  border: #000 solid 1px;
+  border-radius: 10px;
+  text-align: left;
+  display: flex;
+  margin-left: 15%;
+  padding: 20px;
+}
+
+.text-hours {
+  text-align: left;
+  display: block;
+}
+
+.Accessibility-container {
+  width: 40%;
+  height: auto;
+  border: #000 solid 1px;
+  border-radius: 10px;
+  text-align: left;
+  display: flex;
+  margin-left: 2%;
+  padding: 20px;
+}
+
+.text-Accessibility {
+  text-align: left;
+  display: block;
+}
+
+.shop-container {
+  width: 70%;
+  height: auto;
+  border: #000 solid 1px;
+  border-radius: 10px;
+  text-align: left;
+  display: flex;
+  margin-left: 15%;
+  padding: 20px;
+}
+
+.text-shop {
+  text-align: left;
+  display: block;
+}
+
+.food-containter {
+  width: 70%;
+  height: auto;
+  border: #000 solid 1px;
+  border-radius: 10px;
+  text-align: left;
+  display: flex;
+  margin-left: 15%;
+  padding: 20px;
+}
+
+.image-container {
+  width: 45%;
+  height: auto;
+  justify-content: center;
+  display: flex;
+  border-radius: 10px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  margin-left: 40%;
+  border-radius: 10px;
+}
+
+.text-container {
+  text-align: left;
+  display: block;
+  width: 45%;
+}
+
+/* Mobile */
+@media screen and (max-width: 1024px) {
+  .visit-container {
+    margin-bottom: 200px;
+  }
+
+  .location-containter {
     width: 90%;
-    height: auto;
-    /* background-color: aqua; */
-    text-align: center;
-    margin-top: 2%;
-    margin-bottom: 10%;
-
-}
-
-.right-margin{
-    width: 5%;
-    height: auto;
-    float: right;
-    margin-bottom: 10%;
-    /* background-color: red; */
-}
-
-.header1{
-    font-size: 2.2rem;
-}
-
-.header2{
-    font-size: 2rem;
-}
-
-.header3{
-    font-size: 1.5rem;
-    font-weight:normal;
-}
-
-.text{
-   font-size: 1.375rem;
-}
-
-.visit-container{
-    gap: 2%;
     display: grid;
+    margin-left: 5%;
+  }
+
+  .text-container {
     width: 100%;
-}
+  }
 
-.location-containter{
-    width: 70%;
+  .image-container {
+    width: 100%;
     height: auto;
-    border: #000 solid 1px;
     border-radius: 10px;
-    text-align: left;
-    display: flex;
-    margin-left: 15%;
-    padding: 20px;
-}
+    transform: translateX(-20%);
+  }
 
-.text-location{
-    text-align: left;
+  .admission-container {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .hours-accessibility {
     display: block;
+  }
+
+  .hours-container {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .Accessibility-container {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 50px;
+  }
+
+  .shop-container {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .food-containter {
+    width: 90%;
+    display: grid;
+    margin-left: 5%;
+  }
 }
 
-.image{
-    width: 40%;
-    height: auto;
-    margin-left: 40%;
-    border-radius: 10px;
-}
+@media screen and (max-width: 480px) {
+  .text-container {
+    width: 100%;
+  }
 
-.admission-container{
-    width: 70%;
-    height: auto;
-    border: #000 solid 1px;
-    border-radius: 10px;
-    text-align: left;
-    display: flex;
-    margin-left: 15%;
-    padding: 20px;
-}
+  .image-container {
+    width: 100%;
+    transform: translateX(-20%);
+  }
 
-.text-admission{
-    text-align: left;
+  .visit-container {
+    margin-bottom: 250px;
+  }
+
+  .location-containter {
+    width: 90%;
+    display: grid;
+    margin-left: 5%;
+  }
+
+  .admission-container {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .hours-accessibility {
     display: block;
-}
+    gap: 8%;
+  }
 
-.hours-accessibility{
-    display: flex;
-}
+  .hours-container {
+    width: 90%;
+    margin-left: 5%;
+  }
 
-.hours-container{
-    width: 20%;
-    height: auto;
-    border: #000 solid 1px;
-    border-radius: 10px;
-    text-align: left;
-    display: flex;
-    margin-left: 15%;
-    padding: 20px;
-}
+  .Accessibility-container {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 50px;
+  }
 
-.text-hours{
-    text-align: left;
-    display: block;
-}
+  .shop-container {
+    width: 90%;
+    margin-left: 5%;
+  }
 
-.Accessibility-container{
-    width: 48%;
-    height: auto;
-    border: #000 solid 1px;
-    border-radius: 10px;
-    text-align: left;
-    display: flex;
-    margin-left: 2%;
-    padding: 20px;
-}
-
-.text-Accessibility{
-    text-align: left;
-    display: block;
-}
-
-.shop-container{
-    width: 70%;
-    height: auto;
-    border: #000 solid 1px;
-    border-radius: 10px;
-    text-align: left;
-    display: flex;
-    margin-left: 15%;
-    padding: 20px;
-}
-
-.text-shop{
-    text-align: left;
-    display: block;
-}
-
-.food-containter{
-    width: 70%;
-    height: auto;
-    border: #000 solid 1px;
-    border-radius: 10px;
-    text-align: left;
-    display: flex;
-    margin-left: 15%;
-    padding: 20px;
-}
-
-.text-food{
-    text-align: left;
-    display: block;
-}
-
-.back-to-the-top-button{
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    cursor: pointer;
-}
-
-.bi-arrow-up-circle-fill{
-    color: #1A4723;
-    font-size: 4rem;
-    display: inline-flex;
-    background-color: #fff;
-    border-radius: 50%;
-    border: 2px solid #fff;
-    transition: transform 0.3s ease;
-}
-
-.bi-arrow-up-circle-fill:hover{
-    color: #fff;
-    background-color: #1A4723;
-    border: 2px solid #1A4723;
-}
-
-/* Desktop */
-@media (min-width: 1281px) and (max-width:1462px){
-
-    .image{
-        width: 40%;
-        height: auto;
-        margin-left: 35%;
-        border-radius: 10px;
-    }
-}
-
- /* Laptops, desktops */
- @media (min-width: 1025px) and (max-width: 1280px) {
-   
-    .location-containter{
-        width: 90%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: flex;
-        margin-left: 3%;
-        padding: 20px;
-    }
-
-    .image{
-        width: 40%;
-        height: auto;
-        margin-left: 35%;
-        border-radius: 10px;
-    }
-
-    .admission-container{
-        width: 90%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: flex;
-        margin-left: 3%;
-        padding: 20px;
-    }
- 
-    .hours-container{
-        width: 30%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: flex;
-        margin-left: 3%;
-        padding: 20px;
-    }
-    
-    .Accessibility-container{
-        width: 58%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: flex;
-        margin-left: 2%;
-        padding: 20px;
-    }
-
-    .shop-container{
-        width: 90%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: flex;
-        margin-left: 3%;
-        padding: 20px;
-    }
-
-    .food-containter{
-        width: 90%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: flex;
-        margin-left: 3%;
-        padding: 20px;
-    }
-}
-
-   /* Tables, Ipads (portrait) */
-   @media (min-width: 768px) and (max-width: 1024px) {
-
-    .visit-container{
-        gap: 2%;
-        display: grid;
-        margin-bottom: 100px;
-    }
-
-    .location-containter{
-        width: 90%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: flex;
-        margin-left: 5%;
-        padding: 20px;
-    }
-
-    .image{
-        width: 40%;
-        height: auto;
-        margin-left: 25%;
-        border-radius: 10px;
-    }
-
-    .admission-container{
-        width: 90%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: flex;
-        margin-left: 5%;
-        padding: 20px;
-    }
-
-    .hours-accessibility{
-        display: block;
-    }
- 
-    .hours-container{
-        width: 90%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: flex;
-        margin-left: 5%;
-        padding: 20px;
-    }
-    
-    .Accessibility-container{
-        width: 90%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: flex;
-        margin-left: 5%;
-        padding: 20px;
-        margin-top: 5%;
-    }
-
-    .shop-container{
-        width: 90%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: flex;
-        margin-left: 5%;
-        padding: 20px;
-    }
-
-    .food-containter{
-        width: 90%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: flex;
-        margin-left: 5%;
-        padding: 20px;
-    }
-}
-
-   /* Mobile */
-@media (min-width: 481px) and (max-width: 767px) {
-
-    .visit-container{
-        gap: 2%;
-        display: grid;
-        margin-bottom: 200px;
-    }
-
-    .location-containter{
-        width: 90%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: grid;
-        margin-left: 5%;
-        padding: 20px;
-    }
-
-    .image{
-        width: 100%;
-        height: auto;
-        border-radius: 10px;
-        transform: translateX(-40%);
-    }
-
-    .admission-container{
-        width: 90%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: flex;
-        margin-left: 5%;
-        padding: 20px;
-    }
-
-    .hours-accessibility{
-        display: block;
-    }
- 
-    .hours-container{
-        width: 90%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: flex;
-        margin-left: 5%;
-        padding: 20px;
-    }
-    
-    .Accessibility-container{
-        width: 90%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: flex;
-        margin-left: 5%;
-        padding: 20px;
-        margin-top: 50px;
-    }
-
-    .shop-container{
-        width: 90%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: flex;
-        margin-left: 5%;
-        padding: 20px;
-    }
-
-    .food-containter{
-        width: 90%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: grid;
-        margin-left: 5%;
-        padding: 20px;
-    }
-    .back-to-the-top-button{
-        position: fixed;
-        bottom: 70px;
-        right: 30px;
-        cursor: pointer;
-    }
-}
-
-@media (min-width: 320px) and (max-width: 480px) {
-   
-    .visit-container{
-        gap: 2%;
-        display: grid;
-        margin-bottom: 250px;
-    }
-
-    .location-containter{
-        width: 90%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: grid;
-        margin-left: 5%;
-        padding: 20px;
-    }
-
-    .image{
-        width: 100%;
-        height: auto;
-        border-radius: 10px;
-        transform: translateX(-40%);
-    }
-
-    .admission-container{
-        width: 90%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: flex;
-        margin-left: 5%;
-        padding: 20px;
-    }
-
-    .hours-accessibility{
-        display: block;
-        gap: 8%
-    }
- 
-    .hours-container{
-        width: 90%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: flex;
-        margin-left: 5%;
-        padding: 20px;
-    }
-    
-    .Accessibility-container{
-        width: 90%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: flex;
-        margin-left: 5%;
-        padding: 20px;
-        margin-top: 50px;
-    }
-
-    .shop-container{
-        width: 90%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: flex;
-        margin-left: 5%;
-        padding: 20px;
-    }
-
-    .food-containter{
-        width: 90%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: grid;
-        margin-left: 5%;
-        padding: 20px;
-    }
-
-    .back-to-the-top-button{
-        position: fixed;
-        bottom: 70px;
-        right: 30px;
-        cursor: pointer;
-    }
-}
-
-@media (max-width: 319px) {
-   
-    .visit-container{
-        gap: 2%;
-        display: grid;
-        margin-bottom: 250px;
-    }
-
-    .location-containter{
-        width: 90%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: grid;
-        margin-left: 5%;
-        padding: 20px;
-    }
-
-    .image{
-        width: 100%;
-        height: auto;
-        border-radius: 10px;
-        transform: translateX(-40%);
-    }
-
-    .admission-container{
-        width: 90%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: flex;
-        margin-left: 5%;
-        padding: 20px;
-    }
-
-    .hours-accessibility{
-        display: block;
-        gap: 8%
-    }
- 
-    .hours-container{
-        width: 90%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: flex;
-        margin-left: 5%;
-        padding: 20px;
-    }
-
-    .Accessibility-container{
-        width: 90%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: flex;
-        margin-left: 5%;
-        padding: 20px;
-        margin-top: 50px;
-    }
-
-    .shop-container{
-        width: 90%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: flex;
-        margin-left: 5%;
-        padding: 20px;
-    }
-
-    .food-containter{
-        width: 90%;
-        height: auto;
-        border: #000 solid 1px;
-        border-radius: 10px;
-        text-align: left;
-        display: grid;
-        margin-left: 5%;
-        padding: 20px;
-    }
-    .back-to-the-top-button{
-        position: fixed;
-        bottom: 70px;
-        right: 30px;
-        cursor: pointer;
-    }
+  .food-containter {
+    width: 90%;
+    display: grid;
+    margin-left: 5%;
+  }
 }
