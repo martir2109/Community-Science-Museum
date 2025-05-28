@@ -10,7 +10,7 @@ You can view the live project here: [martir2109.github.io/Community-Sciecne-Muse
 
 Here is a screenshot of the live website:
 
-![Screenshot of my Community Science Museum website](images/screenshot/CommunityScienceMuseum.png "Community Science Website")
+![Screenshot of my Community Science Museum website](images/screenshot/CommunityScienceMuseum.png "Community Science Museum Website")
 
 # The Brief
 
