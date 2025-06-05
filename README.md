@@ -1,12 +1,14 @@
 # Community Science Museum
 
+Hello there! 👋🏼
+
 This is my Semester Project for November to Desember 2024.
 
-## Live website
+## 🌐 Live website
 
 You can view the live project here: [martir2109.github.io/Community-Sciecne-Museum](https://martir2109.github.io/Community-Science-Museum/)
 
-## Website Preview
+## 📸 Website Preview
 
 Here is a screenshot of the live website:
 
@@ -72,3 +74,125 @@ The following must be added in your PDF report (use the template provided) and s
 - Project is well-organized and files are formatted (1 point)
 - Report includes lessons learned and challenges (1 point)
 - Project successfully planned and completed (1 point)
+
+## 🗂️ Project structure
+
+📁 css/
+
+    └── 📁 projects/
+
+          ├── 📄 about.css
+
+          ├── 📄 contact-us.css
+
+          ├── 📄 events.css
+
+          ├── 📄 exhibition-spaces.css
+
+          ├── 📄 explore.css
+
+          ├── 📄 get-involved.css
+
+          └── 📄 visit.css
+
+
+    ├── 📄 footer.css
+
+    ├── 📄 index-body.css
+
+    ├── 📄 navbar.css
+
+    └── 📄 stylesheet.css
+
+📁 html-pages/
+
+    ├── 📄 about.html
+
+    ├── 📄 contact-us.html
+
+    ├── 📄 events.html
+
+    ├── 📄 exhibition-spaces.html
+
+    ├── 📄 explore.html
+
+    ├── 📄 get-involved.html
+
+    └── 📄 visit.html
+
+📁 images/
+
+    └── 📁 Logos/
+
+            ├── 📄 logo-sience-no-background.png
+
+            ├── 📄 logo-with-some-white-background.png
+
+            └── 📄 open-science-735787.jpg
+
+    └── 📁 screenshot/
+
+            └── 📄 CommunityScienceMuseum.png
+
+
+    ├── 📄 andrew-ruiz-348421.jpg
+
+    ├── 📄 ball-1010907_1920.jpg
+
+    ├── 📄 billetto-editorial-334686.jpg
+
+    ├── 📄 celso-405219.jpg
+
+    ├── 📄 exhibition-1863344_1920.jpg
+
+    ├── 📄 genoa-956405_1920.jpg
+
+    ├── 📄 heart-2607178_1920.jpg
+
+    ├── 📄 jesse-orrico-60373.jpg
+
+    ├── 📄 lab-512503_1920.jpg
+
+    ├── 📄 learn-2405206_1920.jpg
+
+    ├── 📄 library-1132573_1920.jpg
+
+    ├── 📄 luke-ellis-craven-400722.jpg
+
+    ├── 📄 learn-2405206_1920.jpg
+
+    ├── 📄 mammoth-1257288_1920.jpg
+
+    ├── 📄 markus-spiske-197281.jpg
+
+    ├── 📄 mavis-cw-164128.jpg
+
+    ├── 📄 people-219985_1280.jpg
+
+    ├── 📄 pexels-igor-starkov-233202-1307698.jpg
+
+    ├── 📄 roberto-nickson-396152.jpg
+
+    ├── 📄 samuel-zeller-113381.jpg
+
+    ├── 📄 science-2799817.jpg
+
+    ├── 📄 scientific-2040795_1280.jpg
+
+    ├── 📄 scott-webb-102825.jpg
+
+    ├── 📄 skeleton-414543_1920.jpg
+
+    ├── 📄 teacher-2816112.jpg
+
+    ├── 📄 toa-heftiba-412579.jpg
+
+    └── 📄 william-bout-264826.jpg
+
+📁 js/
+
+    └── 📄 navbar.js
+
+📄 index.html
+
+📄 readme.md
